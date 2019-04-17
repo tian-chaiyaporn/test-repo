@@ -1,0 +1,61 @@
+{
+  "entry": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "plugins": [
+    [
+      "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages"
+      }
+    ],
+    "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend"
+  ],
+  "paths": {
+    "ROOT": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend",
+    "SRC": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src",
+    "DIST": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/dist",
+    "ASSETS": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/dist",
+    "PLUGINS": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/plugins",
+    "TEMP": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/tmp",
+    "ARTIFACTS": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts",
+    "PUBLIC": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/public",
+    "NODE_MODULES": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules",
+    "EXCLUDE_MODULES": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules",
+    "PACKAGE": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/package.json",
+    "HTML_TEMPLATE": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/dist/index.html",
+    "STATIC_DATA": "/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/dist/staticData"
+  },
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
