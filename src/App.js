@@ -1,8 +1,9 @@
 import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
-//
-import { Link, Router } from 'components/Router'
-import Dynamic from 'containers/Dynamic'
+import { Link, Router } from './Router'
+import Dynamic from 'features/Dynamic'
+import Header from 'features/header/HeaderContainer.js'
+import { Footer } from 'features/footer/FooterContainer.js'
 
 import './app.css'
 
@@ -12,12 +13,7 @@ addPrefetchExcludes(['dynamic'])
 function App() {
   return (
     <Root>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link>
-      </nav>
+      <Header />
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>
@@ -26,6 +22,7 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
+      <Footer />
     </Root>
   )
 }
