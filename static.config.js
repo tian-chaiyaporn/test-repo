@@ -15,7 +15,7 @@ export default {
         }),
         children: posts.map(post => ({
           path: `/post/${post.id}`,
-          template: 'src/containers/Post',
+          template: 'src/features/Post',
           getData: () => ({
             post,
           }),
@@ -32,5 +32,6 @@ export default {
     ],
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
+    require.resolve('react-static-plugin-styled-components')
   ],
 }
