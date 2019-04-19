@@ -1,6 +1,6 @@
 import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
-import { Link, Router } from './Router'
+import { Router } from './Router'
 import Dynamic from 'features/Dynamic'
 import Header from 'features/header/HeaderContainer.js'
 import { Footer } from 'features/footer/FooterContainer.js'

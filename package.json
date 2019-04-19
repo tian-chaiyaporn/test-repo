@@ -16,7 +16,6 @@
     "normalizr": "3.3.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-helmet": "5.2.0",
     "react-redux": "7.0.2",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
