@@ -16,6 +16,8 @@ export default {
 '../src/pages/providers.js': require('../src/pages/providers.js').default,
 '../src/pages/search.js': require('../src/pages/search.js').default,
 '../src/pages/test/article.js': require('../src/pages/test/article.js').default,
+'../src/pages/test/clinic-details.js': require('../src/pages/test/clinic-details.js').default,
+'../src/pages/test/provider-details.js': require('../src/pages/test/provider-details.js').default,
 '../src/features/Post': require('../src/features/Post').default
 }
 

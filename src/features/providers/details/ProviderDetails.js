@@ -4,7 +4,7 @@ import { OverviewContainer } from './containers/OverviewContainer'
 import { PatientReviewContainer } from './containers/PatientReviewContainer'
 import { HeadInfoContainer } from './containers/HeadInfoContainer'
 
-export const ProviderDetail = () => {
+export const ProviderDetails = () => {
   return (
     <div>
       <HeadInfoContainer />
