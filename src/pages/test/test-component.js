@@ -1,6 +1,10 @@
 import React from 'react'
+
 import { Button } from '../../common/button/Button'
 import { ImageCircle } from '../../common/imageCircle/ImageCircle'
+import { Checkbox } from '../../common/checkbox/Checkbox'
+import { Switch } from '../../common/switch/Switch'
+import TextField from '../../common/textFields/TextField'
 
 export default () => (
   <div>
@@ -23,5 +27,8 @@ export default () => (
       </div>
     </div>
     <ImageCircle />
+    <Checkbox color={'default'} />
+    <Switch />
+    <TextField />
   </div>
 )
