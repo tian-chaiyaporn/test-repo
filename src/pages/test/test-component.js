@@ -5,6 +5,7 @@ import { ImageCircle } from '../../common/imageCircle/ImageCircle'
 import { Checkbox } from '../../common/checkbox/Checkbox'
 import { Switch } from '../../common/switch/Switch'
 import TextField from '../../common/textFields/TextField'
+import { Star } from '../../common/stars/Star'
 
 export default () => (
   <div>
@@ -30,5 +31,6 @@ export default () => (
     <Checkbox color={'default'} />
     <Switch />
     <TextField />
+    <Star onChange={(a, b) => console.log('change star', a, b)} />
   </div>
 )

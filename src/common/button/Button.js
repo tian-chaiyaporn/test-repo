@@ -17,7 +17,7 @@ const ButtonStyled = styled.button`
       background: ${props => props.primaryColor || 'aquamarine'};
       color: white;
     `
-  };
+  }
 `
 
 export const Button = (props) => {
