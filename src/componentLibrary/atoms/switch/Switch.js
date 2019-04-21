@@ -1,7 +1,7 @@
 import React from 'react'
 import SwitchDefault from '@material-ui/core/Switch'
 import { withStyles } from '@material-ui/core/styles'
-import { Colors } from '../../constants/Styles'
+import { Colors } from '../../../constants/Styles'
 
 const styles = theme => ({
   iOSSwitchBase: {
@@ -39,16 +39,20 @@ const styles = theme => ({
   iOSIcon: {
     width: 25,
     height: 25,
+    padding: 2,
     boxShadow: 'none',
     border: 'solid 1px',
     background: Colors.WHITE_2,
     borderColor: Colors.VERY_LIGHT_PINK_2,
+    backgroundImage: `url(/assets/round-close-24px.svg)`,
+    backgroundSize: 'contain'
   },
   iOSIconChecked: {
     boxShadow: 'none',
     border: 'solid 1px',
+    padding: 10,
     borderColor: Colors.VERY_LIGHT_PINK_2,
-    backgroundImage: `url(https://img.icons8.com/ios/50/000000/multiply.png)`,
+    backgroundImage: `url(/assets/round-check-24px.svg)`,
     backgroundSize: 'contain'
   },
 })

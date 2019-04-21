@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import { Colors } from '../../constants/Styles';
+import { Colors } from '../../../constants/Styles';
 
 const styles = theme => ({
   underline: {

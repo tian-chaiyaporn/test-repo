@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { Button } from '../../common/button/Button'
-import { ImageCircle } from '../../common/imageCircle/ImageCircle'
-import { Checkbox } from '../../common/checkbox/Checkbox'
-import { Switch } from '../../common/switch/Switch'
-import TextField from '../../common/textFields/TextField'
-import { Star } from '../../common/stars/Star'
+import { Button } from '../../componentLibrary/atoms/button/Button'
+import { ImageCircle } from '../../componentLibrary/atoms/imageCircle/ImageCircle'
+import { Checkbox } from '../../componentLibrary/atoms/checkbox/Checkbox'
+import { Switch } from '../../componentLibrary/atoms/switch/Switch'
+import TextField from '../../componentLibrary/atoms/textFields/TextField'
+import { Star } from '../../componentLibrary/atoms/stars/Star'
+import { Breadcrumbs } from '../../componentLibrary/atoms/breadcrumbs/Breadcrumbs'
+import { BreadcrumbLink } from '../../Router'
 
 export default () => (
   <div>
@@ -31,6 +33,17 @@ export default () => (
     <Checkbox color={'default'} />
     <Switch />
     <TextField />
-    <Star onChange={(a, b) => console.log('change star', a, b)} />
+    <Star rating={3} onChange={(a, b) => console.log('change star', a, b)} />
+    <Breadcrumbs>
+      <BreadcrumbLink to="/">
+        Wellglo
+      </BreadcrumbLink>
+      <BreadcrumbLink to="/clinics">
+        Clinics
+      </BreadcrumbLink>
+      <BreadcrumbLink to="/clinics/title">
+        Title
+      </BreadcrumbLink>
+    </Breadcrumbs>
   </div>
 )

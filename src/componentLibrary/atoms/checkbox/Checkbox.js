@@ -1,7 +1,7 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import MuiCheckbox from '@material-ui/core/Checkbox'
-import { Colors } from '../../constants/Styles'
+import { Colors } from '../../../constants/Styles'
 
 const InjectProps = (props) => <MuiCheckbox color={'default'} {...props} />
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Colors } from '../../constants/Styles'
+import { Colors } from '../../../constants/Styles'
 
 const CroppedDiv = styled.div`
   width: ${props => props.width || '74px'};

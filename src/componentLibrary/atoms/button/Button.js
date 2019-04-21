@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { Colors } from '../../constants/Styles'
+import { Colors } from '../../../constants/Styles'
 
 const ButtonStyled = styled.button`
   background: transparent;
