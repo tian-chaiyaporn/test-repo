@@ -1,13 +1,15 @@
 import React from 'react'
 
 import { Button } from '../../componentLibrary/atoms/button/Button'
-import { ImageCircle } from '../../componentLibrary/atoms/imageCircle/ImageCircle'
+import { ThumbnailCircle } from '../../componentLibrary/atoms/image/ThumbnailCircle'
 import { Checkbox } from '../../componentLibrary/atoms/checkbox/Checkbox'
 import { Switch } from '../../componentLibrary/atoms/switch/Switch'
 import TextField from '../../componentLibrary/atoms/textFields/TextField'
 import { Star } from '../../componentLibrary/atoms/stars/Star'
 import { Breadcrumbs } from '../../componentLibrary/atoms/breadcrumbs/Breadcrumbs'
 import { BreadcrumbLink } from '../../Router'
+import { TagLineText } from '../../componentLibrary/molecules/tagline/TagLineText'
+import { TagLine } from '../../componentLibrary/molecules/tagline/TagLine'
 
 export default () => (
   <div>
@@ -29,7 +31,7 @@ export default () => (
         />
       </div>
     </div>
-    <ImageCircle />
+    <ThumbnailCircle />
     <Checkbox color={'default'} />
     <Switch />
     <TextField />
@@ -45,5 +47,14 @@ export default () => (
         Title
       </BreadcrumbLink>
     </Breadcrumbs>
+    <TagLineText
+      title='Dr. Boonchai Thanyalakpark'
+      content='Dermatologist'
+    />
+    <TagLine
+      title='Dr. Boonchai Thanyalakpark'
+      content='Dermatologist'
+    />
+    <TagLine title='Dr. Boonchai Thanyalakpark' />
   </div>
 )

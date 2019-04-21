@@ -22,12 +22,13 @@ const Image = styled.img`
   width: auto;
 `
 
-export const ImageCircle = (props) => {
+export const ThumbnailCircle = (props) => {
   const imageSource = props.source || "https://via.placeholder.com/150"
   return (
     <CroppedDiv
       gradientColorTop={Colors.LIGHT_TEAL}
       gradientColorBottom={Colors.AQUA_MARINE}
+      {...props}
     >
       <Image src={imageSource} alt={'profile'} />
     </CroppedDiv>

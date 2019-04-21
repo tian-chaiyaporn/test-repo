@@ -22,14 +22,12 @@ const ButtonStyled = styled.button`
 
 export const Button = (props) => {
   return (
-    <div>
-      <ButtonStyled
-        type={'button'}
-        primaryColor={Colors.AQUA_MARINE}
-        {...props}
-      >
-        {props.text}
-      </ButtonStyled>
-    </div>
+    <ButtonStyled
+      type={'button'}
+      primaryColor={Colors.AQUA_MARINE}
+      {...props}
+    >
+      {props.text}
+    </ButtonStyled>
   )
 }
