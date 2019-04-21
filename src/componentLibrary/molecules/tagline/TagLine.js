@@ -18,7 +18,11 @@ const TextContainer = styled.div`
 `
 
 export const TagLine = (props) => {
-  const { title, content, source } = props
+  const {
+    title,
+    content,
+    source,
+  } = props
   return (
     <ComponentContainer colors={Colors} {...props} >
       <ThumbnailCircle
