@@ -15,7 +15,7 @@ const StyledTitle = styled.p`
 
 export const TagLineText = (props) => {
   const titleElement = props.title
-    ? (<StyledTitle><b>{props.title}</b></StyledTitle>)
+    ? (<StyledTitle><strong>{props.title}</strong></StyledTitle>)
     : null
 
   const contentElement = props.content

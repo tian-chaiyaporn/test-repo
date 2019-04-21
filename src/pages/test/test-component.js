@@ -10,6 +10,7 @@ import { Breadcrumbs } from '../../componentLibrary/atoms/breadcrumbs/Breadcrumb
 import { BreadcrumbLink } from '../../Router'
 import { TagLineText } from '../../componentLibrary/molecules/tagline/TagLineText'
 import { TagLine } from '../../componentLibrary/molecules/tagline/TagLine'
+import { TagLineRating } from '../../componentLibrary/molecules/tagline/TagLineRating'
 
 export default () => (
   <div>
@@ -56,5 +57,11 @@ export default () => (
       content='Dermatologist'
     />
     <TagLine title='Dr. Boonchai Thanyalakpark' />
+    <TagLineRating
+      title='Dr. Boonchai Thanyalakpark'
+      content='Dermatologist'
+      rating={5}
+      reviewCount={15}
+    />
   </div>
 )

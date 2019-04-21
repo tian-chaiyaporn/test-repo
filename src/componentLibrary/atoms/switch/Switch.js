@@ -45,7 +45,9 @@ const styles = theme => ({
     background: Colors.WHITE_2,
     borderColor: Colors.VERY_LIGHT_PINK_2,
     backgroundImage: `url(/assets/round-close-24px.svg)`,
-    backgroundSize: 'contain'
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '15px 15px',
   },
   iOSIconChecked: {
     boxShadow: 'none',
@@ -53,7 +55,9 @@ const styles = theme => ({
     padding: 10,
     borderColor: Colors.VERY_LIGHT_PINK_2,
     backgroundImage: `url(/assets/round-check-24px.svg)`,
-    backgroundSize: 'contain'
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '15px 15px',
   },
 })
 

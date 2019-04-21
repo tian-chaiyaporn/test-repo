@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { Colors } from '../../../constants/Styles'
 
 const CroppedDiv = styled.div`
+  min-width: ${props => props.width || '74px'};
+  min-height: ${props => props.height || '74px'};
   width: ${props => props.width || '74px'};
   height: ${props => props.height || '74px'};
   position: relative;
