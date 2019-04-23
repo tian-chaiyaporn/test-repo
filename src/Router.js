@@ -12,5 +12,4 @@ export const StyledLink = styled(Link)`
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   color: ${props => props.colors.BLACK || 'black'};
   font-size: 16px;
-  ${'' /* font-weight: 600; */}
 `;

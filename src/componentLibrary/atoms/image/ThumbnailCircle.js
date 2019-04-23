@@ -12,8 +12,8 @@ const CroppedDiv = styled.div`
   border-radius: 50%;
   background-image: linear-gradient(
     135deg,
-    ${props => props.gradientColorTop || 'aquamarine'},
-    ${props => props.gradientColorBottom || 'aquamarine'}
+    ${props => props.gradientColorTop || 'turquoise'},
+    ${props => props.gradientColorBottom || 'turquoise'}
   );
 `
 

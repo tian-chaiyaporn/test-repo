@@ -1,86 +1,62 @@
 import React from 'react'
+import styled from 'styled-components'
 import { footer as footerText } from '../../constants/strings/footer.js'
 import { Link } from '../../Router.js'
+import { Colors, MEDIA } from '../../constants/Styles'
+import { FOOTER_LIST } from './links'
+import { FooterSection } from './components/FooterSection'
+
+const FooterStyled = styled.footer`
+  margin: 0 auto;
+  min-height: 500px;
+  padding: 100px 0 50px 0;
+  background-color: ${props => props.color || 'turquoise' }
+
+  ${MEDIA.tablet`display: none;`}
+`
+
+const StyledSection = styled.section`
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+`
+
+const ListSection = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 100px auto;
+  max-width: 1200px;
+  padding: 0 5%;
+`;
+
+const StyledLink = styled(Link)`
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 25px;
+`
 
 export const Footer = () => {
-  const wellgloSection = () => (
-    <div>
-      <div>{footerText.wellglo.title}</div>
-      <Link to="/">{footerText.wellglo.home}</Link>
-      <Link to="/about">{footerText.wellglo.about}</Link>
-      <Link to="/">{footerText.wellglo.press}</Link>
-      <Link to="/careers">{footerText.wellglo.careers}</Link>
-      <Link to="/contact">{footerText.wellglo.contact}</Link>
-      <Link to="/help">{footerText.wellglo.help}</Link>
-      <Link to="/articles">{footerText.wellglo.blogs}</Link>
-      <Link to="/directory">{footerText.wellglo.healthQnA}</Link>
-    </div>
-  ) 
-
-  const searchSection = () => (
-    <div>
-      <div>{footerText.searchBy.title}</div>
-      <Link to="/">{footerText.searchBy.specialty}</Link>
-      <Link to="/">{footerText.searchBy.procedure}</Link>
-      <Link to="/">{footerText.searchBy.language}</Link>
-      <Link to="/">{footerText.searchBy.location}</Link>
-      <Link to="/">{footerText.searchBy.insurance}</Link>
-      <Link to="/">{footerText.searchBy.reviews}</Link>
-    </div>
-  ) 
-  
-  const citySection = () => (
-    <div>
-      <div>{footerText.cities.title}</div>
-      <Link to="/">{footerText.cities.bangkok}</Link>
-      <Link to="/">{footerText.cities.nonthaburi}</Link>
-      <Link to="/">{footerText.cities.nakhonRatchasima}</Link>
-      <Link to="/">{footerText.cities.chiangMai}</Link>
-      <Link to="/">{footerText.cities.hatYai}</Link>
-      <Link to="/">{footerText.cities.udonThani}</Link>
-      <Link to="/">{footerText.cities.pakKret}</Link>
-      <Link to="/">{footerText.cities.khonKaen}</Link>
-    </div>
-  ) 
-
-  const specialtiesSection = () => (
-    <div>
-      <div>{footerText.specialties.title}</div>
-      <Link to="/">{footerText.specialties.chiropractors}</Link>
-      <Link to="/">{footerText.specialties.dentists}</Link>
-      <Link to="/">{footerText.specialties.dermatologists}</Link>
-      <Link to="/">{footerText.specialties.eyeDoctors}</Link>
-      <Link to="/">{footerText.specialties.gynecologist}</Link>
-      <Link to="/">{footerText.specialties.primaryCareDoctors}</Link>
-      <Link to="/">{footerText.specialties.psychiatrists}</Link>
-    </div>
-  ) 
-
-  const providerJoinUsSection = () => (
-    <div>
-      <div>{footerText.providerJoinUs.title}</div>
-      <Link to="/">{footerText.providerJoinUs.link}</Link>
-    </div>
-  ) 
-  
   const bottomSection = () => (
-    <div>
-      <div>{footerText.copyright}</div>
-      <Link to="/">{footerText.privacyLink}</Link>
-      <Link to="/">{footerText.termsOfUse}</Link>
-      <Link to="/">{footerText.thai}</Link> 
-    </div>
+    <StyledSection>
+      <span>{footerText.copyright}</span>
+      <StyledLink to="/">{footerText.privacyLink}</StyledLink>
+      <StyledLink to="/">{footerText.termsOfUse}</StyledLink>
+      <StyledLink to="/">{footerText.thai}</StyledLink> 
+    </StyledSection>
   )
+
+  const footerLists = FOOTER_LIST.map(list => (
+      <FooterSection title={list.title} list={list.links} />
+  ))
  
   return (
-    <div>
-      <div>
-        {wellgloSection()}
-        {citySection()}
-        {specialtiesSection()}
-        {providerJoinUsSection()}
-        {bottomSection()}
-      </div>
-    </div>
+    <FooterStyled color={Colors.AQUA_MARINE}>
+      <ListSection>
+        {footerLists}
+      </ListSection>
+      {bottomSection()}
+    </FooterStyled>
   )
 }

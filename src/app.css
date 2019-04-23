@@ -10,6 +10,7 @@ body {
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
+  max-width: 1200px;
   margin: 0;
   padding: 0;
 }
@@ -23,5 +24,8 @@ img {
 }
 
 .content {
-  padding: 1rem;
+  /* padding: 1rem; */
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 5%;
 }

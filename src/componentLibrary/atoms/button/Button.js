@@ -5,8 +5,8 @@ import { Colors } from '../../../constants/Styles'
 const ButtonStyled = styled.button`
   background: transparent;
   border-radius: 2px;
-  border: 2px solid ${props => props.primaryColor || 'aquamarine'};
-  color: ${props => props.primaryColor || 'aquamarine'};
+  border: 2px solid ${props => props.primaryColor || 'turquoise'};
+  color: ${props => props.primaryColor || 'turquoise'};
   padding: ${props => props.padding || '1em 2em'};
   font-size: 20px;
   width: ${props => props.width || '100%'};
@@ -14,7 +14,7 @@ const ButtonStyled = styled.button`
 
   ${props => props.filled &&
     css`
-      background: ${props => props.primaryColor || 'aquamarine'};
+      background: ${props => props.primaryColor || 'turquoise'};
       color: white;
     `
   }

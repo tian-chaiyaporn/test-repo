@@ -1,3 +1,5 @@
+import { css } from 'styled-components'
+
 export const FONT = {
   SIZE: {
     REGULAR: '1em',
@@ -24,3 +26,18 @@ export const Colors = {
   VERY_LIGHT_PINK_2: '#e0e0e0',
   WHITE_2: '#fafafa'
 }
+
+const sizes = {
+  desktop: 992,
+  tablet: 768,
+  phone: 576,
+}
+
+export const MEDIA = Object.keys(sizes).reduce((acc, label) => {
+  acc[label] = (...args) => css`
+    @media (max-width: ${sizes[label] / 16}em) {
+      ${css(...args)}
+    }
+  `
+  return acc
+}, {})

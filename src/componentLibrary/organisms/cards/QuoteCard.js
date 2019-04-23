@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Colors } from '../../../constants/Styles'
+import { Colors, MEDIA } from '../../../constants/Styles'
 import { Card } from '../../atoms/card/Card'
 import { TagLine } from '../../molecules/tagline/TagLine'
 
@@ -14,13 +14,26 @@ const StyledContent = styled.p`
 `
 
 const StyledImage = styled.img`
-  width: 50px;
-  color: ${props => props.color.AQUA_MARINE || 'aquamarine'};
+  width: 30px;
+  color: ${props => props.color.AQUA_MARINE || 'turquoise'};
   object-fit: cover;
+  margin-top: 20px;
+
+  ${MEDIA.phone`margin-top: 5px;`}
 `
 
 const MarginVertical = styled.div`
   margin:  ${props => props.margin || '10px 0'};
+`
+
+const StyledCard = styled(Card)`
+  max-width: 248px;
+  height: 296px
+
+  ${MEDIA.phone`
+    max-width: 327px;
+    height: 229px;
+  `}
 `
 
 export const QuoteText = (props) => {
@@ -42,12 +55,12 @@ export const QuoteCard = (props) => {
     tagContent = '',
   } = props
   return (
-    <Card maxWidth='248px' minWidth='248px' height='296px' padding='1.5em 1em'>
-      <StyledImage src="/assets/baseline-format_quote-24px.svg" alt="Quote" color={Colors}/>
+    <StyledCard minWidth='248px' height='296px' padding='1.5em 1em'>
+      <StyledImage src="/assets/quote.svg" alt="Quote" color={Colors}/>
       <MarginVertical margin={'15px 0'}>
         <QuoteText content={content}/>
       </MarginVertical>
       <TagLine style={{ fontSize: '13px' }} title={tagTitle} content={tagContent} />
-    </Card>
+    </StyledCard>
   )
 }
