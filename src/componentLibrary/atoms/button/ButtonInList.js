@@ -34,9 +34,9 @@ const StyledTitle = styled.div`
   color: ${props => props.color || 'black'};
 
   ${MEDIA.phone`
-    width: auto
+    width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
   `}
 `
 

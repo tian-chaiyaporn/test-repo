@@ -8,11 +8,8 @@ import { FooterSection } from './components/FooterSection'
 
 const FooterStyled = styled.footer`
   margin: 0 auto;
-  min-height: 500px;
   padding: 100px 0 50px 0;
   background-color: ${props => props.color || 'turquoise' }
-
-  ${MEDIA.tablet`display: none;`}
 `
 
 const StyledSection = styled.section`
@@ -28,6 +25,8 @@ const ListSection = styled.div`
   margin: 0 auto 100px auto;
   max-width: 1200px;
   padding: 0 5%;
+
+  ${MEDIA.tablet`display: none;`}
 `;
 
 const StyledLink = styled(Link)`
@@ -48,14 +47,12 @@ export const Footer = () => {
   )
 
   const footerLists = FOOTER_LIST.map(list => (
-      <FooterSection title={list.title} list={list.links} />
+    <FooterSection title={list.title} list={list.links} />
   ))
  
   return (
     <FooterStyled color={Colors.AQUA_MARINE}>
-      <ListSection>
-        {footerLists}
-      </ListSection>
+      <ListSection>{footerLists}</ListSection>
       {bottomSection()}
     </FooterStyled>
   )

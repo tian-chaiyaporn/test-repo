@@ -1,62 +1,60 @@
-import { footer as footerText } from '../../constants/strings/footer.js'
+import { footer } from '../../constants/strings/footer.js'
 
 export const wellgloSectionLinks = {
-  title: footerText.wellglo.title,
+  title: footer.wellglo.title,
   links: [
-    { to: "/", text: footerText.wellglo.home },
-    { to: "/about", text: footerText.wellglo.about },
-    { to: "/", text: footerText.wellglo.press },
-    { to: "/careers", text: footerText.wellglo.careers },
-    { to: "/contact", text: footerText.wellglo.contact },
-    { to: "/help", text: footerText.wellglo.help },
-    { to: "/articles", text: footerText.wellglo.blogs },
-    { to: "/directory", text: footerText.wellglo.healthQnA },
+    { to: "/", text: footer.wellglo.home },
+    { to: "/about", text: footer.wellglo.about },
+    { to: "/", text: footer.wellglo.press },
+    { to: "/careers", text: footer.wellglo.careers },
+    { to: "/contact", text: footer.wellglo.contact },
+    { to: "/help", text: footer.wellglo.help },
+    { to: "/articles", text: footer.wellglo.blogs },
+    { to: "/directory", text: footer.wellglo.healthQnA },
   ]
 }
 
 export const searchSection = {
-  title: footerText.searchBy.title,
+  title: footer.searchBy.title,
   links: [
-    { to: "/", text: footerText.searchBy.specialty },
-    { to: "/", text: footerText.searchBy.procedure },
-    { to: "/", text: footerText.searchBy.language },
-    { to: "/", text: footerText.searchBy.location },
-    { to: "/", text: footerText.searchBy.insurance },
-    { to: "/", text: footerText.searchBy.reviews },
+    { to: "/", text: footer.searchBy.specialty },
+    { to: "/", text: footer.searchBy.procedure },
+    { to: "/", text: footer.searchBy.language },
+    { to: "/", text: footer.searchBy.location },
+    { to: "/", text: footer.searchBy.insurance },
+    { to: "/", text: footer.searchBy.reviews },
   ]
 }
 
 export const citySection = {
-  title: footerText.cities.title,
+  title: footer.cities.title,
   links: [
-    { to: "/", text: footerText.cities.bangkok },
-    { to: "/", text: footerText.cities.nonthaburi },
-    { to: "/", text: footerText.cities.nakhonRatchasima },
-    { to: "/", text: footerText.cities.chiangMai },
-    { to: "/", text: footerText.cities.hatYai },
-    { to: "/", text: footerText.cities.udonThani },
-    { to: "/", text: footerText.cities.pakKret },
-    { to: "/", text: footerText.cities.khonKaen },
+    { to: "/", text: footer.cities.bangkok },
+    { to: "/", text: footer.cities.nonthaburi },
+    { to: "/", text: footer.cities.nakhonRatchasima },
+    { to: "/", text: footer.cities.chiangMai },
+    { to: "/", text: footer.cities.hatYai },
+    { to: "/", text: footer.cities.udonThani },
+    { to: "/", text: footer.cities.pakKret },
+    { to: "/", text: footer.cities.khonKaen },
   ]
 }
 
 export const specialtiesSection = {
-  title: footerText.specialties.title,
+  title: footer.specialties.title,
   links: [
-    { to: "/", text: footerText.specialties.chiropractors },
-    { to: "/", text: footerText.specialties.dentists },
-    { to: "/", text: footerText.specialties.dermatologists },
-    { to: "/", text: footerText.specialties.eyeDoctors },
-    { to: "/", text: footerText.specialties.gynecologist },
-    { to: "/", text: footerText.specialties.primaryCareDoctors },
+    { to: "/", text: footer.specialties.chiropractors },
+    { to: "/", text: footer.specialties.dentists },
+    { to: "/", text: footer.specialties.dermatologists },
+    { to: "/", text: footer.specialties.eyeDoctors },
+    { to: "/", text: footer.specialties.gynecologist },
+    { to: "/", text: footer.specialties.primaryCareDoctors },
   ]
 }
 
 export const providerJoinUsSection = {
-  title: footerText.providerJoinUs.title,
-  links: [
-    { to: "/", text: footerText.providerJoinUs.link },
-  ]
+  title: footer.providerJoinUs.title,
+  links: [{ to: "/", text: footer.providerJoinUs.link }]
 }
 
 export const FOOTER_LIST = [
