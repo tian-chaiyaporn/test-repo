@@ -19,6 +19,7 @@ export const Directory = (props) => {
   const { data = DATA } = props
   const lists = data.map(list =>
     <InfoList
+      key={list.alphabet}
       alphabet={list.alphabet}
       titles={list.titles}
     />

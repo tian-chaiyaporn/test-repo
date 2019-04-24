@@ -45,13 +45,13 @@ export const InfoList = (props) => {
   const list = titles.map(title =>
     matches
     ? (      
-      <StyledListElem>
+      <StyledListElem key={title}>
         <StyledLink to={`/health/${title.replace(' ', '-')}`}>
           {title}
         </StyledLink>
       </StyledListElem>
     ) : (
-      <ButtonInList title={title} link={`/health/${title.replace(' ', '-')}`} />
+      <ButtonInList key={title} title={title} link={`/health/${title.replace(' ', '-')}`} />
     )
   )
 

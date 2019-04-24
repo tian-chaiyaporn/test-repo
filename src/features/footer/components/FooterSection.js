@@ -31,7 +31,7 @@ export const FooterSection = (props) => {
   } = props
 
   const listOfLinks = list.map(link => (
-    <StyledListElement>
+    <StyledListElement key={link.text}>
       <StyledLink to={link.to}>{link.text}</StyledLink>
     </StyledListElement>
   ))

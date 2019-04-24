@@ -47,7 +47,7 @@ export const Footer = () => {
   )
 
   const footerLists = FOOTER_LIST.map(list => (
-    <FooterSection title={list.title} list={list.links} />
+    <FooterSection title={list.title} list={list.links} key={list.title} />
   ))
  
   return (
