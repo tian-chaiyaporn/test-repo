@@ -83,7 +83,7 @@ export const ButtonInList = (props) => {
     <StyledList color={Colors}>
       <StyledLink to={link} color={Colors.BLACK}>
         <StyledTitle>
-          <StyledImage src={imageSrc} />
+          { imageSrc && (<StyledImage src={imageSrc} />)}
           <span>{title}</span>
         </StyledTitle>
         <StyledButton>

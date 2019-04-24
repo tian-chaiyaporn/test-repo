@@ -2,12 +2,17 @@ import React from 'react'
 import styled from 'styled-components'
 import { InfoList } from './components/InfoList'
 import { DATA } from './data'
+import { MEDIA } from '../../../constants/Styles'
 
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   ${'' /* grid-row-gap: 20px; */}
+
+  ${MEDIA.phone`
+    display: block;
+  `}
 `
 
 export const Directory = (props) => {

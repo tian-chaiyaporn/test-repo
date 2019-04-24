@@ -27,15 +27,15 @@ export const Colors = {
   WHITE_2: '#fafafa'
 }
 
-const sizes = {
+export const WINDOW_SIZES = {
   desktop: 992,
   tablet: 768,
   phone: 576,
 }
 
-export const MEDIA = Object.keys(sizes).reduce((acc, label) => {
+export const MEDIA = Object.keys(WINDOW_SIZES).reduce((acc, label) => {
   acc[label] = (...args) => css`
-    @media (max-width: ${sizes[label] / 16}em) {
+    @media (max-width: ${WINDOW_SIZES[label] / 16}em) {
       ${css(...args)}
     }
   `
