@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from '../../../../Router'
-import { Colors, MEDIA } from '../../../../constants/Styles'
+import { Colors, MEDIA, WINDOW_SIZES } from '../../../../constants/Styles'
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
 import { ButtonInList } from '../../../../componentLibrary/atoms/button/ButtonInList'
 
@@ -40,7 +40,7 @@ export const InfoList = (props) => {
     alphabet = '',
     titles = []
   } = props
-  const matches = useMediaQuery('(min-width:576px)');
+  const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.phone}px)`);
 
   const list = titles.map(title =>
     matches

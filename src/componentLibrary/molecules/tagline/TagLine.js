@@ -22,13 +22,14 @@ export const TagLine = (props) => {
     title,
     content,
     source,
+    imageSize = '40px',
   } = props
   return (
     <ComponentContainer colors={Colors} {...props} >
       <ThumbnailCircle
         source={source}
-        width='40px'
-        height='40px'
+        width={imageSize}
+        height={imageSize}
         padding='2em'
       />
       <TextContainer>

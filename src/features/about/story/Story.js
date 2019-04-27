@@ -1,24 +1,85 @@
 import React from 'react'
+import styled from 'styled-components'
+import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
+import { Colors, WINDOW_SIZES, MEDIA } from '../../../constants/Styles'
+import { MainHeadings } from '../../../componentLibrary/atoms/headings/MainHeadings'
+import { ThumbnailCircle } from '../../../componentLibrary/atoms/image/ThumbnailCircle'
+import { TagLine } from '../../../componentLibrary/molecules/tagline/TagLine'
+
+const data = [
+  { src: '', name: 'John Evans', position: 'General Manager'},
+  { src: '', name: 'L G', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+  { src: '', name: 'Victorai Parsons', position: 'General Manager'},
+]
+
+const ProfileContainer = styled.div`
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+`
+
+const Name = styled.p`
+  margin: 20px 0 0 0;
+`
+
+const Position = styled.p`
+  margin: 0;
+  color: ${Colors.BROWN_GREY};
+`
+
+const Profile = (props) => (
+  <ProfileContainer>
+    <ThumbnailCircle source={props.source} width='125px' height='125px'/>
+    <Name>{props.name || 'test'}</Name>
+    <Position>{props.postition || 'test'}</Position>
+  </ProfileContainer>
+)
+
+const ProfileListContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  padding: 50px 0;
+
+  ${MEDIA.phone`
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  `}
+`
+
+const StoryContainer = styled.div`padding: 30px 0;`
 
 export const Story = () => {
+  const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.phone}px)`);
+
+  const imageLists = data.map(image => (
+    matches
+      ? <Profile source={image.src} name={image.name} position={image.position} />
+      : <TagLine title={image.name} content={image.position} source={image.src} imageSize="60px" />
+  ))
+
   return (
-    <div>
-      <div>
-        <h1>Our Story</h1>
-        <h1>Maecenas enim purus, fringilla nec</h1>
-      </div>
+    <StoryContainer>
+      <MainHeadings title='Our Story' subtitle='Maecenas enim purus, fringilla nec' />
       <div>
         <div>large image</div>
         <p>{firstParagraph}</p>
         <p>{secondParagraph}</p>
-        <h2>The Team behind Wellglo</h2>
+        <h1>The Team behind Wellglo</h1>
         <p>Our company is led by industry professionals who believe better</p>
         <p>healthcare starts with the patient.</p>
-        <div>
-          list of team members
-        </div>
+        <ProfileListContainer>
+          {imageLists}
+        </ProfileListContainer>
       </div>
-    </div>
+    </StoryContainer>
   )
 }
 

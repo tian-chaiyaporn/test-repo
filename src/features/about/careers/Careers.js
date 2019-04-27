@@ -1,53 +1,84 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import styled from 'styled-components'
+import { MEDIA } from '../../../constants/Styles'
 import { JobOpeningsContainer } from './containers/JobOpeningsContainer' 
+import { MainHeadings } from '../../../componentLibrary/atoms/headings/MainHeadings'
+
+const CareersContainer = styled.div`
+  padding: 50px 0;
+`
 
 export const Careers = () => {
   return (
-    <div>
+    <CareersContainer>
       <JoinUs />
       <Mission />
       <Values />
       <Perks />
-      <JobOpeningsContainer />
-    </div>
+      <SectionContainer>
+        <JobOpeningsContainer />
+      </SectionContainer>
+    </CareersContainer>
   )
 }
 
 const JoinUs = () => (
-  <Fragment>
-    <h1>Join Us</h1>
-    <h1>And help transform healthcare for everyone.</h1>
+  <SectionContainer>
+    <MainHeadings
+      title='Join Us'
+      subtitle='And help transform healthcare for everyone.'
+    />
     <p>{intro}</p>
     <p>{intro2}</p>
-  </Fragment>
+  </SectionContainer>
 )
 
 const Mission = () => (
-  <Fragment>
+  <SectionContainer>
     <h2>Our Mission</h2>
     <p>{mission}</p>
-  </Fragment>
+  </SectionContainer>
 )
 
 const Values = () => (
-  <Fragment>
+  <SectionContainer>
     <h2>Our values</h2>
     <p>{values}</p>
-  </Fragment>
+  </SectionContainer>
 )
 
+const SectionContainer = styled.section`
+  padding: 10px 0;
+`
+
+const PerksContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  max-width: 600px;
+
+  ${MEDIA.phone`
+    grid-template-columns: repeat(1, 1fr);
+  `}
+`
+
+const PerkItem = styled.p`
+  padding: 0;
+  margin: 7px 0;
+`
+
 const Perks = () => (
-  <Fragment>
-    <h2>Our Mission</h2>
-    <div>
-      <p>100% paid health benefits</p>
-      <p>Vacation and parental leave packages</p>
-      <p>Lunch and snacks on us</p>
-      <p>Cell phone reimbursement</p>
-      <p>Gym discount</p>
-      <p>Weekly yoga</p>
-    </div>
-  </Fragment>
+  <SectionContainer>
+    <h2>Our perks</h2>
+    <PerksContainer>
+      <PerkItem>100% paid health benefits</PerkItem>
+      <PerkItem>Vacation and parental leave packages</PerkItem>
+      <PerkItem>Lunch and snacks on us</PerkItem>
+      <PerkItem>Cell phone reimbursement</PerkItem>
+      <PerkItem>Gym discount</PerkItem>
+      <PerkItem>Weekly yoga</PerkItem>
+    </PerksContainer>
+  </SectionContainer>
 )
 
 const intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus."
