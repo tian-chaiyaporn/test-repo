@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Colors } from '../../../constants/Styles'
+import { Colors, MEDIA } from '../../../constants/Styles'
 
 import { Card } from '../../atoms/card/Card'
 import { TagLineText } from '../../molecules/tagline/TagLineText'
@@ -39,6 +39,25 @@ export const InfoText = (props) => {
   )
 }
 
+const StyledCard = styled(Card)`
+  max-width: 248px;
+  height: 320px;
+
+  ${MEDIA.phone`
+    max-width: 100%;
+    height: auto;
+  `}
+`
+
+const AdBox = styled.p`
+  padding: 5px 7px;
+  border: 1px solid ${Colors.LIGHT_TEAL};
+  border-radius: 5px;
+  font-size: 0.7em;
+  margin: -10px 0 0 0;
+  color: ${Colors.AQUA_MARINE};
+`
+
 export const ProfileInfoCard = (props) => {
   const {
     imageSrc = "",
@@ -47,11 +66,15 @@ export const ProfileInfoCard = (props) => {
     tagTitle = '',
     tagContent = '',
     rating,
-    reviewCount
+    reviewCount,
+    withAd = false
   } = props
   return (
-    <Card maxWidth='248px' minWidth='248px' height='320px' padding='1.5em 1em'>
-      <ThumbnailCircle source={imageSrc} />
+    <StyledCard minWidth='248px' height='320px' padding='1.5em 1em'>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <ThumbnailCircle source={imageSrc} />
+        {withAd ? <div><AdBox>Ad</AdBox></div> : null}
+      </div>
       <MarginVertical>
         <TagLineText
           style={{ fontSize: '13px' }}
@@ -63,6 +86,6 @@ export const ProfileInfoCard = (props) => {
       <MarginVertical margin={'15px 0'}>
         <InfoText title={addressName} content={addressDetail}/>
       </MarginVertical>
-    </Card>
+    </StyledCard>
   )
 }

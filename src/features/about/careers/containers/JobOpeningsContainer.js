@@ -23,6 +23,7 @@ const JobContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   max-width: 600px;
+  padding-top: 10px;
 `
 
 const StyledLink = styled(Link)`

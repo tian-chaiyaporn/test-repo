@@ -11,6 +11,7 @@ const ButtonStyled = styled.button`
   font-size: 20px;
   width: ${props => props.width || '100%'};
   height: ${props => props.height || 'auto'};
+  outline-style: none;
 
   ${props => props.filled &&
     css`

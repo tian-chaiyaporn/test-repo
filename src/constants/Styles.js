@@ -24,7 +24,8 @@ export const Colors = {
   VERY_LIGHT_PINK: '#f0f0f0',
   WHITE: '#f7f7f7',
   VERY_LIGHT_PINK_2: '#e0e0e0',
-  WHITE_2: '#fafafa'
+  WHITE_2: '#fafafa',
+  LIGHT_BACKGROUND: 'rgba(240, 250, 248, 0.5)'
 }
 
 export const WINDOW_SIZES = {

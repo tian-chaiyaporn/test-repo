@@ -10,6 +10,7 @@ const MenuStyled = styled.nav`
   background-color: transparent;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 40px 0;
   padding: 0 30px;
 `
@@ -78,7 +79,7 @@ const BurgerButton = () => (<LineContainer><Line /><Line /></LineContainer>)
 const FullMenu = () => (
   <MenuStyled>
     <Link to="/">
-      <StyledImage src="/assets/logo.svg" />
+      <StyledImage height={30} src="/assets/logo.svg" />
     </Link>
     <div>
       <StyledLink to="/providers">Find a doctor</StyledLink>
