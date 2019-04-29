@@ -9,7 +9,7 @@ import { Colors } from '../../../constants/Styles'
 const StyledList = styled.li`
   list-style: none;
   padding: 10px 0;
-  border-bottom: 1px solid ${props => props.color || 'black'};
+  border-bottom: 1px solid ${props => props.borderColor || 'black'};
   color: ${props => props.color || 'black'};
 `
 
@@ -28,13 +28,18 @@ const StyledButton = styled.button`
 `
 
 export const Collapse = (props) => {
-  const [isCollapse, toggleCollapse] = useState(false)
+  const {
+    title,
+    children,
+    borderColor = Colors.BLACK,
+    open = false
+  } = props
+  const [isCollapse, toggleCollapse] = useState(open)
   const handleClick = () => toggleCollapse(!isCollapse)
-  const { title, children } = props
   const icon = isCollapse ? (<Remove />) : (<Add />)
 
   return (
-    <StyledList color={Colors.BLACK}>
+    <StyledList color={Colors.BLACK} borderColor={borderColor} >
       <StyledTitle>
         <span>{title}</span>
         <StyledButton onClick={handleClick}>

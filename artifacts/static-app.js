@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 67);
+/******/ 	return __webpack_require__(__webpack_require__.s = 72);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -223,7 +223,7 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(17);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(18);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "b", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_4__["Link"]; });
 
@@ -270,7 +270,7 @@ module.exports = require("@babel/runtime/helpers/extends");
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(31);
+var _typeof = __webpack_require__(34);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -309,7 +309,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(70);
+var _requireUniversalModule = __webpack_require__(75);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -324,7 +324,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(72);
+var _reportChunks = __webpack_require__(77);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -338,21 +338,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(37);
+var _propTypes = __webpack_require__(40);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(38);
+var _hoistNonReactStatics = __webpack_require__(41);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(73);
+var _vm = __webpack_require__(78);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(32);
+var _utils = __webpack_require__(35);
 
-var _helpers = __webpack_require__(74);
+var _helpers = __webpack_require__(79);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -747,7 +747,7 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(30)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
 
 /***/ }),
 /* 9 */
@@ -823,12 +823,6 @@ var ThumbnailCircle = function ThumbnailCircle(props) {
 
 /***/ }),
 /* 11 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-static");
-
-/***/ }),
-/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -843,7 +837,7 @@ module.exports = require("react-static");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
 /* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
-/* harmony import */ var _TagLineText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(15);
+/* harmony import */ var _TagLineText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(16);
 
 
 
@@ -898,19 +892,122 @@ var TagLine = function TagLine(props) {
 };
 
 /***/ }),
+/* 12 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Collapse; });
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(65);
+/* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(66);
+/* harmony import */ var _material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(67);
+/* harmony import */ var _material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3);
+
+
+
+function _templateObject3() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default()(["\n  border: none;\n  padding: 0;\n  cursor: pointer;\n  outline: none;\n  background-color: transparent;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default()(["\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default()(["\n  list-style: none;\n  padding: 10px 0;\n  border-bottom: 1px solid ", ";\n  color: ", ";\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+
+
+var StyledList = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.li(_templateObject(), function (props) {
+  return props.borderColor || 'black';
+}, function (props) {
+  return props.color || 'black';
+});
+var StyledTitle = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div(_templateObject2());
+var StyledButton = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.button(_templateObject3());
+var Collapse = function Collapse(props) {
+  var title = props.title,
+      children = props.children,
+      _props$borderColor = props.borderColor,
+      borderColor = _props$borderColor === void 0 ? _constants_Styles__WEBPACK_IMPORTED_MODULE_7__[/* Colors */ "a"].BLACK : _props$borderColor,
+      _props$open = props.open,
+      open = _props$open === void 0 ? false : _props$open;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(open),
+      _useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState, 2),
+      isCollapse = _useState2[0],
+      toggleCollapse = _useState2[1];
+
+  var handleClick = function handleClick() {
+    return toggleCollapse(!isCollapse);
+  };
+
+  var icon = isCollapse ? react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6___default.a, null) : react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5___default.a, null);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledList, {
+    color: _constants_Styles__WEBPACK_IMPORTED_MODULE_7__[/* Colors */ "a"].BLACK,
+    borderColor: borderColor
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledTitle, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", null, title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledButton, {
+    onClick: handleClick
+  }, icon)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    "in": isCollapse,
+    timeout: "auto",
+    unmountOnExit: true
+  }, children));
+};
+
+/***/ }),
 /* 13 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/slicedToArray");
+module.exports = require("react-static");
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/useMediaQuery");
+module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
 /* 15 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/useMediaQuery");
+
+/***/ }),
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -960,7 +1057,7 @@ var TagLineText = function TagLineText(props) {
 };
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -971,7 +1068,7 @@ var TagLineText = function TagLineText(props) {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _organisms_cards_ProfileInfoCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(27);
+/* harmony import */ var _organisms_cards_ProfileInfoCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(28);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
 
 
@@ -1026,13 +1123,13 @@ var ProfileListContainer = function ProfileListContainer(props) {
 };
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1074,7 +1171,7 @@ var MainHeadings = function MainHeadings(props) {
 };
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1086,7 +1183,7 @@ var MainHeadings = function MainHeadings(props) {
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
-/* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(57);
+/* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(60);
 /* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3);
 
@@ -1234,14 +1331,14 @@ var ButtonInList = function ButtonInList(props) {
 };
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Switch; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(58);
+/* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(61);
 /* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
@@ -1334,7 +1431,7 @@ var Customized = function Customized(props) {
 var Switch = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(Customized);
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1348,7 +1445,7 @@ var Switch = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withS
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(59);
+/* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62);
 /* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_star_ratings__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3);
 
@@ -1400,25 +1497,25 @@ var StarWithRating = function StarWithRating(props) {
 };
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Select");
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/FormControl");
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/MenuItem");
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1428,11 +1525,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(32);
+var _utils = __webpack_require__(35);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(71)("" + id);
+    return __webpack_require__(76)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1441,13 +1538,13 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Input");
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1460,10 +1557,10 @@ module.exports = require("@material-ui/core/Input");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
-/* harmony import */ var _atoms_card_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(28);
-/* harmony import */ var _molecules_tagline_TagLineText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(15);
+/* harmony import */ var _atoms_card_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29);
+/* harmony import */ var _molecules_tagline_TagLineText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(16);
 /* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(10);
-/* harmony import */ var _atoms_stars_Star__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(21);
+/* harmony import */ var _atoms_stars_Star__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(22);
 
 
 function _templateObject6() {
@@ -1592,7 +1689,7 @@ var ProfileInfoCard = function ProfileInfoCard(props) {
 };
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1642,7 +1739,106 @@ var Card = function Card(props) {
 };
 
 /***/ }),
-/* 29 */
+/* 30 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/styles.css
+var styles = __webpack_require__(88);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "rc-tabs"
+var external_rc_tabs_ = __webpack_require__(31);
+var external_rc_tabs_default = /*#__PURE__*/__webpack_require__.n(external_rc_tabs_);
+
+// EXTERNAL MODULE: external "rc-tabs/lib/TabContent"
+var TabContent_ = __webpack_require__(63);
+var TabContent_default = /*#__PURE__*/__webpack_require__.n(TabContent_);
+
+// EXTERNAL MODULE: external "rc-tabs/lib/ScrollableInkTabBar"
+var ScrollableInkTabBar_ = __webpack_require__(64);
+var ScrollableInkTabBar_default = /*#__PURE__*/__webpack_require__.n(ScrollableInkTabBar_);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
+var Styles = __webpack_require__(3);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/collapse/Collapse.js
+var Collapse = __webpack_require__(12);
+
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/OverviewContainer.js
+
+
+
+var OverviewContainer_OverviewContainer = function OverviewContainer() {
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(Collapse["a" /* Collapse */], {
+    title: "Professional Statement",
+    borderColor: Styles["a" /* Colors */].VERY_LIGHT_PINK,
+    open: true
+  }, external_react_default.a.createElement("p", null, "1")), external_react_default.a.createElement(Collapse["a" /* Collapse */], {
+    title: "Specialities",
+    borderColor: Styles["a" /* Colors */].VERY_LIGHT_PINK
+  }, external_react_default.a.createElement("p", null, "1")), external_react_default.a.createElement(Collapse["a" /* Collapse */], {
+    title: "Professional Experience",
+    borderColor: Styles["a" /* Colors */].VERY_LIGHT_PINK
+  }, external_react_default.a.createElement("p", null, "1")), external_react_default.a.createElement(Collapse["a" /* Collapse */], {
+    title: "Education & Certificate",
+    borderColor: Styles["a" /* Colors */].VERY_LIGHT_PINK
+  }, external_react_default.a.createElement("p", null, "1")));
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/PatientReviewContainer.js
+
+var PatientReviewContainer_PatientReviewContainer = function PatientReviewContainer() {
+  return external_react_default.a.createElement("div", null, "PatientReviewContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/HeadInfoContainer.js
+
+var HeadInfoContainer_HeadInfoContainer = function HeadInfoContainer() {
+  return external_react_default.a.createElement("div", null, "HeadInfoContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/ProviderDetails.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProviderDetails_ProviderDetails; });
+
+
+
+
+
+
+
+
+var ProviderDetails_ProviderDetails = function ProviderDetails() {
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(HeadInfoContainer_HeadInfoContainer, null), external_react_default.a.createElement(external_rc_tabs_default.a, {
+    defaultActiveKey: "1",
+    renderTabBar: function renderTabBar() {
+      return external_react_default.a.createElement(ScrollableInkTabBar_default.a, {
+        style: {
+          color: '#9e9e9e'
+        }
+      });
+    },
+    renderTabContent: function renderTabContent() {
+      return external_react_default.a.createElement(TabContent_default.a, null);
+    }
+  }, external_react_default.a.createElement(external_rc_tabs_["TabPane"], {
+    tab: "Overview",
+    key: "1"
+  }, external_react_default.a.createElement(OverviewContainer_OverviewContainer, null)), external_react_default.a.createElement(external_rc_tabs_["TabPane"], {
+    tab: "Patient reviews",
+    key: "2"
+  }, external_react_default.a.createElement(PatientReviewContainer_PatientReviewContainer, null))));
+};
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports) {
+
+module.exports = require("rc-tabs");
+
+/***/ }),
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1652,7 +1848,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(11);
+var external_react_static_ = __webpack_require__(13);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/Router.js
 var Router = __webpack_require__(6);
@@ -1663,7 +1859,7 @@ var Router = __webpack_require__(6);
   return external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
 });
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(13);
+var slicedToArray_ = __webpack_require__(14);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
@@ -1678,10 +1874,10 @@ var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(exte
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(14);
+var useMediaQuery_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: external "react-sidebar"
-var external_react_sidebar_ = __webpack_require__(56);
+var external_react_sidebar_ = __webpack_require__(59);
 var external_react_sidebar_default = /*#__PURE__*/__webpack_require__.n(external_react_sidebar_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/header/HeaderContainer.js
@@ -2262,7 +2458,7 @@ var FooterContainer_Footer = function Footer() {
   }, external_react_default.a.createElement(ListSection, null, footerLists), bottomSection());
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/app.css
-var app = __webpack_require__(82);
+var app = __webpack_require__(87);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/App.js
 
@@ -2290,7 +2486,7 @@ function App() {
 /* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2319,19 +2515,19 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 31 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 32 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(31);
+var _typeof2 = __webpack_require__(34);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2362,7 +2558,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(25);
+var _requireById = __webpack_require__(26);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -2491,18 +2687,18 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 33 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 34 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(55);
+/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(58);
 /* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -2532,13 +2728,13 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 35 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 36 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2552,8 +2748,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
 /* harmony import */ var _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
-
-
 
 
 
@@ -2600,7 +2794,7 @@ var universalOptions = {
 var t_0 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/404 */).then(__webpack_require__.bind(null, 39))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/404 */).then(__webpack_require__.bind(null, 43))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2608,7 +2802,7 @@ var t_0 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(39);
+    return /*require.resolve*/(43);
   },
   chunkName: function chunkName() {
     return "src/pages/404";
@@ -2618,7 +2812,7 @@ t_0.template = '../src/pages/404.js';
 var t_1 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/about.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/about */).then(__webpack_require__.bind(null, 54))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/about */).then(__webpack_require__.bind(null, 56))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2626,7 +2820,7 @@ var t_1 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/about.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(54);
+    return /*require.resolve*/(56);
   },
   chunkName: function chunkName() {
     return "src/pages/about";
@@ -2636,7 +2830,7 @@ t_1.template = '../src/pages/about.js';
 var t_2 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/articles.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/articles */).then(__webpack_require__.bind(null, 50))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/articles */).then(__webpack_require__.bind(null, 53))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2644,7 +2838,7 @@ var t_2 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/articles.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(50);
+    return /*require.resolve*/(53);
   },
   chunkName: function chunkName() {
     return "src/pages/articles";
@@ -2654,7 +2848,7 @@ t_2.template = '../src/pages/articles.js';
 var t_3 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/blog.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/blog */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/blog */).then(__webpack_require__.bind(null, 44))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2662,7 +2856,7 @@ var t_3 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/blog.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(40);
+    return /*require.resolve*/(44);
   },
   chunkName: function chunkName() {
     return "src/pages/blog";
@@ -2672,7 +2866,7 @@ t_3.template = '../src/pages/blog.js';
 var t_4 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/careers.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/careers */).then(__webpack_require__.bind(null, 52))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/careers */).then(__webpack_require__.bind(null, 55))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2680,7 +2874,7 @@ var t_4 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/careers.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(52);
+    return /*require.resolve*/(55);
   },
   chunkName: function chunkName() {
     return "src/pages/careers";
@@ -2690,7 +2884,7 @@ t_4.template = '../src/pages/careers.js';
 var t_5 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/clinics.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/clinics */).then(__webpack_require__.bind(null, 46))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/clinics */).then(__webpack_require__.bind(null, 51))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2698,7 +2892,7 @@ var t_5 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/clinics.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(46);
+    return /*require.resolve*/(51);
   },
   chunkName: function chunkName() {
     return "src/pages/clinics";
@@ -2708,7 +2902,7 @@ t_5.template = '../src/pages/clinics.js';
 var t_6 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/contact */).then(__webpack_require__.bind(null, 53))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/contact */).then(__webpack_require__.bind(null, 57))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2716,7 +2910,7 @@ var t_6 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(53);
+    return /*require.resolve*/(57);
   },
   chunkName: function chunkName() {
     return "src/pages/contact";
@@ -2726,7 +2920,7 @@ t_6.template = '../src/pages/contact.js';
 var t_7 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/directory.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/directory */).then(__webpack_require__.bind(null, 51))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/directory */).then(__webpack_require__.bind(null, 54))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2734,7 +2928,7 @@ var t_7 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/directory.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(51);
+    return /*require.resolve*/(54);
   },
   chunkName: function chunkName() {
     return "src/pages/directory";
@@ -2742,27 +2936,9 @@ var t_7 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
 }), universalOptions);
 t_7.template = '../src/pages/directory.js';
 var t_8 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "../src/pages/help.js",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/help */).then(__webpack_require__.t.bind(null, 41, 7))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/help.js');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(41);
-  },
-  chunkName: function chunkName() {
-    return "src/pages/help";
-  }
-}), universalOptions);
-t_8.template = '../src/pages/help.js';
-var t_9 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 42))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 45))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2770,17 +2946,17 @@ var t_9 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(42);
+    return /*require.resolve*/(45);
   },
   chunkName: function chunkName() {
     return "src/pages/index";
   }
 }), universalOptions);
-t_9.template = '../src/pages/index.js';
-var t_10 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_8.template = '../src/pages/index.js';
+var t_9 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/providers.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/providers */).then(__webpack_require__.bind(null, 45))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/providers */).then(__webpack_require__.bind(null, 50))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2788,35 +2964,35 @@ var t_10 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/providers.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(45);
+    return /*require.resolve*/(50);
   },
   chunkName: function chunkName() {
     return "src/pages/providers";
   }
 }), universalOptions);
-t_10.template = '../src/pages/providers.js';
-var t_11 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "../src/pages/search.js",
+t_9.template = '../src/pages/providers.js';
+var t_10 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "../src/pages/providers/details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/search */).then(__webpack_require__.t.bind(null, 43, 7))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/providers/details */).then(__webpack_require__.bind(null, 46))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/search.js');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/providers/details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(43);
+    return /*require.resolve*/(46);
   },
   chunkName: function chunkName() {
-    return "src/pages/search";
+    return "src/pages/providers/details";
   }
 }), universalOptions);
-t_11.template = '../src/pages/search.js';
-var t_12 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_10.template = '../src/pages/providers/details.js';
+var t_11 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/article.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/article */).then(__webpack_require__.bind(null, 48))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/article */).then(__webpack_require__.bind(null, 52))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2824,17 +3000,17 @@ var t_12 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/article.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(48);
+    return /*require.resolve*/(52);
   },
   chunkName: function chunkName() {
     return "src/pages/test/article";
   }
 }), universalOptions);
-t_12.template = '../src/pages/test/article.js';
-var t_13 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_11.template = '../src/pages/test/article.js';
+var t_12 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/clinic-details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/clinic-details */).then(__webpack_require__.bind(null, 47))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/clinic-details */).then(__webpack_require__.bind(null, 49))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2842,17 +3018,17 @@ var t_13 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/clinic-details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(47);
+    return /*require.resolve*/(49);
   },
   chunkName: function chunkName() {
     return "src/pages/test/clinic-details";
   }
 }), universalOptions);
-t_13.template = '../src/pages/test/clinic-details.js';
-var t_14 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_12.template = '../src/pages/test/clinic-details.js';
+var t_13 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/provider-details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/provider-details */).then(__webpack_require__.bind(null, 49))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/provider-details */).then(__webpack_require__.bind(null, 47))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2860,17 +3036,17 @@ var t_14 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/provider-details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(49);
+    return /*require.resolve*/(47);
   },
   chunkName: function chunkName() {
     return "src/pages/test/provider-details";
   }
 }), universalOptions);
-t_14.template = '../src/pages/test/provider-details.js';
-var t_15 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_13.template = '../src/pages/test/provider-details.js';
+var t_14 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/test-component.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/test-component */).then(__webpack_require__.bind(null, 44))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/test-component */).then(__webpack_require__.bind(null, 48))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2878,13 +3054,13 @@ var t_15 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/test-component.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(44);
+    return /*require.resolve*/(48);
   },
   chunkName: function chunkName() {
     return "src/pages/test/test-component";
   }
 }), universalOptions);
-t_15.template = '../src/pages/test/test-component.js'; // Template Map
+t_14.template = '../src/pages/test/test-component.js'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '../src/pages/404.js': t_0,
@@ -2895,33 +3071,123 @@ t_15.template = '../src/pages/test/test-component.js'; // Template Map
   '../src/pages/clinics.js': t_5,
   '../src/pages/contact.js': t_6,
   '../src/pages/directory.js': t_7,
-  '../src/pages/help.js': t_8,
-  '../src/pages/index.js': t_9,
-  '../src/pages/providers.js': t_10,
-  '../src/pages/search.js': t_11,
-  '../src/pages/test/article.js': t_12,
-  '../src/pages/test/clinic-details.js': t_13,
-  '../src/pages/test/provider-details.js': t_14,
-  '../src/pages/test/test-component.js': t_15 // Not Found Template
+  '../src/pages/index.js': t_8,
+  '../src/pages/providers.js': t_9,
+  '../src/pages/providers/details.js': t_10,
+  '../src/pages/test/article.js': t_11,
+  '../src/pages/test/clinic-details.js': t_12,
+  '../src/pages/test/provider-details.js': t_13,
+  '../src/pages/test/test-component.js': t_14 // Not Found Template
 
 });
 var notFoundTemplate = "../src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 37 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 38 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 39 */
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return '@media ' + item[2] + '{' + content + '}';
+      } else {
+        return content;
+      }
+    }).join('');
+  }; // import a list of modules into the list
+
+
+  list.i = function (modules, mediaQuery) {
+    if (typeof modules === 'string') {
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    for (var i = 0; i < this.length; i++) {
+      var id = this[i][0];
+
+      if (id != null) {
+        alreadyImportedModules[id] = true;
+      }
+    }
+
+    for (i = 0; i < modules.length; i++) {
+      var item = modules[i]; // skip already imported module
+      // this implementation is not 100% perfect for weird media query combinations
+      // when a module is imported multiple times with different media queries.
+      // I hope this will never occur (Hey this way we have smaller bundles)
+
+      if (item[0] == null || !alreadyImportedModules[item[0]]) {
+        if (mediaQuery && !item[2]) {
+          item[2] = mediaQuery;
+        } else if (mediaQuery) {
+          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';
+        }
+
+        list.push(item);
+      }
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || '';
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+  return '/*# ' + data + ' */';
+}
+
+/***/ }),
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2934,7 +3200,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 40 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2942,7 +3208,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 
@@ -2950,32 +3216,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Blog() {
-  var _useRouteData = Object(react_static__WEBPACK_IMPORTED_MODULE_1__["useRouteData"])(),
-      posts = _useRouteData.posts;
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "It's blog time."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#bottom",
-    id: "top"
-  }, "Scroll to bottom!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "All Posts:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, posts.map(function (post) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      key: post.id
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Router__WEBPACK_IMPORTED_MODULE_2__[/* Link */ "b"], {
-      to: "/blog/post/".concat(post.id, "/")
-    }, post.title));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#top",
-    id: "bottom"
-  }, "Scroll to top!"));
-}
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "blog");
+} // export default function Blog() {
+//   const { posts } = useRouteData()
+//   return (
+//     <div>
+//       <h1>It's blog time.</h1>
+//       <div>
+//         <a href="#bottom" id="top">
+//           Scroll to bottom!
+//         </a>
+//       </div>
+//       <br />
+//       All Posts:
+//       <ul>
+//         {posts.map(post => (
+//           <li key={post.id}>
+//             <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
+//           </li>
+//         ))}
+//       </ul>
+//       <a href="#top" id="bottom">
+//         Scroll to top!
+//       </a>
+//     </div>
+//   )
+// }
 
 /***/ }),
-/* 41 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 42 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2992,13 +3261,43 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 43 */
-/***/ (function(module, exports) {
+/* 46 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
 
 
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      maxWidth: "1200px",
+      margin: '0 auto',
+      padding: '0 8%'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__[/* ProviderDetails */ "a"], null));
+});
 
 /***/ }),
-/* 44 */
+/* 47 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Test"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__[/* ProviderDetails */ "a"], null));
+});
+
+/***/ }),
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3078,7 +3377,7 @@ var ThumbnailCircle = __webpack_require__(10);
 var styles_ = __webpack_require__(9);
 
 // EXTERNAL MODULE: external "@material-ui/core/Checkbox"
-var Checkbox_ = __webpack_require__(60);
+var Checkbox_ = __webpack_require__(68);
 var Checkbox_default = /*#__PURE__*/__webpack_require__.n(Checkbox_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/checkbox/Checkbox.js
@@ -3103,10 +3402,10 @@ var Checkbox = Object(styles_["withStyles"])({
   }
 })(Checkbox_InjectProps);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(20);
+var Switch = __webpack_require__(21);
 
 // EXTERNAL MODULE: external "@material-ui/core/TextField"
-var TextField_ = __webpack_require__(61);
+var TextField_ = __webpack_require__(69);
 var TextField_default = /*#__PURE__*/__webpack_require__.n(TextField_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/textFields/TextField.js
@@ -3143,14 +3442,14 @@ function CustomizedInputs(props) {
 
 /* harmony default export */ var TextField = (Object(styles_["withStyles"])(TextField_styles)(CustomizedInputs));
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/stars/Star.js
-var Star = __webpack_require__(21);
+var Star = __webpack_require__(22);
 
 // EXTERNAL MODULE: external "@material-ui/lab/Breadcrumbs"
-var Breadcrumbs_ = __webpack_require__(62);
+var Breadcrumbs_ = __webpack_require__(70);
 var Breadcrumbs_default = /*#__PURE__*/__webpack_require__.n(Breadcrumbs_);
 
 // EXTERNAL MODULE: external "@material-ui/icons/NavigateNext"
-var NavigateNext_ = __webpack_require__(63);
+var NavigateNext_ = __webpack_require__(71);
 var NavigateNext_default = /*#__PURE__*/__webpack_require__.n(NavigateNext_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/breadcrumbs/Breadcrumbs.js
@@ -3179,10 +3478,10 @@ var Breadcrumbs = Object(styles_["withStyles"])({
 var Router = __webpack_require__(6);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLineText.js
-var TagLineText = __webpack_require__(15);
+var TagLineText = __webpack_require__(16);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLine.js
-var TagLine = __webpack_require__(12);
+var TagLine = __webpack_require__(11);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLineRating.js
 
@@ -3378,10 +3677,10 @@ var ArticleCard_ArticleCard = function ArticleCard(props) {
   }));
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/organisms/cards/ProfileInfoCard.js
-var ProfileInfoCard = __webpack_require__(27);
+var ProfileInfoCard = __webpack_require__(28);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/card/Card.js
-var Card = __webpack_require__(28);
+var Card = __webpack_require__(29);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/organisms/cards/QuoteCard.js
 
@@ -3494,94 +3793,11 @@ var QuoteCard_QuoteCard = function QuoteCard(props) {
     content: tagContent
   }));
 };
-// EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(13);
-var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/collapse/Collapse.js
+var Collapse = __webpack_require__(12);
 
-// EXTERNAL MODULE: external "@material-ui/core/Collapse"
-var Collapse_ = __webpack_require__(64);
-var Collapse_default = /*#__PURE__*/__webpack_require__.n(Collapse_);
-
-// EXTERNAL MODULE: external "@material-ui/icons/Add"
-var Add_ = __webpack_require__(65);
-var Add_default = /*#__PURE__*/__webpack_require__.n(Add_);
-
-// EXTERNAL MODULE: external "@material-ui/icons/Remove"
-var Remove_ = __webpack_require__(66);
-var Remove_default = /*#__PURE__*/__webpack_require__.n(Remove_);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/collapse/Collapse.js
-
-
-
-function Collapse_templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  border: none;\n  padding: 0;\n  cursor: pointer;\n  outline: none;\n  background-color: transparent;\n"]);
-
-  Collapse_templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function Collapse_templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n"]);
-
-  Collapse_templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function Collapse_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  list-style: none;\n  padding: 10px 0;\n  border-bottom: 1px solid ", ";\n  color: ", ";\n"]);
-
-  Collapse_templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-
-
-var StyledList = external_styled_components_default.a.li(Collapse_templateObject(), function (props) {
-  return props.color || 'black';
-}, function (props) {
-  return props.color || 'black';
-});
-var Collapse_StyledTitle = external_styled_components_default.a.div(Collapse_templateObject2());
-var StyledButton = external_styled_components_default.a.button(Collapse_templateObject3());
-var Collapse_Collapse = function Collapse(props) {
-  var _useState = Object(external_react_["useState"])(false),
-      _useState2 = slicedToArray_default()(_useState, 2),
-      isCollapse = _useState2[0],
-      toggleCollapse = _useState2[1];
-
-  var handleClick = function handleClick() {
-    return toggleCollapse(!isCollapse);
-  };
-
-  var title = props.title,
-      children = props.children;
-  var icon = isCollapse ? external_react_default.a.createElement(Remove_default.a, null) : external_react_default.a.createElement(Add_default.a, null);
-  return external_react_default.a.createElement(StyledList, {
-    color: Styles["a" /* Colors */].BLACK
-  }, external_react_default.a.createElement(Collapse_StyledTitle, null, external_react_default.a.createElement("span", null, title), external_react_default.a.createElement(StyledButton, {
-    onClick: handleClick
-  }, icon)), external_react_default.a.createElement(Collapse_default.a, {
-    "in": isCollapse,
-    timeout: "auto",
-    unmountOnExit: true
-  }, children));
-};
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(19);
+var ButtonInList = __webpack_require__(20);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/test/test-component.js
 
@@ -3690,11 +3906,11 @@ var test_component_MarginVertical = external_styled_components_default.a.div(tes
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum erat ex, ornare in ante id, tristique dictum libero. Phasellus pellentesque laoreet lorem.",
     tagTitle: "Dorothy Dixon",
     tagContent: "Wellglo member"
-  })), external_react_default.a.createElement(test_component_MarginVertical, null, external_react_default.a.createElement(Collapse_Collapse, {
+  })), external_react_default.a.createElement(test_component_MarginVertical, null, external_react_default.a.createElement(Collapse["a" /* Collapse */], {
     title: "Why doesn't my doctor have a star rating?"
-  }, external_react_default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tincidunt auctor finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas enim purus, fringilla nec sapien quis, fringilla tincidunt libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin porttitor libero id velit mattis, quis luctus mi pellentesque. Etiam vehicula interdum pellentesque. Sed eleifend et nisl in accumsan. Quisque vestibulum ex nibh, at scelerisque turpis venenatis eget. Mauris mollis lorem quis odio ullamcorper scelerisque.")), external_react_default.a.createElement(Collapse_Collapse, {
+  }, external_react_default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tincidunt auctor finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas enim purus, fringilla nec sapien quis, fringilla tincidunt libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin porttitor libero id velit mattis, quis luctus mi pellentesque. Etiam vehicula interdum pellentesque. Sed eleifend et nisl in accumsan. Quisque vestibulum ex nibh, at scelerisque turpis venenatis eget. Mauris mollis lorem quis odio ullamcorper scelerisque.")), external_react_default.a.createElement(Collapse["a" /* Collapse */], {
     title: "Does Wellglo have an app?"
-  }, external_react_default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.")), external_react_default.a.createElement(Collapse_Collapse, {
+  }, external_react_default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.")), external_react_default.a.createElement(Collapse["a" /* Collapse */], {
     title: "Why isn't my doctor listed on your site?"
   }, external_react_default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum."))), external_react_default.a.createElement(test_component_MarginVertical, null, external_react_default.a.createElement(ButtonInList["a" /* ButtonInList */], {
     title: 'Plastic Surgeon',
@@ -3703,7 +3919,60 @@ var test_component_MarginVertical = external_styled_components_default.a.div(tes
 });
 
 /***/ }),
-/* 45 */
+/* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/HeadInfoContainer.js
+
+var HeadInfoContainer_HeadInfoContainer = function HeadInfoContainer() {
+  return external_react_default.a.createElement("div", null, "HeadInfoContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/OverviewContainer.js
+
+var OverviewContainer_OverviewContainer = function OverviewContainer() {
+  return external_react_default.a.createElement("div", null, "OverviewContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/MedicalTeamContainer.js
+
+var MedicalTeamContainer_MedicalTeamContainer = function MedicalTeamContainer() {
+  return external_react_default.a.createElement("div", null, "MedicalTeamContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/SpecialtiesContainer.js
+
+var SpecialtiesContainer_SpecialtiesContainer = function SpecialtiesContainer() {
+  return external_react_default.a.createElement("div", null, "SpecialtiesContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/BranchesContainer.js
+
+var BranchesContainer_BranchesContainer = function BranchesContainer() {
+  return external_react_default.a.createElement("div", null, "BranchesContainer");
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/ClinicDetails.js
+
+
+
+
+
+
+var ClinicDetails_ClinicDetails = function ClinicDetails() {
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(HeadInfoContainer_HeadInfoContainer, null), external_react_default.a.createElement("div", null, external_react_default.a.createElement(OverviewContainer_OverviewContainer, null), external_react_default.a.createElement(SpecialtiesContainer_SpecialtiesContainer, null), external_react_default.a.createElement(MedicalTeamContainer_MedicalTeamContainer, null), external_react_default.a.createElement(BranchesContainer_BranchesContainer, null)));
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/test/clinic-details.js
+
+
+/* harmony default export */ var clinic_details = __webpack_exports__["default"] = (function () {
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h1", null, "Test"), external_react_default.a.createElement(ClinicDetails_ClinicDetails, null));
+});
+
+/***/ }),
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3718,7 +3987,7 @@ var taggedTemplateLiteral_ = __webpack_require__(1);
 var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(13);
+var slicedToArray_ = __webpack_require__(14);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "styled-components"
@@ -3726,19 +3995,19 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Select"
-var Select_ = __webpack_require__(22);
+var Select_ = __webpack_require__(23);
 var Select_default = /*#__PURE__*/__webpack_require__.n(Select_);
 
 // EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__(23);
+var FormControl_ = __webpack_require__(24);
 var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
 
 // EXTERNAL MODULE: external "@material-ui/core/MenuItem"
-var MenuItem_ = __webpack_require__(24);
+var MenuItem_ = __webpack_require__(25);
 var MenuItem_default = /*#__PURE__*/__webpack_require__.n(MenuItem_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__(26);
+var Input_ = __webpack_require__(27);
 var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
 
 // EXTERNAL MODULE: external "@material-ui/core/styles"
@@ -3748,7 +4017,7 @@ var styles_ = __webpack_require__(9);
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(20);
+var Switch = __webpack_require__(21);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/components/Filter.js
 
@@ -3899,7 +4168,7 @@ var inputStyles = {
 };
 var InputCustom = Object(styles_["withStyles"])(inputStyles)(Input_default.a);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/templates/cardLists/ProfileCardList.js
-var ProfileCardList = __webpack_require__(16);
+var ProfileCardList = __webpack_require__(17);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/containers/SponsoredResultsContainer.js
 
@@ -4049,7 +4318,7 @@ var ProviderLists_ProviderLists = function ProviderLists() {
 });
 
 /***/ }),
-/* 46 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4064,7 +4333,7 @@ var taggedTemplateLiteral_ = __webpack_require__(1);
 var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(13);
+var slicedToArray_ = __webpack_require__(14);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "styled-components"
@@ -4072,19 +4341,19 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Select"
-var Select_ = __webpack_require__(22);
+var Select_ = __webpack_require__(23);
 var Select_default = /*#__PURE__*/__webpack_require__.n(Select_);
 
 // EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__(23);
+var FormControl_ = __webpack_require__(24);
 var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
 
 // EXTERNAL MODULE: external "@material-ui/core/MenuItem"
-var MenuItem_ = __webpack_require__(24);
+var MenuItem_ = __webpack_require__(25);
 var MenuItem_default = /*#__PURE__*/__webpack_require__.n(MenuItem_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__(26);
+var Input_ = __webpack_require__(27);
 var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
 
 // EXTERNAL MODULE: external "@material-ui/core/styles"
@@ -4094,7 +4363,7 @@ var styles_ = __webpack_require__(9);
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(20);
+var Switch = __webpack_require__(21);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/components/Filter.js
 
@@ -4245,7 +4514,7 @@ var inputStyles = {
 };
 var InputCustom = Object(styles_["withStyles"])(inputStyles)(Input_default.a);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/templates/cardLists/ProfileCardList.js
-var ProfileCardList = __webpack_require__(16);
+var ProfileCardList = __webpack_require__(17);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/containers/SponsoredResultsContainer.js
 
@@ -4381,60 +4650,7 @@ var ClinicLists_ClinicLists = function ClinicLists() {
 });
 
 /***/ }),
-/* 47 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/HeadInfoContainer.js
-
-var HeadInfoContainer_HeadInfoContainer = function HeadInfoContainer() {
-  return external_react_default.a.createElement("div", null, "HeadInfoContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/OverviewContainer.js
-
-var OverviewContainer_OverviewContainer = function OverviewContainer() {
-  return external_react_default.a.createElement("div", null, "OverviewContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/MedicalTeamContainer.js
-
-var MedicalTeamContainer_MedicalTeamContainer = function MedicalTeamContainer() {
-  return external_react_default.a.createElement("div", null, "MedicalTeamContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/SpecialtiesContainer.js
-
-var SpecialtiesContainer_SpecialtiesContainer = function SpecialtiesContainer() {
-  return external_react_default.a.createElement("div", null, "SpecialtiesContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/containers/BranchesContainer.js
-
-var BranchesContainer_BranchesContainer = function BranchesContainer() {
-  return external_react_default.a.createElement("div", null, "BranchesContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/details/ClinicDetails.js
-
-
-
-
-
-
-var ClinicDetails_ClinicDetails = function ClinicDetails() {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(HeadInfoContainer_HeadInfoContainer, null), external_react_default.a.createElement("div", null, external_react_default.a.createElement(OverviewContainer_OverviewContainer, null), external_react_default.a.createElement(SpecialtiesContainer_SpecialtiesContainer, null), external_react_default.a.createElement(MedicalTeamContainer_MedicalTeamContainer, null), external_react_default.a.createElement(BranchesContainer_BranchesContainer, null)));
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/test/clinic-details.js
-
-
-/* harmony default export */ var clinic_details = __webpack_exports__["default"] = (function () {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h1", null, "Test"), external_react_default.a.createElement(ClinicDetails_ClinicDetails, null));
-});
-
-/***/ }),
-/* 48 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4485,48 +4701,7 @@ var Article_SocialBar = function SocialBar() {
 });
 
 /***/ }),
-/* 49 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/OverviewContainer.js
-
-var OverviewContainer_OverviewContainer = function OverviewContainer() {
-  return external_react_default.a.createElement("div", null, "OverviewContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/PatientReviewContainer.js
-
-var PatientReviewContainer_PatientReviewContainer = function PatientReviewContainer() {
-  return external_react_default.a.createElement("div", null, "PatientReviewContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/HeadInfoContainer.js
-
-var HeadInfoContainer_HeadInfoContainer = function HeadInfoContainer() {
-  return external_react_default.a.createElement("div", null, "HeadInfoContainer");
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/ProviderDetails.js
-
-
-
-
-var ProviderDetails_ProviderDetails = function ProviderDetails() {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(HeadInfoContainer_HeadInfoContainer, null), external_react_default.a.createElement(OverviewContainer_OverviewContainer, null), external_react_default.a.createElement(PatientReviewContainer_PatientReviewContainer, null));
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/test/provider-details.js
-
-
-/* harmony default export */ var provider_details = __webpack_exports__["default"] = (function () {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h1", null, "Test"), external_react_default.a.createElement(ProviderDetails_ProviderDetails, null));
-});
-
-/***/ }),
-/* 50 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4537,7 +4712,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(11);
+var external_react_static_ = __webpack_require__(13);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/articles/list/components/Filter.js
 
@@ -4587,7 +4762,7 @@ function Blog() {
 }
 
 /***/ }),
-/* 51 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4612,10 +4787,10 @@ var Router = __webpack_require__(6);
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(14);
+var useMediaQuery_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(19);
+var ButtonInList = __webpack_require__(20);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/articles/directory/components/InfoList.js
 
@@ -4824,7 +4999,7 @@ var Directory_Directory = function Directory(props) {
 });
 
 /***/ }),
-/* 52 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4846,13 +5021,13 @@ var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(exte
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(17);
+var router_ = __webpack_require__(18);
 
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(14);
+var useMediaQuery_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(19);
+var ButtonInList = __webpack_require__(20);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/containers/JobOpeningsContainer.js
 
@@ -4903,7 +5078,7 @@ var JobOpeningsContainer_JobPosition = function JobPosition(props) {
   });
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(18);
+var MainHeadings = __webpack_require__(19);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/Careers.js
 
@@ -5009,114 +5184,7 @@ var values = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent 
 });
 
 /***/ }),
-/* 53 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
-var taggedTemplateLiteral_ = __webpack_require__(1);
-var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
-
-// EXTERNAL MODULE: external "styled-components"
-var external_styled_components_ = __webpack_require__(2);
-var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
-
-// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
-var Styles = __webpack_require__(3);
-
-// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(18);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/contact/Contact.js
-
-
-function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  padding-top: 50px;\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n    grid-template-columns: repeat(1, 1fr);\n  "]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  margin: 0 0 200px 0;\n\n  ", "\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-var Contact_data = [{
-  city: 'Bangkok',
-  address1: 'Habitia Watcharapol',
-  address2: 'Klong Thanon',
-  country: 'Thailand'
-}, {
-  city: 'New York',
-  address1: '568 Broadway',
-  address2: '2nd Floor',
-  country: 'NY 10012'
-}];
-
-var Contact_Address = function Address(props) {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h4", null, props.city || ''), external_react_default.a.createElement("p", null, props.address1 || ''), external_react_default.a.createElement("p", null, props.address2 || ''), external_react_default.a.createElement("p", null, props.country ? "".concat(props.city, ", ").concat(props.country) : ''));
-};
-
-var ContactListContainer = external_styled_components_default.a.div(_templateObject(), Styles["b" /* MEDIA */].phone(_templateObject2()));
-var Container = external_styled_components_default.a.section(_templateObject3());
-var Contact_Contact = function Contact() {
-  var contactList = Contact_data.map(function (contact) {
-    return external_react_default.a.createElement(Contact_Address, {
-      city: contact.city,
-      address1: contact.address1,
-      address2: contact.address2,
-      country: contact.country
-    });
-  });
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(Container, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
-    title: "Contact Us",
-    subtitle: "Need Help? Visit our Knowledge Base."
-  })), external_react_default.a.createElement(Container, null, external_react_default.a.createElement("h2", null, "Our offices"), external_react_default.a.createElement(ContactListContainer, null, contactList)));
-};
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/contact.js
-
-
-/* harmony default export */ var pages_contact = __webpack_exports__["default"] = (function () {
-  return external_react_default.a.createElement("div", {
-    style: {
-      maxWidth: "1200px",
-      margin: '0 auto',
-      padding: '0 8%'
-    }
-  }, external_react_default.a.createElement(Contact_Contact, null));
-});
-
-/***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5135,19 +5203,19 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(14);
+var useMediaQuery_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(18);
+var MainHeadings = __webpack_require__(19);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/image/ThumbnailCircle.js
 var ThumbnailCircle = __webpack_require__(10);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLine.js
-var TagLine = __webpack_require__(12);
+var TagLine = __webpack_require__(11);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/story/Story.js
 
@@ -5301,7 +5369,114 @@ var secondParagraph = "Interdum et malesuada fames ac ante ipsum primis in fauci
 });
 
 /***/ }),
-/* 55 */
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
+var taggedTemplateLiteral_ = __webpack_require__(1);
+var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
+
+// EXTERNAL MODULE: external "styled-components"
+var external_styled_components_ = __webpack_require__(2);
+var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
+var Styles = __webpack_require__(3);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
+var MainHeadings = __webpack_require__(19);
+
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/contact/Contact.js
+
+
+function _templateObject3() {
+  var data = taggedTemplateLiteral_default()(["\n  padding-top: 50px;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = taggedTemplateLiteral_default()(["\n    grid-template-columns: repeat(1, 1fr);\n  "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  margin: 0 0 200px 0;\n\n  ", "\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+var Contact_data = [{
+  city: 'Bangkok',
+  address1: 'Habitia Watcharapol',
+  address2: 'Klong Thanon',
+  country: 'Thailand'
+}, {
+  city: 'New York',
+  address1: '568 Broadway',
+  address2: '2nd Floor',
+  country: 'NY 10012'
+}];
+
+var Contact_Address = function Address(props) {
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h4", null, props.city || ''), external_react_default.a.createElement("p", null, props.address1 || ''), external_react_default.a.createElement("p", null, props.address2 || ''), external_react_default.a.createElement("p", null, props.country ? "".concat(props.city, ", ").concat(props.country) : ''));
+};
+
+var ContactListContainer = external_styled_components_default.a.div(_templateObject(), Styles["b" /* MEDIA */].phone(_templateObject2()));
+var Container = external_styled_components_default.a.section(_templateObject3());
+var Contact_Contact = function Contact() {
+  var contactList = Contact_data.map(function (contact) {
+    return external_react_default.a.createElement(Contact_Address, {
+      city: contact.city,
+      address1: contact.address1,
+      address2: contact.address2,
+      country: contact.country
+    });
+  });
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(Container, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
+    title: "Contact Us",
+    subtitle: "Need Help? Visit our Knowledge Base."
+  })), external_react_default.a.createElement(Container, null, external_react_default.a.createElement("h2", null, "Our offices"), external_react_default.a.createElement(ContactListContainer, null, contactList)));
+};
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/contact.js
+
+
+/* harmony default export */ var pages_contact = __webpack_exports__["default"] = (function () {
+  return external_react_default.a.createElement("div", {
+    style: {
+      maxWidth: "1200px",
+      margin: '0 auto',
+      padding: '0 8%'
+    }
+  }, external_react_default.a.createElement(Contact_Contact, null));
+});
+
+/***/ }),
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5314,9 +5489,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(11);
+var _reactStatic = __webpack_require__(13);
 
-var _router = __webpack_require__(17);
+var _router = __webpack_require__(18);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -5427,114 +5602,126 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 56 */
+/* 59 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-sidebar");
 
 /***/ }),
-/* 57 */
+/* 60 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/KeyboardArrowRight");
 
 /***/ }),
-/* 58 */
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Switch");
 
 /***/ }),
-/* 59 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-star-ratings");
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Checkbox");
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/TextField");
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/lab/Breadcrumbs");
-
-/***/ }),
 /* 63 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/NavigateNext");
+module.exports = require("rc-tabs/lib/TabContent");
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/core/Collapse");
+module.exports = require("rc-tabs/lib/ScrollableInkTabBar");
 
 /***/ }),
 /* 65 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/Add");
+module.exports = require("@material-ui/core/Collapse");
 
 /***/ }),
 /* 66 */
 /***/ (function(module, exports) {
 
-module.exports = require("@material-ui/icons/Remove");
+module.exports = require("@material-ui/icons/Add");
 
 /***/ }),
 /* 67 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-__webpack_require__(68);
-__webpack_require__(69);
-module.exports = __webpack_require__(75);
-
+module.exports = require("@material-ui/icons/Remove");
 
 /***/ }),
 /* 68 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Checkbox");
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/TextField");
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/lab/Breadcrumbs");
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/NavigateNext");
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(73);
+__webpack_require__(74);
+module.exports = __webpack_require__(80);
+
+
+/***/ }),
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(34)["default"];
+var plugins = __webpack_require__(37)["default"];
 
-var _require = __webpack_require__(35),
+var _require = __webpack_require__(38),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts/react-static-browser-plugins.js", function () {
-    registerPlugins(__webpack_require__(34)["default"]);
+    registerPlugins(__webpack_require__(37)["default"]);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(30)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
 
 /***/ }),
-/* 69 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(35),
+var _require = __webpack_require__(38),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(36),
+var _require2 = __webpack_require__(39),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -5542,17 +5729,17 @@ registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts/react-static-templates.js", function () {
-    var _require3 = __webpack_require__(36),
+    var _require3 = __webpack_require__(39),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
 
     registerTemplates(templates, notFoundTemplate);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(30)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
 
 /***/ }),
-/* 70 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5579,7 +5766,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(32);
+var _utils = __webpack_require__(35);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -5763,14 +5950,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 71 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 25,
-	"./": 25,
-	"./index": 25,
-	"./index.js": 25
+	".": 26,
+	"./": 26,
+	"./index": 26,
+	"./index.js": 26
 };
 
 
@@ -5791,16 +5978,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 71;
+webpackContext.id = 76;
 
 /***/ }),
-/* 72 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(31);
+var _typeof = __webpack_require__(34);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -5828,7 +6015,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(37);
+var _propTypes = __webpack_require__(40);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -5903,13 +6090,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 73 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 74 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5920,7 +6107,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(38);
+var _hoistNonReactStatics = __webpack_require__(41);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -5976,15 +6163,15 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 75 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(76);
+var _interopRequireWildcard = __webpack_require__(81);
 
-var _interopRequireDefault = __webpack_require__(77);
+var _interopRequireDefault = __webpack_require__(82);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -5993,11 +6180,11 @@ exports["default"] = void 0;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(7));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(78));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(83));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(79);
+var _useStaticInfo = __webpack_require__(84);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -6018,7 +6205,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(80)["default"];
+var App = __webpack_require__(85)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -6031,40 +6218,40 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 76 */
+/* 81 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 77 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 78 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 79 */
+/* 84 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 80 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(33);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(36);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(29);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(32);
 
  // Your top level component
 
@@ -6089,10 +6276,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(81)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(86)(module)))
 
 /***/ }),
-/* 81 */
+/* 86 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -6122,105 +6309,24 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 82 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(83)(false);
+exports = module.exports = __webpack_require__(42)(false);
 // Module
 exports.push([module.i, "* {\n  scroll-behavior: smooth;\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none\n}\n\nimg {\n  max-width: 100%;\n}\n\n.content {\n  /* padding: 1rem; */\n  /* max-width: 1200px; */\n  margin: 0 auto;\n  /* padding: 0 5%; */\n}\n", ""]);
 
 
 
 /***/ }),
-/* 83 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return '@media ' + item[2] + '{' + content + '}';
-      } else {
-        return content;
-      }
-    }).join('');
-  }; // import a list of modules into the list
+exports = module.exports = __webpack_require__(42)(false);
+// Module
+exports.push([module.i, ".rc-tabs {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: relative;\n  overflow: hidden;\n}\n.rc-tabs-bar,\n.rc-tabs-nav-container {\n  font-size: 14px;\n  line-height: 1.5;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  overflow: hidden;\n  position: relative;\n  white-space: nowrap;\n  outline: none;\n  zoom: 1;\n  -webkit-transition: padding .45s;\n  -o-transition: padding .45s;\n  transition: padding .45s;\n}\n.rc-tabs-ink-bar {\n  z-index: 1;\n  position: absolute;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin-top: -3px;\n  background-color: #50c9c3;\n  -webkit-transform-origin: 0 0;\n      -ms-transform-origin: 0 0;\n          transform-origin: 0 0;\n  width: 0;\n  height: 0;\n}\n.rc-tabs-ink-bar-animated {\n  -webkit-transition: left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n}\n.rc-tabs-tab-prev,\n.rc-tabs-tab-next {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  z-index: 1;\n  line-height: 36px;\n  cursor: pointer;\n  border: none;\n  background-color: transparent;\n  position: absolute;\n}\n.rc-tabs-tab-prev-icon,\n.rc-tabs-tab-next-icon {\n  position: relative;\n  display: inline-block;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  line-height: inherit;\n  vertical-align: baseline;\n  text-align: center;\n  text-transform: none;\n  font-smoothing: antialiased;\n  text-stroke-width: 0;\n  font-family: sans-serif;\n}\n.rc-tabs-tab-prev-icon:before,\n.rc-tabs-tab-next-icon:before {\n  display: block;\n}\n.rc-tabs-tab-btn-disabled {\n  cursor: default;\n  color: #ccc;\n}\n.rc-tabs-nav-wrap {\n  overflow: hidden;\n}\n.rc-tabs-nav {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding-left: 0;\n  position: relative;\n  margin: 0;\n  float: left;\n  list-style: none;\n  display: inline-block;\n  -webkit-transform-origin: 0 0;\n      -ms-transform-origin: 0 0;\n          transform-origin: 0 0;\n}\n.rc-tabs-nav-animated {\n  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n}\n.rc-tabs-nav:before,\n.rc-tabs-nav:after {\n  display: table;\n  content: \" \";\n}\n.rc-tabs-nav:after {\n  clear: both;\n}\n.rc-tabs-tab {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: relative;\n  display: block;\n  -webkit-transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  padding: 8px 20px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.rc-tabs-tab:hover {\n  color: #212121;\n}\n.rc-tabs-tab-active,\n.rc-tabs-tab-active:hover {\n  color: #212121;\n  cursor: default;\n  -webkit-transform: translateZ(0);\n          transform: translateZ(0);\n}\n.rc-tabs-tab-disabled {\n  cursor: default;\n  color: #ccc;\n}\n.rc-tabs-tab-disabled:hover {\n  color: #ccc;\n}\n.rc-tabs-content {\n  zoom: 1;\n}\n.rc-tabs-content .rc-tabs-tabpane {\n  overflow: auto;\n}\n.rc-tabs-content-animated {\n  -webkit-transition: margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  display: -ms-flexbox;\n  display: flex;\n  will-change: transform;\n}\n.rc-tabs-content-animated .rc-tabs-tabpane {\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n}\n.no-flexbox .rc-tabs-content {\n  -webkit-transform: none !important;\n      -ms-transform: none !important;\n          transform: none !important;\n  overflow: auto;\n}\n.no-csstransitions .rc-tabs-tabpane-inactive,\n.no-flexbox .rc-tabs-tabpane-inactive,\n.rc-tabs-content-no-animated .rc-tabs-tabpane-inactive {\n  display: none;\n}\n.rc-tabs-left {\n  border-right: 2px solid #f3f3f3;\n}\n.rc-tabs-left .rc-tabs-bar {\n  float: left;\n  height: 100%;\n  margin-right: 10px;\n  border-right: 1px solid #f3f3f3;\n}\n.rc-tabs-left .rc-tabs-nav-container {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-container-scrolling {\n  padding-top: 32px;\n  padding-bottom: 32px;\n}\n.rc-tabs-left .rc-tabs-nav-wrap {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-content-animated {\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n.rc-tabs-left .rc-tabs-content-animated .rc-tabs-tabpane {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-scroll {\n  height: 99999px;\n}\n.rc-tabs-left .rc-tabs-nav-swipe {\n  position: relative;\n  top: 0;\n}\n.rc-tabs-left .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-left .rc-tabs-tab-prev,\n.rc-tabs-left .rc-tabs-tab-next {\n  margin-top: -2px;\n  height: 0;\n  line-height: 32px;\n  width: 0;\n  display: block;\n  text-align: center;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show,\n.rc-tabs-left .rc-tabs-tab-arrow-show,\n.rc-tabs-bottom .rc-tabs-tab-arrow-show,\n.rc-tabs-right .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 100%;\n  height: 32px;\n}\n.rc-tabs-left .rc-tabs-tab-next {\n  bottom: 0;\n}\n.rc-tabs-left .rc-tabs-tab-next-icon {\n  -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n          transform: rotate(90deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n}\n.rc-tabs-left .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-left .rc-tabs-tab-prev {\n  top: 2px;\n}\n.rc-tabs-left .rc-tabs-tab-prev-icon {\n  -webkit-transform: rotate(270deg);\n      -ms-transform: rotate(270deg);\n          transform: rotate(270deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n}\n.rc-tabs-left .rc-tabs-tab-prev-icon:before {\n  content: \">\";\n}\n.rc-tabs-left .rc-tabs-ink-bar {\n  width: 2px;\n  right: 0;\n  top: 0;\n}\n.rc-tabs-left .rc-tabs-tab {\n  padding: 16px 24px;\n}\n.rc-tabs-right {\n  border-left: 2px solid #f3f3f3;\n}\n.rc-tabs-right .rc-tabs-bar {\n  float: right;\n  height: 100%;\n  margin-left: 10px;\n  border-left: 1px solid #f3f3f3;\n}\n.rc-tabs-right .rc-tabs-nav-container {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-container-scrolling {\n  padding-top: 32px;\n  padding-bottom: 32px;\n}\n.rc-tabs-right .rc-tabs-nav-wrap {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-scroll {\n  height: 99999px;\n}\n.rc-tabs-right .rc-tabs-nav-swipe {\n  position: relative;\n}\n.rc-tabs-right .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-right .rc-tabs-tab-prev,\n.rc-tabs-right .rc-tabs-tab-next {\n  margin-top: -2px;\n  height: 0;\n  width: 0;\n  display: block;\n  text-align: center;\n  line-height: 32px;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 100%;\n  height: 32px;\n}\n.rc-tabs-right .rc-tabs-tab-next {\n  bottom: 0;\n}\n.rc-tabs-right .rc-tabs-tab-next-icon {\n  -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n          transform: rotate(90deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n}\n.rc-tabs-right .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-right .rc-tabs-tab-prev {\n  top: 2px;\n}\n.rc-tabs-right .rc-tabs-tab-prev-icon {\n  -webkit-transform: rotate(270deg);\n      -ms-transform: rotate(270deg);\n          transform: rotate(270deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n}\n.rc-tabs-right .rc-tabs-tab-prev-icon:before {\n  content: \">\";\n}\n.rc-tabs-right .rc-tabs-content-animated {\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n.rc-tabs-right .rc-tabs-content-animated .rc-tabs-tabpane {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-ink-bar {\n  width: 2px;\n  left: 0;\n  top: 0;\n}\n.rc-tabs-right .rc-tabs-tab {\n  padding: 16px 24px;\n}\n.rc-tabs-bottom {\n  border-top: 2px solid #f3f3f3;\n}\n.rc-tabs-bottom .rc-tabs-content {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-bar {\n  border-top: 1px solid #f3f3f3;\n}\n.rc-tabs-bottom .rc-tabs-nav-container-scrolling {\n  padding-left: 32px;\n  padding-right: 32px;\n}\n.rc-tabs-bottom .rc-tabs-nav-scroll {\n  width: 99999px;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe {\n  position: relative;\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  margin-right: 0;\n  padding: 8px 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-bottom .rc-tabs-nav-wrap {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-content-animated {\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n.rc-tabs-bottom .rc-tabs-content-animated .rc-tabs-tabpane {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-tab-next {\n  right: 2px;\n}\n.rc-tabs-bottom .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-bottom .rc-tabs-tab-prev {\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-tab-prev-icon:before {\n  content: \"<\";\n}\n.rc-tabs-bottom .rc-tabs-tab-prev,\n.rc-tabs-bottom .rc-tabs-tab-next {\n  margin-right: -2px;\n  width: 32px;\n  height: 100%;\n  top: 0;\n  text-align: center;\n}\n.rc-tabs-bottom .rc-tabs-ink-bar {\n  height: 2px;\n  top: 3px;\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-tab {\n  float: left;\n  height: 100%;\n  margin-right: 30px;\n}\n.rc-tabs-bottom .rc-tabs-tabpane-inactive {\n  height: 0;\n  overflow: visible;\n}\n.rc-tabs-top {\n  border-bottom: 2px solid #f3f3f3;\n}\n.rc-tabs-top .rc-tabs-content {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-bar {\n  border-bottom: 1px solid #f3f3f3;\n}\n.rc-tabs-top .rc-tabs-nav-container-scrolling {\n  padding-left: 32px;\n  padding-right: 32px;\n}\n.rc-tabs-top .rc-tabs-nav-scroll {\n  width: 99999px;\n}\n.rc-tabs-top .rc-tabs-nav-swipe {\n  position: relative;\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  margin-right: 0;\n  padding: 8px 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-top .rc-tabs-nav-wrap {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-content-animated {\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n.rc-tabs-top .rc-tabs-content-animated .rc-tabs-tabpane {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-tab-next {\n  right: 2px;\n}\n.rc-tabs-top .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-top .rc-tabs-tab-prev {\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-tab-prev-icon:before {\n  content: \"<\";\n}\n.rc-tabs-top .rc-tabs-tab-prev,\n.rc-tabs-top .rc-tabs-tab-next {\n  margin-right: -2px;\n  width: 0;\n  height: 0;\n  top: 0;\n  text-align: center;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 32px;\n  height: 100%;\n}\n.rc-tabs-top .rc-tabs-ink-bar {\n  height: 2px;\n  bottom: 0;\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-tab {\n  float: left;\n  height: 100%;\n  margin-right: 30px;\n}\n.rc-tabs-top .rc-tabs-tabpane-inactive {\n  height: 0;\n  overflow: visible;\n}\n", ""]);
 
 
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (i = 0; i < modules.length; i++) {
-      var item = modules[i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || '';
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-  return '/*# ' + data + ' */';
-}
 
 /***/ })
 /******/ ]);

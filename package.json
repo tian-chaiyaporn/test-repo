@@ -1,12 +1,13 @@
 {
   "name": "react-static-example-basic",
   "private": true,
+  "homepage": "https://mhulven.github.io/wellglo",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "rm -rf ./docs && react-static build && mv ./dist ./docs",
     "analyze": "react-static build --analyze",
-    "serve": "serve dist -p 3000"
+    "serve": "serve docs -p 3000"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.3",
@@ -17,6 +18,7 @@
     "axios": "^0.18.0",
     "formik": "1.5.2",
     "normalizr": "3.3.0",
+    "rc-tabs": "^9.6.3",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-hamburger-menu": "^1.1.1",

@@ -38,29 +38,26 @@ const t_6 = universal(import('../src/pages/contact.js'), universalOptions)
 const t_7 = universal(import('../src/pages/directory.js'), universalOptions)
       t_7.template = '../src/pages/directory.js'
       
-const t_8 = universal(import('../src/pages/help.js'), universalOptions)
-      t_8.template = '../src/pages/help.js'
+const t_8 = universal(import('../src/pages/index.js'), universalOptions)
+      t_8.template = '../src/pages/index.js'
       
-const t_9 = universal(import('../src/pages/index.js'), universalOptions)
-      t_9.template = '../src/pages/index.js'
+const t_9 = universal(import('../src/pages/providers.js'), universalOptions)
+      t_9.template = '../src/pages/providers.js'
       
-const t_10 = universal(import('../src/pages/providers.js'), universalOptions)
-      t_10.template = '../src/pages/providers.js'
+const t_10 = universal(import('../src/pages/providers/details.js'), universalOptions)
+      t_10.template = '../src/pages/providers/details.js'
       
-const t_11 = universal(import('../src/pages/search.js'), universalOptions)
-      t_11.template = '../src/pages/search.js'
+const t_11 = universal(import('../src/pages/test/article.js'), universalOptions)
+      t_11.template = '../src/pages/test/article.js'
       
-const t_12 = universal(import('../src/pages/test/article.js'), universalOptions)
-      t_12.template = '../src/pages/test/article.js'
+const t_12 = universal(import('../src/pages/test/clinic-details.js'), universalOptions)
+      t_12.template = '../src/pages/test/clinic-details.js'
       
-const t_13 = universal(import('../src/pages/test/clinic-details.js'), universalOptions)
-      t_13.template = '../src/pages/test/clinic-details.js'
+const t_13 = universal(import('../src/pages/test/provider-details.js'), universalOptions)
+      t_13.template = '../src/pages/test/provider-details.js'
       
-const t_14 = universal(import('../src/pages/test/provider-details.js'), universalOptions)
-      t_14.template = '../src/pages/test/provider-details.js'
-      
-const t_15 = universal(import('../src/pages/test/test-component.js'), universalOptions)
-      t_15.template = '../src/pages/test/test-component.js'
+const t_14 = universal(import('../src/pages/test/test-component.js'), universalOptions)
+      t_14.template = '../src/pages/test/test-component.js'
       
 
 // Template Map
@@ -73,14 +70,13 @@ export default {
 '../src/pages/clinics.js': t_5,
 '../src/pages/contact.js': t_6,
 '../src/pages/directory.js': t_7,
-'../src/pages/help.js': t_8,
-'../src/pages/index.js': t_9,
-'../src/pages/providers.js': t_10,
-'../src/pages/search.js': t_11,
-'../src/pages/test/article.js': t_12,
-'../src/pages/test/clinic-details.js': t_13,
-'../src/pages/test/provider-details.js': t_14,
-'../src/pages/test/test-component.js': t_15
+'../src/pages/index.js': t_8,
+'../src/pages/providers.js': t_9,
+'../src/pages/providers/details.js': t_10,
+'../src/pages/test/article.js': t_11,
+'../src/pages/test/clinic-details.js': t_12,
+'../src/pages/test/provider-details.js': t_13,
+'../src/pages/test/test-component.js': t_14
 }
 // Not Found Template
 export const notFoundTemplate = "../src/pages/404.js"
