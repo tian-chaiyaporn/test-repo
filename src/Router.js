@@ -1,7 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, Router } from '@reach/router'
+import { Link, Router as R } from '@reach/router'
 import { Colors } from './constants/Styles'
+
+const Router = (props) => (
+  <R type='hash' {...props}>
+    {props.children}
+  </R>
+)
 
 export { Link, Router }
 
