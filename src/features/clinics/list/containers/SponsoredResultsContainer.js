@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import styled from 'styled-components'
 import { ProfileListContainer } from '../../../../componentLibrary/templates/cardLists/ProfileCardList'
 
 const data = [
@@ -24,6 +25,8 @@ const data = [
   },
 ]
 
+const Title = styled.h3`margin: 10px 0;`
+
 export const SponsoredResultsContainer = (props) => {
   const {
     searchResult = data
@@ -31,7 +34,7 @@ export const SponsoredResultsContainer = (props) => {
 
   return ( 
     <Fragment>
-      <h2>{`Sponsored results`}</h2>
+      <Title>{`Sponsored results`}</Title>
       <ProfileListContainer data={searchResult} withAd />
     </Fragment>
   )

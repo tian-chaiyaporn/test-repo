@@ -8,6 +8,7 @@ import { ThumbnailCircle } from '../../atoms/image/ThumbnailCircle'
 import { StarWithRating } from '../../atoms/stars/Star'
 
 const StyledTitle = styled.address`
+  font-family: 'AkagiProMedium';
   font-style: normal;
   margin: 0 auto;
   font-size: 16px;
@@ -15,6 +16,7 @@ const StyledTitle = styled.address`
 `
 
 const StyledContent = styled.address`
+  font-family: 'AkagiProLight';
   font-style: normal;
   margin: 0 auto;
   letter-spacing: -0.1px;
@@ -50,9 +52,9 @@ const StyledCard = styled(Card)`
 `
 
 const AdBox = styled.p`
-  padding: 5px 7px;
+  padding: 2px 7px 0 7px;
   border: 1px solid ${Colors.LIGHT_TEAL};
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 0.7em;
   margin: -10px 0 0 0;
   color: ${Colors.AQUA_MARINE};

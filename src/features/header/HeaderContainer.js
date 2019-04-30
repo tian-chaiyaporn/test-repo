@@ -12,7 +12,7 @@ const MenuStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 0;
+  margin: 30px 0 20px 0;
   padding: 0 30px;
 `
 

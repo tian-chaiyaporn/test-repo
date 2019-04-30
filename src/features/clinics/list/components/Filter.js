@@ -71,9 +71,9 @@ export const Filter = (props) => {
   )
 }
 
-const InputComponent = styled.p`
-  margin: 10px 0;
-  font-size: 28px;
+const InputComponent = styled.h3`
+  margin: 0;
+  padding-bottom: 0;
 `
 
 const FilterComponent = styled.p`
@@ -82,8 +82,8 @@ const FilterComponent = styled.p`
   text-align: center;
 `
 
-const City = styled.h2`
-  margin: 0 0 30px 0;
+const City = styled.h3`
+  margin: 0 0 10px 0;
   font-weight: 100;
   color: ${Colors.BROWNISH_GREY};
 `

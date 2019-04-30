@@ -147,16 +147,6 @@
   font-style: normal;
 }
 
-body {
-  font-family: 'AkagiProBook', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  color: rgb(33, 33, 33);
-}
-
 /* Headings */
 h1 {
   font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;
@@ -201,6 +191,16 @@ h5 {
   line-height: 28px;
   letter-spacing: -0.65px;
   color: rgb(33, 33, 33)
+}
+
+body {
+  font-family: 'AkagiProBook', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: rgb(33, 33, 33);
 }
 
 a {

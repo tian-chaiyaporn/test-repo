@@ -1,4 +1,14 @@
 import React, { Fragment }  from 'react'
+import styled from 'styled-components'
+import { SmallParagraph } from '../../../../constants/BodyText'
+
+const Title = styled.h4`margin: 20px 0`
+
+const Description = styled(SmallParagraph)`
+  font-family: 'AkagiProLight';
+  margin: 0;
+  padding: 0;
+`
 
 export const Explanation = (props) => {
   const {
@@ -8,8 +18,8 @@ export const Explanation = (props) => {
 
   return ( 
     <Fragment>
-      <h3>{title}</h3>
-      <p>{description}</p> 
+      <Title>{title}</Title>
+      <Description>{description}</Description> 
     </Fragment>      
   )
 }

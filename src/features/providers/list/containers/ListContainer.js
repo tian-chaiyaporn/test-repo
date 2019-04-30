@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import styled from 'styled-components'
 import { ProfileListContainer } from '../../../../componentLibrary/templates/cardLists/ProfileCardList'
 
 const data = [
@@ -54,6 +55,8 @@ const data = [
   }
 ]
 
+const Title = styled.h3`margin: 10px 0;`
+
 export const ListContainer = (props) => {
   const {
     searchTerm = 'Dermatologist',
@@ -63,7 +66,7 @@ export const ListContainer = (props) => {
 
   return ( 
     <Fragment>
-      <h2>{`${searchTerm} (${searchResultCount})`}</h2>
+      <Title>{`${searchTerm} (${searchResultCount})`}</Title>
       <ProfileListContainer data={searchResult} />
     </Fragment>
   )
