@@ -1,27 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from '../../../Router.js'
+import { SmallParagraph } from '../../../constants/BodyText'
 
-const StyledSection = styled.section`
-  color: white;
-`
-
-const StyledTitle = styled.h4`
-  color: white;
-  font-size: 16px;
-`
-
+const StyledSection = styled.section`color: white;`
 const StyledList = styled.ul`padding: 0`
+const StyledLink = styled(Link)`color: white;`
 
 const StyledListElement = styled.li`
   list-style: none;
   margin: 8px 0;
 `
 
-const StyledLink = styled(Link)`
+const StyledTitle = styled(SmallParagraph)`
   color: white;
-  font-size: 16px;
-  font-style: normal;
+  font-family: 'AkagiProSemiBold';
 `
 
 export const FooterSection = (props) => {

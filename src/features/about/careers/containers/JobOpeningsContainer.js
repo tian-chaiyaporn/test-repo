@@ -3,32 +3,19 @@ import { Link } from '@reach/router'
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
 import styled from 'styled-components'
 import { Colors, WINDOW_SIZES } from '../../../../constants/Styles'
+import { LargeSpan } from '../../../../constants/BodyText'
 import { ButtonInList } from '../../../../componentLibrary/atoms/button/ButtonInList'
-
-export const JobOpeningsContainer = () => {
-  return (
-    <Fragment>
-      <h2>Job openings</h2>
-      <Fragment>
-        <JobPosition />
-        <JobPosition />
-        <JobPosition />
-      </Fragment>
-    </Fragment>
-  )
-}
 
 const JobContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  max-width: 600px;
+  max-width: 800px;
   padding-top: 10px;
 `
-
-const StyledLink = styled(Link)`
-  color: ${Colors.BLACK};
-`
+const StyledLink = styled(Link)`color: ${Colors.BLACK};`
+const JobName = styled(LargeSpan)`font-family: 'AkagiProExtraLight';`
+const LocationStyle = styled(LargeSpan)`font-family: 'AkagiProBook';`
 
 const JobPosition = (props) => {
   const {
@@ -41,9 +28,22 @@ const JobPosition = (props) => {
   return (
     matches
       ? <JobContainer>
-          <StyledLink to={`/careers/${job}`}>{job}</StyledLink>
-          <span><b>{location}</b></span>
+          <StyledLink to={`/careers/${job}`}><JobName>{job}</JobName></StyledLink>
+          <LocationStyle><b>{location}</b></LocationStyle>
         </JobContainer>
       : <ButtonInList title="job" link={`/careers/${job}`}  />
+  )
+}
+
+export const JobOpeningsContainer = () => {
+  return (
+    <Fragment>
+      <h3>Job openings</h3>
+      <Fragment>
+        <JobPosition />
+        <JobPosition />
+        <JobPosition />
+      </Fragment>
+    </Fragment>
   )
 }

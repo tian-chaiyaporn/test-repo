@@ -1,13 +1,4 @@
-import { css } from 'styled-components'
-
-export const FONT = {
-  SIZE: {
-    REGULAR: '1em',
-    SMALL: '0,8em',
-    MEDIUM: '1.2em',
-    LARGE: '2em'
-  }
-}
+import styled, { css } from 'styled-components'
 
 export const Colors = {
   BLACK: '#212121',

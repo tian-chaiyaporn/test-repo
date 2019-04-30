@@ -1,24 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Colors } from '../../../constants/Styles'
 
-const HeadingThick = styled.h1`
-  font-size: 56px;
+const HeadingThick = styled.h2`
+  font-family: 'TisaLight';
   font-weight: 300;
-  line-height: 1.18;
-  letter-spacing: -2px;
   margin: 0;
 `
 
-const HeadingThin = styled.h1`
-  font-size: 56px;
+const HeadingThin = styled.h2`
   font-weight: 100;
-  line-height: 1.18;
-  letter-spacing: -2px;
   margin: 0;
+  color: ${Colors.BROWNISH_GREY};
 `
 
 export const MainHeadings = (props) => (
-  <div>
+  <div {...props}>
     <HeadingThick>{props.title}</HeadingThick>
     <HeadingThin>{props.subtitle}</HeadingThin>
   </div>

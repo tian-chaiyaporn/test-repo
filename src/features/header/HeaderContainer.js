@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import styled from 'styled-components'
 import { Link } from '../../Router.js'
 import { Colors, MEDIA, WINDOW_SIZES } from '../../constants/Styles'
+import { SmallSpan } from '../../constants/BodyText'
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
 import Sidebar from "react-sidebar";
 
@@ -21,10 +22,7 @@ const StyledImage = styled.img`
 `
 
 const StyledLink = styled(Link)`
-  color: ${Colors.BLACK};
-  font-size: 16px;
   margin-left: 30px;
-
   ${MEDIA.phone`margin-left: 0px;`}
 `
 
@@ -82,11 +80,11 @@ const FullMenu = () => (
       <StyledImage height={30} src="/assets/logo.svg" />
     </Link>
     <div>
-      <StyledLink to="/providers">Find a doctor</StyledLink>
-      <StyledLink to="/clinics">Find a hospital/Clinic</StyledLink>
-      <StyledLink to="/directory">Health A-Z</StyledLink>
-      <StyledLink to="/articles">The Pulse</StyledLink>
-      <StyledLink to="/">Sign In/Join</StyledLink>
+      <StyledLink to="/providers"><SmallSpan>Find a doctor</SmallSpan></StyledLink>
+      <StyledLink to="/clinics"><SmallSpan>Find a hospital/Clinic</SmallSpan></StyledLink>
+      <StyledLink to="/directory"><SmallSpan>Health A-Z</SmallSpan></StyledLink>
+      <StyledLink to="/articles"><SmallSpan>The Pulse</SmallSpan></StyledLink>
+      <StyledLink to="/"><SmallSpan>Sign In/Join</SmallSpan></StyledLink>
     </div>
   </MenuStyled>
 )
@@ -102,19 +100,19 @@ const SideMenu = (props) => (
       </CloseButton>
     </TopBar>
     <StyledList>
-      <ListItem><StyledLink onClick={props.onClose} to="/">Home</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/providers">Find a doctor</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/clinics">Find a hospital/Clinic</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/directory">Health A-Z</StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/"><SmallSpan>Home</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/providers"><SmallSpan>Find a doctor</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/clinics"><SmallSpan>Find a hospital/Clinic</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/directory"><SmallSpan>Health A-Z</SmallSpan></StyledLink></ListItem>
     </StyledList>
     <StyledList>
-      <ListItem><StyledLink onClick={props.onClose} to="/about">About</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/careers">Careers</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/help">Help</StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/about"><SmallSpan>About</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/careers"><SmallSpan>Careers</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/help"><SmallSpan>Help</SmallSpan></StyledLink></ListItem>
     </StyledList>
     <StyledList>
-      <ListItem><StyledLink onClick={props.onClose} to="/">Log In</StyledLink></ListItem>
-      <ListItem><StyledLink onClick={props.onClose} to="/">Sign Up</StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/"><SmallSpan>Log In</SmallSpan></StyledLink></ListItem>
+      <ListItem><StyledLink onClick={props.onClose} to="/"><SmallSpan>Sign Up</SmallSpan></StyledLink></ListItem>
     </StyledList>
   </SideMenuStyled>
 )

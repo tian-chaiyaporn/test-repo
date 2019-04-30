@@ -3,16 +3,21 @@ import styled from 'styled-components'
 import { InfoList } from './components/InfoList'
 import { DATA } from './data'
 import { MEDIA } from '../../../constants/Styles'
+import { MainHeadings } from '../../../componentLibrary/atoms/headings/MainHeadings'
 
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  ${'' /* grid-row-gap: 20px; */}
+  margin-top: 30px;
 
   ${MEDIA.phone`
     display: block;
   `}
+`
+
+const Container = styled.div`
+  margin: 100px 0;
 `
 
 export const Directory = (props) => {
@@ -26,12 +31,15 @@ export const Directory = (props) => {
   )
 
   return (
-    <div>
-      <h1>Health A-Z</h1>
-      <h1>Educational information for your next doctor appointment.</h1>
+    <Container>
+      <MainHeadings
+        style={{ maxWidth: '650px' }}
+        title='Health A-Z'
+        subtitle='Educational information for your next doctor appointment.'
+      />
       <GridContainer>
         {lists}
       </GridContainer>
-    </div>
+    </Container>
   )
 }

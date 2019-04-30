@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { MEDIA } from '../../../constants/Styles'
+import { LargeParagraph } from '../../../constants/BodyText'
 import { MainHeadings } from '../../../componentLibrary/atoms/headings/MainHeadings'
 
 const data = [
@@ -8,12 +9,23 @@ const data = [
   { city: 'New York', address1: '568 Broadway', address2: '2nd Floor', country: 'NY 10012' }
 ]
 
+const City = styled(LargeParagraph)`
+  fontFamily: 'AkagiProBook';
+  margin: 0;
+  padding: 5px 0;
+`
+
+const AddressLine = styled(LargeParagraph)`
+  margin: 0;
+  padding: 5px 0;
+`
+
 const Address = (props) => (
   <div>
-    <h4>{props.city || ''}</h4>
-    <p>{props.address1 || ''}</p>
-    <p>{props.address2 || ''}</p>
-    <p>{props.country ? `${props.city}, ${props.country}` : ''}</p>
+    <City style={{ fontFamily: 'AkagiProBook' }}>{props.city || ''}</City>
+    <AddressLine>{props.address1 || ''}</AddressLine>
+    <AddressLine>{props.address2 || ''}</AddressLine>
+    <AddressLine>{props.country ? `${props.city}, ${props.country}` : ''}</AddressLine>
   </div>
 )
 
@@ -22,14 +34,13 @@ const ContactListContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   margin: 0 0 200px 0;
+  font-family: 'AkagiProLight';
 
-  ${MEDIA.phone`
-    grid-template-columns: repeat(1, 1fr);
-  `}
+  ${MEDIA.phone`grid-template-columns: repeat(1, 1fr);`}
 `
 
 const Container = styled.section`
-  padding-top: 50px;
+  padding-top: 40px;
 `
 
 export const Contact = () => {
@@ -51,7 +62,7 @@ export const Contact = () => {
         />
       </Container>
       <Container>
-        <h2>Our offices</h2>
+        <h3>Our offices</h3>
         <ContactListContainer>
           {contactList}
         </ContactListContainer>
