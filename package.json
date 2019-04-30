@@ -6,7 +6,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
-    "serve": "serve docs -p 3000"
+    "serve": "serve dist -p 3000"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.3",
