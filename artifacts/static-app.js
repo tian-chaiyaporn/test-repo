@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 72);
+/******/ 	return __webpack_require__(__webpack_require__.s = 73);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -136,7 +136,6 @@ module.exports = require("styled-components");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export FONT */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Colors; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return WINDOW_SIZES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MEDIA; });
@@ -157,14 +156,6 @@ function _templateObject() {
 }
 
 
-var FONT = {
-  SIZE: {
-    REGULAR: '1em',
-    SMALL: '0,8em',
-    MEDIUM: '1.2em',
-    LARGE: '2em'
-  }
-};
 var Colors = {
   BLACK: '#212121',
   AQUA_MARINE: '#50c9c3',
@@ -198,24 +189,159 @@ var MEDIA = Object.keys(WINDOW_SIZES).reduce(function (acc, label) {
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = require("path");
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LargeParagraph; });
+/* unused harmony export RegularParagraph */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return SmallParagraph; });
+/* unused harmony export SmallerParagraph */
+/* unused harmony export MicroParagraph */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return LargeSpan; });
+/* unused harmony export RegularSpan */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return SmallSpan; });
+/* unused harmony export SmallerSpan */
+/* unused harmony export MicroSpan */
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _templateObject10() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 12px;\n  line-height: 14px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject10 = function _templateObject10() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject9() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 14px;\n  line-height: 18px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject9 = function _templateObject9() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject8() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 16px;\n  line-height: 22px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject8 = function _templateObject8() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject7() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 18px;\n  line-height: 24px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 20px;\n  line-height: 30px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 12px;\n  line-height: 14px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 14px;\n  line-height: 18px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 16px;\n  line-height: 22px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 18px;\n  line-height: 24px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 20px;\n  line-height: 30px;\n  color: rgb(33, 33, 33);\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+ // Paragraph
+
+var LargeParagraph = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p(_templateObject());
+var RegularParagraph = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p(_templateObject2());
+var SmallParagraph = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p(_templateObject3());
+var SmallerParagraph = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p(_templateObject4());
+var MicroParagraph = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.p(_templateObject5()); // Span
+
+var LargeSpan = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.span(_templateObject6());
+var RegularSpan = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.span(_templateObject7());
+var SmallSpan = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.span(_templateObject8());
+var SmallerSpan = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.span(_templateObject9());
+var MicroSpan = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.span(_templateObject10());
 
 /***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("babel-plugin-universal-import/universalImport");
+module.exports = require("path");
 
 /***/ }),
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/extends");
+module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
 /* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/extends");
+
+/***/ }),
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,13 +350,13 @@ module.exports = require("@babel/runtime/helpers/extends");
 /* unused harmony export StyledLink */
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(18);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(20);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "b", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_4__["Link"]; });
 
@@ -270,13 +396,13 @@ var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_3___default()(_reach
 });
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(34);
+var _typeof = __webpack_require__(35);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -315,7 +441,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(75);
+var _requireUniversalModule = __webpack_require__(76);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -330,7 +456,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(77);
+var _reportChunks = __webpack_require__(78);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -344,21 +470,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(40);
+var _propTypes = __webpack_require__(41);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(41);
+var _hoistNonReactStatics = __webpack_require__(42);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(78);
+var _vm = __webpack_require__(79);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(35);
+var _utils = __webpack_require__(36);
 
-var _helpers = __webpack_require__(79);
+var _helpers = __webpack_require__(80);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -753,21 +879,21 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(34)(module)))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/styles");
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThumbnailCircle; });
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
@@ -828,12 +954,12 @@ var ThumbnailCircle = function ThumbnailCircle(props) {
 };
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TagLine; });
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
@@ -842,8 +968,8 @@ var ThumbnailCircle = function ThumbnailCircle(props) {
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
-/* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
-/* harmony import */ var _TagLineText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(16);
+/* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(11);
+/* harmony import */ var _TagLineText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(18);
 
 
 
@@ -898,12 +1024,12 @@ var TagLine = function TagLine(props) {
 };
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Collapse; });
-/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
@@ -911,11 +1037,11 @@ var TagLine = function TagLine(props) {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(65);
+/* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(66);
 /* harmony import */ var _material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Collapse__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(66);
+/* harmony import */ var _material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(67);
 /* harmony import */ var _material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Add__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(67);
+/* harmony import */ var _material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(68);
 /* harmony import */ var _material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Remove__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3);
 
@@ -995,29 +1121,29 @@ var Collapse = function Collapse(props) {
 };
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/useMediaQuery");
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TagLineText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainHeadings; });
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
@@ -1028,7 +1154,7 @@ module.exports = require("@material-ui/core/useMediaQuery");
 
 
 function _templateObject2() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-weight: 100;\n  margin: 0;\n  color: ", ";\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -1038,7 +1164,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n  color: ", ";\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-family: 'TisaLight';\n  font-weight: 300;\n  margin: 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1050,12 +1176,58 @@ function _templateObject() {
 
 
 
-var StyledContent = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.p(_templateObject(), function (props) {
+var HeadingThick = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h2(_templateObject());
+var HeadingThin = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h2(_templateObject2(), _constants_Styles__WEBPACK_IMPORTED_MODULE_3__[/* Colors */ "a"].BROWNISH_GREY);
+var MainHeadings = function MainHeadings(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", props, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HeadingThick, null, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HeadingThin, null, props.subtitle));
+};
+
+/***/ }),
+/* 18 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TagLineText; });
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
+/* harmony import */ var _constants_BodyText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
+
+
+function _templateObject2() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-family: 'AkagiProMedium';\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-family: 'AkagiProLight';\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n  color: ", ";\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+var StyledContent = styled_components__WEBPACK_IMPORTED_MODULE_2___default()(_constants_BodyText__WEBPACK_IMPORTED_MODULE_4__[/* SmallParagraph */ "c"])(_templateObject(), function (props) {
   return props.color || 'darkgray';
 });
-var StyledTitle = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.p(_templateObject2());
+var StyledTitle = styled_components__WEBPACK_IMPORTED_MODULE_2___default()(_constants_BodyText__WEBPACK_IMPORTED_MODULE_4__[/* SmallParagraph */ "c"])(_templateObject2());
 var TagLineText = function TagLineText(props) {
-  var titleElement = props.title ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledTitle, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, props.title)) : null;
+  var titleElement = props.title ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledTitle, null, props.title) : null;
   var contentElement = props.content ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledContent, {
     color: _constants_Styles__WEBPACK_IMPORTED_MODULE_3__[/* Colors */ "a"].BROWNISH_GREY
   }, props.content) : null;
@@ -1063,7 +1235,7 @@ var TagLineText = function TagLineText(props) {
 };
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1074,7 +1246,7 @@ var TagLineText = function TagLineText(props) {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _organisms_cards_ProfileInfoCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(28);
+/* harmony import */ var _organisms_cards_ProfileInfoCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(29);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
 
 
@@ -1129,55 +1301,13 @@ var ProfileListContainer = function ProfileListContainer(props) {
 };
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
 
 /***/ }),
-/* 19 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainHeadings; });
-/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-
-
-function _templateObject2() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 56px;\n  font-weight: 100;\n  line-height: 1.18;\n  letter-spacing: -2px;\n  margin: 0;\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-size: 56px;\n  font-weight: 300;\n  line-height: 1.18;\n  letter-spacing: -2px;\n  margin: 0;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-var HeadingThick = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1(_templateObject());
-var HeadingThin = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1(_templateObject2());
-var MainHeadings = function MainHeadings(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HeadingThick, null, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HeadingThin, null, props.subtitle));
-};
-
-/***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1188,8 +1318,8 @@ var MainHeadings = function MainHeadings(props) {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
-/* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(60);
+/* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(61);
 /* harmony import */ var _material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3);
 
@@ -1337,16 +1467,16 @@ var ButtonInList = function ButtonInList(props) {
 };
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Switch; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(61);
+/* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(62);
 /* harmony import */ var _material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Switch__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
 
@@ -1437,13 +1567,13 @@ var Customized = function Customized(props) {
 var Switch = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])(styles)(Customized);
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Star; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StarWithRating; });
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
@@ -1451,7 +1581,7 @@ var Switch = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withS
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62);
+/* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(63);
 /* harmony import */ var react_star_ratings__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_star_ratings__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3);
 
@@ -1503,25 +1633,25 @@ var StarWithRating = function StarWithRating(props) {
 };
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Select");
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/FormControl");
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/MenuItem");
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1531,11 +1661,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(35);
+var _utils = __webpack_require__(36);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(76)("" + id);
+    return __webpack_require__(77)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1544,13 +1674,13 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Input");
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1563,14 +1693,14 @@ module.exports = require("@material-ui/core/Input");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _constants_Styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
-/* harmony import */ var _atoms_card_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29);
-/* harmony import */ var _molecules_tagline_TagLineText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(16);
-/* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(10);
-/* harmony import */ var _atoms_stars_Star__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(22);
+/* harmony import */ var _atoms_card_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(30);
+/* harmony import */ var _molecules_tagline_TagLineText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(18);
+/* harmony import */ var _atoms_image_ThumbnailCircle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
+/* harmony import */ var _atoms_stars_Star__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(23);
 
 
 function _templateObject6() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  padding: 5px 7px;\n  border: 1px solid ", ";\n  border-radius: 5px;\n  font-size: 0.7em;\n  margin: -10px 0 0 0;\n  color: ", ";\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  padding: 2px 7px 0 7px;\n  border: 1px solid ", ";\n  border-radius: 3px;\n  font-size: 0.7em;\n  margin: -10px 0 0 0;\n  color: ", ";\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -1610,7 +1740,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-style: normal;\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n  font-size: 15px;\n  color: ", ";\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-family: 'AkagiProLight';\n  font-style: normal;\n  margin: 0 auto;\n  letter-spacing: -0.1px;\n  font-size: 15px;\n  color: ", ";\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -1620,7 +1750,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-style: normal;\n  margin: 0 auto;\n  font-size: 16px;\n  letter-spacing: -0.1px;\n"]);
+  var data = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  font-family: 'AkagiProMedium';\n  font-style: normal;\n  margin: 0 auto;\n  font-size: 16px;\n  letter-spacing: -0.1px;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1695,12 +1825,12 @@ var ProfileInfoCard = function ProfileInfoCard(props) {
 };
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Card; });
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__);
@@ -1745,35 +1875,35 @@ var Card = function Card(props) {
 };
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/styles.css
-var styles = __webpack_require__(88);
+var styles = __webpack_require__(89);
 
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "rc-tabs"
-var external_rc_tabs_ = __webpack_require__(31);
+var external_rc_tabs_ = __webpack_require__(32);
 var external_rc_tabs_default = /*#__PURE__*/__webpack_require__.n(external_rc_tabs_);
 
 // EXTERNAL MODULE: external "rc-tabs/lib/TabContent"
-var TabContent_ = __webpack_require__(63);
+var TabContent_ = __webpack_require__(64);
 var TabContent_default = /*#__PURE__*/__webpack_require__.n(TabContent_);
 
 // EXTERNAL MODULE: external "rc-tabs/lib/ScrollableInkTabBar"
-var ScrollableInkTabBar_ = __webpack_require__(64);
+var ScrollableInkTabBar_ = __webpack_require__(65);
 var ScrollableInkTabBar_default = /*#__PURE__*/__webpack_require__.n(ScrollableInkTabBar_);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/collapse/Collapse.js
-var Collapse = __webpack_require__(12);
+var Collapse = __webpack_require__(13);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/details/containers/OverviewContainer.js
 
@@ -1838,13 +1968,13 @@ var ProviderDetails_ProviderDetails = function ProviderDetails() {
 };
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = require("rc-tabs");
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1854,10 +1984,10 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(13);
+var external_react_static_ = __webpack_require__(14);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/Router.js
-var Router = __webpack_require__(7);
+var Router = __webpack_require__(8);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/Dynamic.js
 
@@ -1865,7 +1995,7 @@ var Router = __webpack_require__(7);
   return external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
 });
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(14);
+var slicedToArray_ = __webpack_require__(15);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
@@ -1879,11 +2009,14 @@ var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(exte
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(15);
+var useMediaQuery_ = __webpack_require__(16);
 
 // EXTERNAL MODULE: external "react-sidebar"
-var external_react_sidebar_ = __webpack_require__(59);
+var external_react_sidebar_ = __webpack_require__(60);
 var external_react_sidebar_default = /*#__PURE__*/__webpack_require__.n(external_react_sidebar_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/header/HeaderContainer.js
@@ -1981,7 +2114,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  color: ", ";\n  font-size: 16px;\n  margin-left: 30px;\n\n  ", "\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  margin-left: 30px;\n  ", "\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -2001,7 +2134,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  width: 100%;\n  background-color: transparent;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 40px 0;\n  padding: 0 30px;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  width: 100%;\n  background-color: transparent;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 30px 0 20px 0;\n  padding: 0 30px;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -2016,13 +2149,14 @@ function _templateObject() {
 
 
 
+
 var MenuStyled = external_styled_components_default.a.nav(_templateObject());
 var StyledImage = external_styled_components_default.a.img(_templateObject2(), function (props) {
   return props.height || '20px';
 }, function (props) {
   return props.padding || '0';
 });
-var StyledLink = external_styled_components_default()(Router["b" /* Link */])(_templateObject3(), Styles["a" /* Colors */].BLACK, Styles["b" /* MEDIA */].phone(_templateObject4()));
+var StyledLink = external_styled_components_default()(Router["b" /* Link */])(_templateObject3(), Styles["b" /* MEDIA */].phone(_templateObject4()));
 var SideMenuStyled = external_styled_components_default.a.nav(_templateObject5());
 var ListItem = external_styled_components_default.a.li(_templateObject6());
 var StyledList = external_styled_components_default.a.ul(_templateObject7(), Styles["a" /* Colors */].VERY_LIGHT_PINK_2);
@@ -2044,15 +2178,15 @@ var HeaderContainer_FullMenu = function FullMenu() {
     src: "/assets/logo.svg"
   })), external_react_default.a.createElement("div", null, external_react_default.a.createElement(StyledLink, {
     to: "/providers"
-  }, "Find a doctor"), external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Find a doctor")), external_react_default.a.createElement(StyledLink, {
     to: "/clinics"
-  }, "Find a hospital/Clinic"), external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Find a hospital/Clinic")), external_react_default.a.createElement(StyledLink, {
     to: "/directory"
-  }, "Health A-Z"), external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Health A-Z")), external_react_default.a.createElement(StyledLink, {
     to: "/articles"
-  }, "The Pulse"), external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "The Pulse")), external_react_default.a.createElement(StyledLink, {
     to: "/"
-  }, "Sign In/Join")));
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Sign In/Join"))));
 };
 
 var HeaderContainer_SideMenu = function SideMenu(props) {
@@ -2068,31 +2202,31 @@ var HeaderContainer_SideMenu = function SideMenu(props) {
   }))), external_react_default.a.createElement(StyledList, null, external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/"
-  }, "Home")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Home"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/providers"
-  }, "Find a doctor")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Find a doctor"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/clinics"
-  }, "Find a hospital/Clinic")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Find a hospital/Clinic"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/directory"
-  }, "Health A-Z"))), external_react_default.a.createElement(StyledList, null, external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Health A-Z")))), external_react_default.a.createElement(StyledList, null, external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/about"
-  }, "About")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "About"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/careers"
-  }, "Careers")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Careers"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/help"
-  }, "Help"))), external_react_default.a.createElement(StyledList, null, external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Help")))), external_react_default.a.createElement(StyledList, null, external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/"
-  }, "Log In")), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Log In"))), external_react_default.a.createElement(ListItem, null, external_react_default.a.createElement(StyledLink, {
     onClick: props.onClose,
     to: "/"
-  }, "Sign Up"))));
+  }, external_react_default.a.createElement(BodyText["d" /* SmallSpan */], null, "Sign Up")))));
 };
 
 var HeaderContainer_BurgerMenu = function BurgerMenu(props) {
@@ -2301,7 +2435,7 @@ var FOOTER_LIST = [wellgloSectionLinks, searchSection, citySection, specialtiesS
 
 
 function FooterSection_templateObject5() {
-  var data = taggedTemplateLiteral_default()(["\n  color: white;\n  font-size: 16px;\n  font-style: normal;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  color: white;\n  font-family: 'AkagiProSemiBold';\n"]);
 
   FooterSection_templateObject5 = function _templateObject5() {
     return data;
@@ -2321,7 +2455,7 @@ function FooterSection_templateObject4() {
 }
 
 function FooterSection_templateObject3() {
-  var data = taggedTemplateLiteral_default()(["padding: 0"]);
+  var data = taggedTemplateLiteral_default()(["color: white;"]);
 
   FooterSection_templateObject3 = function _templateObject3() {
     return data;
@@ -2331,7 +2465,7 @@ function FooterSection_templateObject3() {
 }
 
 function FooterSection_templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  color: white;\n  font-size: 16px;\n"]);
+  var data = taggedTemplateLiteral_default()(["padding: 0"]);
 
   FooterSection_templateObject2 = function _templateObject2() {
     return data;
@@ -2341,7 +2475,7 @@ function FooterSection_templateObject2() {
 }
 
 function FooterSection_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  color: white;\n"]);
+  var data = taggedTemplateLiteral_default()(["color: white;"]);
 
   FooterSection_templateObject = function _templateObject() {
     return data;
@@ -2353,11 +2487,12 @@ function FooterSection_templateObject() {
 
 
 
+
 var StyledSection = external_styled_components_default.a.section(FooterSection_templateObject());
-var StyledTitle = external_styled_components_default.a.h4(FooterSection_templateObject2());
-var FooterSection_StyledList = external_styled_components_default.a.ul(FooterSection_templateObject3());
+var FooterSection_StyledList = external_styled_components_default.a.ul(FooterSection_templateObject2());
+var FooterSection_StyledLink = external_styled_components_default()(Router["b" /* Link */])(FooterSection_templateObject3());
 var StyledListElement = external_styled_components_default.a.li(FooterSection_templateObject4());
-var FooterSection_StyledLink = external_styled_components_default()(Router["b" /* Link */])(FooterSection_templateObject5());
+var StyledTitle = external_styled_components_default()(BodyText["c" /* SmallParagraph */])(FooterSection_templateObject5());
 var FooterSection_FooterSection = function FooterSection(props) {
   var _props$title = props.title,
       title = _props$title === void 0 ? '' : _props$title,
@@ -2464,7 +2599,7 @@ var FooterContainer_Footer = function Footer() {
   }, external_react_default.a.createElement(ListSection, null, footerLists), bottomSection());
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/app.css
-var app = __webpack_require__(87);
+var app = __webpack_require__(88);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/App.js
 
@@ -2492,7 +2627,7 @@ function App() {
 /* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2521,19 +2656,19 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(34);
+var _typeof2 = __webpack_require__(35);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2564,7 +2699,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(26);
+var _requireById = __webpack_require__(27);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -2693,18 +2828,18 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(58);
+/* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(59);
 /* harmony import */ var _node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -2734,25 +2869,25 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(__dirname) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "notFoundTemplate", function() { return notFoundTemplate; });
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9);
 /* harmony import */ var _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -2800,7 +2935,7 @@ var universalOptions = {
 var t_0 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/404 */).then(__webpack_require__.bind(null, 43))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/404 */).then(__webpack_require__.bind(null, 44))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2808,7 +2943,7 @@ var t_0 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(43);
+    return /*require.resolve*/(44);
   },
   chunkName: function chunkName() {
     return "src/pages/404";
@@ -2818,7 +2953,7 @@ t_0.template = '../src/pages/404.js';
 var t_1 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/about.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/about */).then(__webpack_require__.bind(null, 56))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/about */).then(__webpack_require__.bind(null, 57))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2826,7 +2961,7 @@ var t_1 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/about.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(56);
+    return /*require.resolve*/(57);
   },
   chunkName: function chunkName() {
     return "src/pages/about";
@@ -2836,7 +2971,7 @@ t_1.template = '../src/pages/about.js';
 var t_2 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/articles.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/articles */).then(__webpack_require__.bind(null, 53))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/articles */).then(__webpack_require__.bind(null, 54))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2844,7 +2979,7 @@ var t_2 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/articles.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(53);
+    return /*require.resolve*/(54);
   },
   chunkName: function chunkName() {
     return "src/pages/articles";
@@ -2854,7 +2989,7 @@ t_2.template = '../src/pages/articles.js';
 var t_3 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/blog.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/blog */).then(__webpack_require__.bind(null, 44))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/blog */).then(__webpack_require__.bind(null, 45))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2862,7 +2997,7 @@ var t_3 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/blog.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(44);
+    return /*require.resolve*/(45);
   },
   chunkName: function chunkName() {
     return "src/pages/blog";
@@ -2872,7 +3007,7 @@ t_3.template = '../src/pages/blog.js';
 var t_4 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/careers.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/careers */).then(__webpack_require__.bind(null, 55))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/careers */).then(__webpack_require__.bind(null, 56))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2880,7 +3015,7 @@ var t_4 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/careers.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(55);
+    return /*require.resolve*/(56);
   },
   chunkName: function chunkName() {
     return "src/pages/careers";
@@ -2890,7 +3025,7 @@ t_4.template = '../src/pages/careers.js';
 var t_5 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/clinics.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/clinics */).then(__webpack_require__.bind(null, 51))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/clinics */).then(__webpack_require__.bind(null, 52))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2898,7 +3033,7 @@ var t_5 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/clinics.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(51);
+    return /*require.resolve*/(52);
   },
   chunkName: function chunkName() {
     return "src/pages/clinics";
@@ -2908,7 +3043,7 @@ t_5.template = '../src/pages/clinics.js';
 var t_6 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/contact */).then(__webpack_require__.bind(null, 57))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/contact */).then(__webpack_require__.bind(null, 58))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2916,7 +3051,7 @@ var t_6 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(57);
+    return /*require.resolve*/(58);
   },
   chunkName: function chunkName() {
     return "src/pages/contact";
@@ -2926,7 +3061,7 @@ t_6.template = '../src/pages/contact.js';
 var t_7 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/directory.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/directory */).then(__webpack_require__.bind(null, 54))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/directory */).then(__webpack_require__.bind(null, 55))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2934,7 +3069,7 @@ var t_7 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/directory.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(54);
+    return /*require.resolve*/(55);
   },
   chunkName: function chunkName() {
     return "src/pages/directory";
@@ -2944,7 +3079,7 @@ t_7.template = '../src/pages/directory.js';
 var t_8 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 45))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/index */).then(__webpack_require__.bind(null, 46))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2952,7 +3087,7 @@ var t_8 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(45);
+    return /*require.resolve*/(46);
   },
   chunkName: function chunkName() {
     return "src/pages/index";
@@ -2962,7 +3097,7 @@ t_8.template = '../src/pages/index.js';
 var t_9 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/providers.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/providers */).then(__webpack_require__.bind(null, 50))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/providers */).then(__webpack_require__.bind(null, 51))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2970,7 +3105,7 @@ var t_9 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_r
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/providers.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(50);
+    return /*require.resolve*/(51);
   },
   chunkName: function chunkName() {
     return "src/pages/providers";
@@ -2980,7 +3115,7 @@ t_9.template = '../src/pages/providers.js';
 var t_10 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/providers/details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/providers/details */).then(__webpack_require__.bind(null, 46))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/providers/details */).then(__webpack_require__.bind(null, 47))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2988,7 +3123,7 @@ var t_10 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/providers/details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(46);
+    return /*require.resolve*/(47);
   },
   chunkName: function chunkName() {
     return "src/pages/providers/details";
@@ -2998,7 +3133,7 @@ t_10.template = '../src/pages/providers/details.js';
 var t_11 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/article.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/article */).then(__webpack_require__.bind(null, 52))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/article */).then(__webpack_require__.bind(null, 53))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -3006,7 +3141,7 @@ var t_11 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/article.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(52);
+    return /*require.resolve*/(53);
   },
   chunkName: function chunkName() {
     return "src/pages/test/article";
@@ -3016,7 +3151,7 @@ t_11.template = '../src/pages/test/article.js';
 var t_12 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/clinic-details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/clinic-details */).then(__webpack_require__.bind(null, 49))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/clinic-details */).then(__webpack_require__.bind(null, 50))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -3024,7 +3159,7 @@ var t_12 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/clinic-details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(49);
+    return /*require.resolve*/(50);
   },
   chunkName: function chunkName() {
     return "src/pages/test/clinic-details";
@@ -3034,7 +3169,7 @@ t_12.template = '../src/pages/test/clinic-details.js';
 var t_13 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/provider-details.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/provider-details */).then(__webpack_require__.bind(null, 47))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/provider-details */).then(__webpack_require__.bind(null, 48))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -3042,7 +3177,7 @@ var t_13 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/provider-details.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(47);
+    return /*require.resolve*/(48);
   },
   chunkName: function chunkName() {
     return "src/pages/test/provider-details";
@@ -3052,7 +3187,7 @@ t_13.template = '../src/pages/test/provider-details.js';
 var t_14 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "../src/pages/test/test-component.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | src/pages/test/test-component */).then(__webpack_require__.bind(null, 48))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | src/pages/test/test-component */).then(__webpack_require__.bind(null, 49))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -3060,7 +3195,7 @@ var t_14 = _Users_Chaiyaporn_Projects_work_Wellglo_WellgloFrontend_node_modules_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '../src/pages/test/test-component.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(48);
+    return /*require.resolve*/(49);
   },
   chunkName: function chunkName() {
     return "src/pages/test/test-component";
@@ -3090,19 +3225,19 @@ var notFoundTemplate = "../src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3193,7 +3328,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3206,7 +3341,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3214,9 +3349,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
 
  //
 
@@ -3250,7 +3385,7 @@ function Blog() {
 // }
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3267,14 +3402,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -3288,14 +3423,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _features_providers_details_ProviderDetails__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -3303,7 +3438,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3322,7 +3457,7 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/extends"
-var extends_ = __webpack_require__(6);
+var extends_ = __webpack_require__(7);
 var extends_default = /*#__PURE__*/__webpack_require__.n(extends_);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
@@ -3377,13 +3512,13 @@ var Button_Button = function Button(props) {
   }, props), props.text);
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/image/ThumbnailCircle.js
-var ThumbnailCircle = __webpack_require__(10);
+var ThumbnailCircle = __webpack_require__(11);
 
 // EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__(9);
+var styles_ = __webpack_require__(10);
 
 // EXTERNAL MODULE: external "@material-ui/core/Checkbox"
-var Checkbox_ = __webpack_require__(68);
+var Checkbox_ = __webpack_require__(69);
 var Checkbox_default = /*#__PURE__*/__webpack_require__.n(Checkbox_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/checkbox/Checkbox.js
@@ -3408,10 +3543,10 @@ var Checkbox = Object(styles_["withStyles"])({
   }
 })(Checkbox_InjectProps);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(21);
+var Switch = __webpack_require__(22);
 
 // EXTERNAL MODULE: external "@material-ui/core/TextField"
-var TextField_ = __webpack_require__(69);
+var TextField_ = __webpack_require__(70);
 var TextField_default = /*#__PURE__*/__webpack_require__.n(TextField_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/textFields/TextField.js
@@ -3448,14 +3583,14 @@ function CustomizedInputs(props) {
 
 /* harmony default export */ var TextField = (Object(styles_["withStyles"])(TextField_styles)(CustomizedInputs));
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/stars/Star.js
-var Star = __webpack_require__(22);
+var Star = __webpack_require__(23);
 
 // EXTERNAL MODULE: external "@material-ui/lab/Breadcrumbs"
-var Breadcrumbs_ = __webpack_require__(70);
+var Breadcrumbs_ = __webpack_require__(71);
 var Breadcrumbs_default = /*#__PURE__*/__webpack_require__.n(Breadcrumbs_);
 
 // EXTERNAL MODULE: external "@material-ui/icons/NavigateNext"
-var NavigateNext_ = __webpack_require__(71);
+var NavigateNext_ = __webpack_require__(72);
 var NavigateNext_default = /*#__PURE__*/__webpack_require__.n(NavigateNext_);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/breadcrumbs/Breadcrumbs.js
@@ -3481,13 +3616,13 @@ var Breadcrumbs = Object(styles_["withStyles"])({
   }
 })(Breadcrumbs_InjectProps);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/Router.js
-var Router = __webpack_require__(7);
+var Router = __webpack_require__(8);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLineText.js
-var TagLineText = __webpack_require__(16);
+var TagLineText = __webpack_require__(18);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLine.js
-var TagLine = __webpack_require__(11);
+var TagLine = __webpack_require__(12);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLineRating.js
 
@@ -3683,10 +3818,10 @@ var ArticleCard_ArticleCard = function ArticleCard(props) {
   }));
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/organisms/cards/ProfileInfoCard.js
-var ProfileInfoCard = __webpack_require__(28);
+var ProfileInfoCard = __webpack_require__(29);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/card/Card.js
-var Card = __webpack_require__(29);
+var Card = __webpack_require__(30);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/organisms/cards/QuoteCard.js
 
@@ -3800,10 +3935,10 @@ var QuoteCard_QuoteCard = function QuoteCard(props) {
   }));
 };
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/collapse/Collapse.js
-var Collapse = __webpack_require__(12);
+var Collapse = __webpack_require__(13);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(20);
+var ButtonInList = __webpack_require__(21);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/test/test-component.js
 
@@ -3925,7 +4060,7 @@ var test_component_MarginVertical = external_styled_components_default.a.div(tes
 });
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3978,7 +4113,7 @@ var ClinicDetails_ClinicDetails = function ClinicDetails() {
 });
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3993,7 +4128,7 @@ var taggedTemplateLiteral_ = __webpack_require__(1);
 var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(14);
+var slicedToArray_ = __webpack_require__(15);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "styled-components"
@@ -4001,29 +4136,29 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Select"
-var Select_ = __webpack_require__(23);
+var Select_ = __webpack_require__(24);
 var Select_default = /*#__PURE__*/__webpack_require__.n(Select_);
 
 // EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__(24);
+var FormControl_ = __webpack_require__(25);
 var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
 
 // EXTERNAL MODULE: external "@material-ui/core/MenuItem"
-var MenuItem_ = __webpack_require__(25);
+var MenuItem_ = __webpack_require__(26);
 var MenuItem_default = /*#__PURE__*/__webpack_require__.n(MenuItem_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__(27);
+var Input_ = __webpack_require__(28);
 var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
 
 // EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__(9);
+var styles_ = __webpack_require__(10);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(21);
+var Switch = __webpack_require__(22);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/components/Filter.js
 
@@ -4050,7 +4185,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 0 0 30px 0;\n  font-weight: 100;\n  color: ", ";\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  margin: 0 0 10px 0;\n  font-weight: 100;\n  color: ", ";\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -4070,7 +4205,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 10px 0;\n  font-size: 28px;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  margin: 0;\n  padding-bottom: 0;\n  ", "\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4146,9 +4281,11 @@ var Filter_Filter = function Filter(props) {
     value: 'Select a Specialist'
   }, "Select a Specialist"), menuItems)), external_react_default.a.createElement(City, null, city), external_react_default.a.createElement(FilterBarContainer, null, external_react_default.a.createElement(FilterList, null, filterItems), external_react_default.a.createElement("div", null, external_react_default.a.createElement("span", null, "Show map"), external_react_default.a.createElement(Switch["a" /* Switch */], null))));
 };
-var InputComponent = external_styled_components_default.a.p(_templateObject());
+var InputComponent = external_styled_components_default.a.h3(_templateObject(), ''
+/* font-size: 28px; */
+);
 var FilterComponent = external_styled_components_default.a.p(_templateObject2());
-var City = external_styled_components_default.a.h2(_templateObject3(), Styles["a" /* Colors */].BROWNISH_GREY);
+var City = external_styled_components_default.a.h3(_templateObject3(), Styles["a" /* Colors */].BROWNISH_GREY);
 var FilterBarContainer = external_styled_components_default.a.div(_templateObject4());
 var FilterList = external_styled_components_default.a.div(_templateObject5());
 var selectFilterStyles = {
@@ -4174,9 +4311,22 @@ var inputStyles = {
 };
 var InputCustom = Object(styles_["withStyles"])(inputStyles)(Input_default.a);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/templates/cardLists/ProfileCardList.js
-var ProfileCardList = __webpack_require__(17);
+var ProfileCardList = __webpack_require__(19);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/containers/SponsoredResultsContainer.js
+
+
+function SponsoredResultsContainer_templateObject() {
+  var data = taggedTemplateLiteral_default()(["margin: 10px 0;"]);
+
+  SponsoredResultsContainer_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
 
 
 var SponsoredResultsContainer_data = [{
@@ -4198,15 +4348,29 @@ var SponsoredResultsContainer_data = [{
   reviewCount: 12,
   id: 211
 }];
+var Title = external_styled_components_default.a.h3(SponsoredResultsContainer_templateObject());
 var SponsoredResultsContainer_SponsoredResultsContainer = function SponsoredResultsContainer(props) {
   var _props$searchResult = props.searchResult,
       searchResult = _props$searchResult === void 0 ? SponsoredResultsContainer_data : _props$searchResult;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h2", null, "Sponsored results"), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(Title, null, "Sponsored results"), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
     data: searchResult,
     withAd: true
   }));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/containers/ListContainer.js
+
+
+function ListContainer_templateObject() {
+  var data = taggedTemplateLiteral_default()(["margin: 10px 0;"]);
+
+  ListContainer_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
 
 
 var ListContainer_data = [{
@@ -4255,6 +4419,7 @@ var ListContainer_data = [{
   reviewCount: 12,
   id: 55
 }];
+var ListContainer_Title = external_styled_components_default.a.h3(ListContainer_templateObject());
 var ListContainer_ListContainer = function ListContainer(props) {
   var _props$searchTerm = props.searchTerm,
       searchTerm = _props$searchTerm === void 0 ? 'Dermatologist' : _props$searchTerm,
@@ -4262,15 +4427,28 @@ var ListContainer_ListContainer = function ListContainer(props) {
       searchResultCount = _props$searchResultCo === void 0 ? 12 : _props$searchResultCo,
       _props$searchResult = props.searchResult,
       searchResult = _props$searchResult === void 0 ? ListContainer_data : _props$searchResult;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h2", null, "".concat(searchTerm, " (").concat(searchResultCount, ")")), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(ListContainer_Title, null, "".concat(searchTerm, " (").concat(searchResultCount, ")")), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
     data: searchResult
   }));
 };
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/components/Explanation.js
 
 
+function Explanation_templateObject2() {
+  var data = taggedTemplateLiteral_default()(["\n  font-family: 'AkagiProLight';\n  margin: 0;\n  padding: 0;\n"]);
+
+  Explanation_templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function Explanation_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 0;\n  padding: 20px 0;\n"]);
+  var data = taggedTemplateLiteral_default()(["margin: 20px 0"]);
 
   Explanation_templateObject = function _templateObject() {
     return data;
@@ -4281,13 +4459,15 @@ function Explanation_templateObject() {
 
 
 
-var Description = external_styled_components_default.a.p(Explanation_templateObject());
+
+var Explanation_Title = external_styled_components_default.a.h4(Explanation_templateObject());
+var Description = external_styled_components_default()(BodyText["c" /* SmallParagraph */])(Explanation_templateObject2());
 var Explanation_Explanation = function Explanation(props) {
   var _props$title = props.title,
-      title = _props$title === void 0 ? "Clinics in Bangkok" : _props$title,
+      title = _props$title === void 0 ? "Dermatologists in Bangkok" : _props$title,
       _props$description = props.description,
       description = _props$description === void 0 ? "With hundreds of Bangkok dermatologists to choose from, Wellglo can eliminate the guesswork and help you find professionals who participate in your insurance. Simply search the list of local physicians and check patient ratings and verified reviews to choose a dermatologist who can effectively treat warts, eczema, skin infections, or acne. Whether you're in Staten Island, Brooklyn, or any other borough, simply select an available appointment time to book a Bangkok dermatologist right away." : _props$description;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h3", null, title), external_react_default.a.createElement(Description, null, description));
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(Explanation_Title, null, title), external_react_default.a.createElement(Description, null, description));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/providers/list/containers/MapContainer.js
 
@@ -4324,7 +4504,7 @@ var ProviderLists_ProviderLists = function ProviderLists() {
 });
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4339,7 +4519,7 @@ var taggedTemplateLiteral_ = __webpack_require__(1);
 var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(14);
+var slicedToArray_ = __webpack_require__(15);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "styled-components"
@@ -4347,29 +4527,29 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Select"
-var Select_ = __webpack_require__(23);
+var Select_ = __webpack_require__(24);
 var Select_default = /*#__PURE__*/__webpack_require__.n(Select_);
 
 // EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__(24);
+var FormControl_ = __webpack_require__(25);
 var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
 
 // EXTERNAL MODULE: external "@material-ui/core/MenuItem"
-var MenuItem_ = __webpack_require__(25);
+var MenuItem_ = __webpack_require__(26);
 var MenuItem_default = /*#__PURE__*/__webpack_require__.n(MenuItem_);
 
 // EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__(27);
+var Input_ = __webpack_require__(28);
 var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
 
 // EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__(9);
+var styles_ = __webpack_require__(10);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/switch/Switch.js
-var Switch = __webpack_require__(21);
+var Switch = __webpack_require__(22);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/components/Filter.js
 
@@ -4396,7 +4576,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 0 0 30px 0;\n  font-weight: 100;\n  color: ", ";\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  margin: 0 0 10px 0;\n  font-weight: 100;\n  color: ", ";\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -4416,7 +4596,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 10px 0;\n  font-size: 28px;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  margin: 0;\n  padding-bottom: 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4492,9 +4672,9 @@ var Filter_Filter = function Filter(props) {
     value: 'Select a Specialist'
   }, "Select a Specialist"), menuItems)), external_react_default.a.createElement(City, null, city), external_react_default.a.createElement(FilterBarContainer, null, external_react_default.a.createElement(FilterList, null, filterItems), external_react_default.a.createElement("div", null, external_react_default.a.createElement("span", null, "Show map"), external_react_default.a.createElement(Switch["a" /* Switch */], null))));
 };
-var InputComponent = external_styled_components_default.a.p(_templateObject());
+var InputComponent = external_styled_components_default.a.h3(_templateObject());
 var FilterComponent = external_styled_components_default.a.p(_templateObject2());
-var City = external_styled_components_default.a.h2(_templateObject3(), Styles["a" /* Colors */].BROWNISH_GREY);
+var City = external_styled_components_default.a.h3(_templateObject3(), Styles["a" /* Colors */].BROWNISH_GREY);
 var FilterBarContainer = external_styled_components_default.a.div(_templateObject4());
 var FilterList = external_styled_components_default.a.div(_templateObject5());
 var selectFilterStyles = {
@@ -4520,9 +4700,22 @@ var inputStyles = {
 };
 var InputCustom = Object(styles_["withStyles"])(inputStyles)(Input_default.a);
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/templates/cardLists/ProfileCardList.js
-var ProfileCardList = __webpack_require__(17);
+var ProfileCardList = __webpack_require__(19);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/containers/SponsoredResultsContainer.js
+
+
+function SponsoredResultsContainer_templateObject() {
+  var data = taggedTemplateLiteral_default()(["margin: 10px 0;"]);
+
+  SponsoredResultsContainer_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
 
 
 var SponsoredResultsContainer_data = [{
@@ -4544,15 +4737,29 @@ var SponsoredResultsContainer_data = [{
   reviewCount: 10,
   id: 666
 }];
+var Title = external_styled_components_default.a.h3(SponsoredResultsContainer_templateObject());
 var SponsoredResultsContainer_SponsoredResultsContainer = function SponsoredResultsContainer(props) {
   var _props$searchResult = props.searchResult,
       searchResult = _props$searchResult === void 0 ? SponsoredResultsContainer_data : _props$searchResult;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h2", null, "Sponsored results"), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(Title, null, "Sponsored results"), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
     data: searchResult,
     withAd: true
   }));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/containers/ListContainer.js
+
+
+function ListContainer_templateObject() {
+  var data = taggedTemplateLiteral_default()(["margin: 10px 0;"]);
+
+  ListContainer_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
 
 
 var ListContainer_data = [{
@@ -4601,6 +4808,7 @@ var ListContainer_data = [{
   reviewCount: 10,
   id: 10
 }];
+var ListContainer_Title = external_styled_components_default.a.h3(ListContainer_templateObject());
 var ListContainer_ListContainer = function ListContainer(props) {
   var _props$searchTerm = props.searchTerm,
       searchTerm = _props$searchTerm === void 0 ? 'Clinics' : _props$searchTerm,
@@ -4608,18 +4816,47 @@ var ListContainer_ListContainer = function ListContainer(props) {
       searchResultCount = _props$searchResultCo === void 0 ? 5 : _props$searchResultCo,
       _props$searchResult = props.searchResult,
       searchResult = _props$searchResult === void 0 ? ListContainer_data : _props$searchResult;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h2", null, "".concat(searchTerm, " (").concat(searchResultCount, ")")), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(ListContainer_Title, null, "".concat(searchTerm, " (").concat(searchResultCount, ")")), external_react_default.a.createElement(ProfileCardList["a" /* ProfileListContainer */], {
     data: searchResult
   }));
 };
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/components/Explanation.js
 
+
+function Explanation_templateObject2() {
+  var data = taggedTemplateLiteral_default()(["\n  font-family: 'AkagiProLight';\n  margin: 0;\n  padding: 0;\n"]);
+
+  Explanation_templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function Explanation_templateObject() {
+  var data = taggedTemplateLiteral_default()(["margin: 20px 0"]);
+
+  Explanation_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+var Explanation_Title = external_styled_components_default.a.h4(Explanation_templateObject());
+var Description = external_styled_components_default()(BodyText["c" /* SmallParagraph */])(Explanation_templateObject2());
 var Explanation_Explanation = function Explanation(props) {
   var _props$title = props.title,
       title = _props$title === void 0 ? "Dermatologists in Bangkok" : _props$title,
       _props$description = props.description,
       description = _props$description === void 0 ? "With hundreds of Bangkok dermatologists to choose from, Wellglo can eliminate the guesswork and help you find professionals who participate in your insurance. Simply search the list of local physicians and check patient ratings and verified reviews to choose a dermatologist who can effectively treat warts, eczema, skin infections, or acne. Whether you're in Staten Island, Brooklyn, or any other borough, simply select an available appointment time to book a Bangkok dermatologist right away." : _props$description;
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h3", null, title), external_react_default.a.createElement("p", null, description));
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(Explanation_Title, null, title), external_react_default.a.createElement(Description, null, description));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/clinics/list/containers/MapContainer.js
 
@@ -4656,7 +4893,7 @@ var ClinicLists_ClinicLists = function ClinicLists() {
 });
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4707,7 +4944,7 @@ var Article_SocialBar = function SocialBar() {
 });
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4718,7 +4955,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(13);
+var external_react_static_ = __webpack_require__(14);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/articles/list/components/Filter.js
 
@@ -4768,7 +5005,7 @@ function Blog() {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4787,16 +5024,19 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/Router.js
-var Router = __webpack_require__(7);
+var Router = __webpack_require__(8);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(15);
+var useMediaQuery_ = __webpack_require__(16);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(20);
+var ButtonInList = __webpack_require__(21);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/articles/directory/components/InfoList.js
 
@@ -4842,7 +5082,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  padding: 0;\n  margin: 30px 0 0 0;\n  ", "\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  padding: 0;\n  margin: 10px 0 0 0;\n  ", "\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -4852,7 +5092,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  list-style: none;\n  margin: 10px 0;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  list-style: none;\n  margin: 5px 0;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -4862,7 +5102,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  color: ", ";\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  color: ", ";\n  font-family: 'AkagiProLight'\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -4877,10 +5117,11 @@ function _templateObject() {
 
 
 
+
 var StyledLink = external_styled_components_default()(Router["b" /* Link */])(_templateObject(), Styles["a" /* Colors */].BLACK);
 var StyledListElem = external_styled_components_default.a.li(_templateObject2());
 var StyledListContainer = external_styled_components_default.a.ul(_templateObject3(), Styles["b" /* MEDIA */].phone(_templateObject4()));
-var StyledHeading = external_styled_components_default.a.h1(_templateObject5());
+var StyledHeading = external_styled_components_default.a.h2(_templateObject5());
 var StyledContainer = external_styled_components_default.a.div(_templateObject6(), Styles["a" /* Colors */].VERY_LIGHT_PINK, Styles["b" /* MEDIA */].phone(_templateObject7()));
 var InfoList_InfoList = function InfoList(props) {
   var _props$alphabet = props.alphabet,
@@ -4893,7 +5134,7 @@ var InfoList_InfoList = function InfoList(props) {
       key: title
     }, external_react_default.a.createElement(StyledLink, {
       to: "/health/".concat(title.replace(' ', '-'))
-    }, title)) : external_react_default.a.createElement(ButtonInList["a" /* ButtonInList */], {
+    }, external_react_default.a.createElement(BodyText["b" /* LargeSpan */], null, title))) : external_react_default.a.createElement(ButtonInList["a" /* ButtonInList */], {
       key: title,
       title: title,
       link: "/health/".concat(title.replace(' ', '-'))
@@ -4948,8 +5189,21 @@ var DATA = [{
   alphabet: 'S',
   titles: ['Steps to Find a Good Doctor']
 }];
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
+var MainHeadings = __webpack_require__(17);
+
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/articles/directory/Directory.js
 
+
+function Directory_templateObject3() {
+  var data = taggedTemplateLiteral_default()(["\n  margin: 100px 0;\n"]);
+
+  Directory_templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
 
 function Directory_templateObject2() {
   var data = taggedTemplateLiteral_default()(["\n    display: block;\n  "]);
@@ -4962,7 +5216,7 @@ function Directory_templateObject2() {
 }
 
 function Directory_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  ", "\n\n  ", "\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  margin-top: 30px;\n\n  ", "\n"]);
 
   Directory_templateObject = function _templateObject() {
     return data;
@@ -4976,9 +5230,9 @@ function Directory_templateObject() {
 
 
 
-var GridContainer = external_styled_components_default.a.div(Directory_templateObject(), ''
-/* grid-row-gap: 20px; */
-, Styles["b" /* MEDIA */].phone(Directory_templateObject2()));
+
+var GridContainer = external_styled_components_default.a.div(Directory_templateObject(), Styles["b" /* MEDIA */].phone(Directory_templateObject2()));
+var Container = external_styled_components_default.a.div(Directory_templateObject3());
 var Directory_Directory = function Directory(props) {
   var _props$data = props.data,
       data = _props$data === void 0 ? DATA : _props$data;
@@ -4989,7 +5243,13 @@ var Directory_Directory = function Directory(props) {
       titles: list.titles
     });
   });
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h1", null, "Health A-Z"), external_react_default.a.createElement("h1", null, "Educational information for your next doctor appointment."), external_react_default.a.createElement(GridContainer, null, lists));
+  return external_react_default.a.createElement(Container, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
+    style: {
+      maxWidth: '650px'
+    },
+    title: "Health A-Z",
+    subtitle: "Educational information for your next doctor appointment."
+  }), external_react_default.a.createElement(GridContainer, null, lists));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/directory.js
 
@@ -5002,191 +5262,6 @@ var Directory_Directory = function Directory(props) {
       padding: '0 5%'
     }
   }, external_react_default.a.createElement(Directory_Directory, null));
-});
-
-/***/ }),
-/* 55 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
-var taggedTemplateLiteral_ = __webpack_require__(1);
-var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
-
-// EXTERNAL MODULE: external "styled-components"
-var external_styled_components_ = __webpack_require__(2);
-var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
-
-// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
-var Styles = __webpack_require__(3);
-
-// EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(18);
-
-// EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(15);
-
-// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
-var ButtonInList = __webpack_require__(20);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/containers/JobOpeningsContainer.js
-
-
-function _templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  color: ", ";\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: auto;\n  max-width: 600px;\n  padding-top: 10px;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-
-
-var JobOpeningsContainer_JobOpeningsContainer = function JobOpeningsContainer() {
-  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h2", null, "Job openings"), external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null), external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null), external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null)));
-};
-var JobContainer = external_styled_components_default.a.div(_templateObject());
-var StyledLink = external_styled_components_default()(router_["Link"])(_templateObject2(), Styles["a" /* Colors */].BLACK);
-
-var JobOpeningsContainer_JobPosition = function JobPosition(props) {
-  var _props$job = props.job,
-      job = _props$job === void 0 ? 'loren ipsum' : _props$job,
-      _props$location = props.location,
-      location = _props$location === void 0 ? 'location' : _props$location;
-  var matches = Object(useMediaQuery_["unstable_useMediaQuery"])("(min-width:".concat(Styles["c" /* WINDOW_SIZES */].phone, "px)"));
-  return matches ? external_react_default.a.createElement(JobContainer, null, external_react_default.a.createElement(StyledLink, {
-    to: "/careers/".concat(job)
-  }, job), external_react_default.a.createElement("span", null, external_react_default.a.createElement("b", null, location))) : external_react_default.a.createElement(ButtonInList["a" /* ButtonInList */], {
-    title: "job",
-    link: "/careers/".concat(job)
-  });
-};
-// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(19);
-
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/Careers.js
-
-
-function _templateObject5() {
-  var data = taggedTemplateLiteral_default()(["\n  padding: 0;\n  margin: 7px 0;\n"]);
-
-  _templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject4() {
-  var data = taggedTemplateLiteral_default()(["\n    grid-template-columns: repeat(1, 1fr);\n  "]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: auto;\n  max-width: 600px;\n\n  ", "\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function Careers_templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  padding: 10px 0;\n"]);
-
-  Careers_templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function Careers_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  padding: 50px 0;\n"]);
-
-  Careers_templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-
-var CareersContainer = external_styled_components_default.a.div(Careers_templateObject());
-var Careers_Careers = function Careers() {
-  return external_react_default.a.createElement(CareersContainer, null, external_react_default.a.createElement(Careers_JoinUs, null), external_react_default.a.createElement(Careers_Mission, null), external_react_default.a.createElement(Careers_Values, null), external_react_default.a.createElement(Careers_Perks, null), external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement(JobOpeningsContainer_JobOpeningsContainer, null)));
-};
-
-var Careers_JoinUs = function JoinUs() {
-  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
-    title: "Join Us",
-    subtitle: "And help transform healthcare for everyone."
-  }), external_react_default.a.createElement("p", null, intro), external_react_default.a.createElement("p", null, intro2));
-};
-
-var Careers_Mission = function Mission() {
-  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h2", null, "Our Mission"), external_react_default.a.createElement("p", null, mission));
-};
-
-var Careers_Values = function Values() {
-  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h2", null, "Our values"), external_react_default.a.createElement("p", null, values));
-};
-
-var SectionContainer = external_styled_components_default.a.section(Careers_templateObject2());
-var PerksContainer = external_styled_components_default.a.div(_templateObject3(), Styles["b" /* MEDIA */].phone(_templateObject4()));
-var PerkItem = external_styled_components_default.a.p(_templateObject5());
-
-var Careers_Perks = function Perks() {
-  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h2", null, "Our perks"), external_react_default.a.createElement(PerksContainer, null, external_react_default.a.createElement(PerkItem, null, "100% paid health benefits"), external_react_default.a.createElement(PerkItem, null, "Vacation and parental leave packages"), external_react_default.a.createElement(PerkItem, null, "Lunch and snacks on us"), external_react_default.a.createElement(PerkItem, null, "Cell phone reimbursement"), external_react_default.a.createElement(PerkItem, null, "Gym discount"), external_react_default.a.createElement(PerkItem, null, "Weekly yoga")));
-};
-
-var intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
-var intro2 = "Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.";
-var mission = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
-var values = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/careers.js
-
-
-/* harmony default export */ var careers = __webpack_exports__["default"] = (function () {
-  return external_react_default.a.createElement("div", {
-    style: {
-      maxWidth: "1200px",
-      margin: '0 auto',
-      padding: '0 8%'
-    }
-  }, external_react_default.a.createElement(Careers_Careers, null));
 });
 
 /***/ }),
@@ -5208,26 +5283,262 @@ var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTem
 var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
+var Styles = __webpack_require__(3);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
+// EXTERNAL MODULE: external "@reach/router"
+var router_ = __webpack_require__(20);
+
 // EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
-var useMediaQuery_ = __webpack_require__(15);
+var useMediaQuery_ = __webpack_require__(16);
+
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/button/ButtonInList.js
+var ButtonInList = __webpack_require__(21);
+
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/containers/JobOpeningsContainer.js
+
+
+function _templateObject4() {
+  var data = taggedTemplateLiteral_default()(["font-family: 'AkagiProBook';"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = taggedTemplateLiteral_default()(["font-family: 'AkagiProExtraLight';"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = taggedTemplateLiteral_default()(["color: ", ";"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: auto;\n  max-width: 800px;\n  padding-top: 10px;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+
+
+
+var JobContainer = external_styled_components_default.a.div(_templateObject());
+var StyledLink = external_styled_components_default()(router_["Link"])(_templateObject2(), Styles["a" /* Colors */].BLACK);
+var JobName = external_styled_components_default()(BodyText["b" /* LargeSpan */])(_templateObject3());
+var LocationStyle = external_styled_components_default()(BodyText["b" /* LargeSpan */])(_templateObject4());
+
+var JobOpeningsContainer_JobPosition = function JobPosition(props) {
+  var _props$job = props.job,
+      job = _props$job === void 0 ? 'loren ipsum' : _props$job,
+      _props$location = props.location,
+      location = _props$location === void 0 ? 'location' : _props$location;
+  var matches = Object(useMediaQuery_["unstable_useMediaQuery"])("(min-width:".concat(Styles["c" /* WINDOW_SIZES */].phone, "px)"));
+  return matches ? external_react_default.a.createElement(JobContainer, null, external_react_default.a.createElement(StyledLink, {
+    to: "/careers/".concat(job)
+  }, external_react_default.a.createElement(JobName, null, job)), external_react_default.a.createElement(LocationStyle, null, external_react_default.a.createElement("b", null, location))) : external_react_default.a.createElement(ButtonInList["a" /* ButtonInList */], {
+    title: "job",
+    link: "/careers/".concat(job)
+  });
+};
+
+var JobOpeningsContainer_JobOpeningsContainer = function JobOpeningsContainer() {
+  return external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement("h3", null, "Job openings"), external_react_default.a.createElement(external_react_["Fragment"], null, external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null), external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null), external_react_default.a.createElement(JobOpeningsContainer_JobPosition, null)));
+};
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
+var MainHeadings = __webpack_require__(17);
+
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/careers/Careers.js
+
+
+function _templateObject6() {
+  var data = taggedTemplateLiteral_default()(["\n  padding: 0;\n  margin: 7px 0;\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = taggedTemplateLiteral_default()(["grid-template-columns: repeat(1, 1fr);"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function Careers_templateObject4() {
+  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: auto;\n  max-width: 800px;\n  ", "\n"]);
+
+  Careers_templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function Careers_templateObject3() {
+  var data = taggedTemplateLiteral_default()(["padding: 10px 0;"]);
+
+  Careers_templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function Careers_templateObject2() {
+  var data = taggedTemplateLiteral_default()(["font-family: 'AkagiProExtraLight';"]);
+
+  Careers_templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function Careers_templateObject() {
+  var data = taggedTemplateLiteral_default()(["padding: 50px 0;"]);
+
+  Careers_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+
+
+
+
+var CareersContainer = external_styled_components_default.a.div(Careers_templateObject());
+var CareerBodyText = external_styled_components_default()(BodyText["a" /* LargeParagraph */])(Careers_templateObject2());
+var SectionContainer = external_styled_components_default.a.section(Careers_templateObject3());
+var PerksContainer = external_styled_components_default.a.div(Careers_templateObject4(), Styles["b" /* MEDIA */].phone(_templateObject5()));
+var PerkItem = external_styled_components_default()(CareerBodyText)(_templateObject6());
+
+var Careers_JoinUs = function JoinUs() {
+  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
+    title: "Join Us",
+    subtitle: "And help transform healthcare for everyone."
+  }), external_react_default.a.createElement(CareerBodyText, null, intro), external_react_default.a.createElement(CareerBodyText, null, intro2));
+};
+
+var Careers_Mission = function Mission() {
+  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h3", null, "Our Mission"), external_react_default.a.createElement(CareerBodyText, null, mission));
+};
+
+var Careers_Values = function Values() {
+  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h3", null, "Our values"), external_react_default.a.createElement(CareerBodyText, null, values));
+};
+
+var Careers_Perks = function Perks() {
+  return external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement("h3", null, "Our perks"), external_react_default.a.createElement(PerksContainer, null, external_react_default.a.createElement(PerkItem, null, "100% paid health benefits"), external_react_default.a.createElement(PerkItem, null, "Vacation and parental leave packages"), external_react_default.a.createElement(PerkItem, null, "Lunch and snacks on us"), external_react_default.a.createElement(PerkItem, null, "Cell phone reimbursement"), external_react_default.a.createElement(PerkItem, null, "Gym discount"), external_react_default.a.createElement(PerkItem, null, "Weekly yoga")));
+};
+
+var Careers_Careers = function Careers() {
+  return external_react_default.a.createElement(CareersContainer, null, external_react_default.a.createElement(Careers_JoinUs, null), external_react_default.a.createElement(Careers_Mission, null), external_react_default.a.createElement(Careers_Values, null), external_react_default.a.createElement(Careers_Perks, null), external_react_default.a.createElement(SectionContainer, null, external_react_default.a.createElement(JobOpeningsContainer_JobOpeningsContainer, null)));
+};
+var intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
+var intro2 = "Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.";
+var mission = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
+var values = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.";
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/careers.js
+
+
+/* harmony default export */ var careers = __webpack_exports__["default"] = (function () {
+  return external_react_default.a.createElement("div", {
+    style: {
+      maxWidth: "1200px",
+      margin: '0 auto',
+      padding: '0 8%'
+    }
+  }, external_react_default.a.createElement(Careers_Careers, null));
+});
+
+/***/ }),
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
+var taggedTemplateLiteral_ = __webpack_require__(1);
+var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
+
+// EXTERNAL MODULE: external "styled-components"
+var external_styled_components_ = __webpack_require__(2);
+var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
+
+// EXTERNAL MODULE: external "@material-ui/core/useMediaQuery"
+var useMediaQuery_ = __webpack_require__(16);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(19);
+var MainHeadings = __webpack_require__(17);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/image/ThumbnailCircle.js
-var ThumbnailCircle = __webpack_require__(10);
+var ThumbnailCircle = __webpack_require__(11);
 
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/molecules/tagline/TagLine.js
-var TagLine = __webpack_require__(11);
+var TagLine = __webpack_require__(12);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/story/Story.js
 
 
-function _templateObject6() {
+function _templateObject7() {
   var data = taggedTemplateLiteral_default()(["padding: 30px 0;"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = taggedTemplateLiteral_default()(["\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20px 0;\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -5267,7 +5578,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n  margin: 20px 0 0 0;\n"]);
+  var data = taggedTemplateLiteral_default()(["margin: 20px 0 0 0;"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -5277,7 +5588,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20px 0;\n"]);
+  var data = taggedTemplateLiteral_default()(["font-family: 'AkagiProExtraLight'"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -5285,6 +5596,7 @@ function _templateObject() {
 
   return data;
 }
+
 
 
 
@@ -5326,9 +5638,12 @@ var Story_data = [{
   name: 'Victorai Parsons',
   position: 'General Manager'
 }];
-var ProfileContainer = external_styled_components_default.a.div(_templateObject());
+var P = external_styled_components_default()(BodyText["a" /* LargeParagraph */])(_templateObject());
 var Name = external_styled_components_default.a.p(_templateObject2());
 var Position = external_styled_components_default.a.p(_templateObject3(), Styles["a" /* Colors */].BROWN_GREY);
+var ProfileListContainer = external_styled_components_default.a.div(_templateObject4(), Styles["b" /* MEDIA */].phone(_templateObject5()));
+var ProfileContainer = external_styled_components_default.a.div(_templateObject6());
+var StoryContainer = external_styled_components_default.a.div(_templateObject7());
 
 var Story_Profile = function Profile(props) {
   return external_react_default.a.createElement(ProfileContainer, null, external_react_default.a.createElement(ThumbnailCircle["a" /* ThumbnailCircle */], {
@@ -5338,8 +5653,6 @@ var Story_Profile = function Profile(props) {
   }), external_react_default.a.createElement(Name, null, props.name || 'test'), external_react_default.a.createElement(Position, null, props.postition || 'test'));
 };
 
-var ProfileListContainer = external_styled_components_default.a.div(_templateObject4(), Styles["b" /* MEDIA */].phone(_templateObject5()));
-var StoryContainer = external_styled_components_default.a.div(_templateObject6());
 var Story_Story = function Story() {
   var matches = Object(useMediaQuery_["unstable_useMediaQuery"])("(min-width:".concat(Styles["c" /* WINDOW_SIZES */].phone, "px)"));
   var imageLists = Story_data.map(function (image) {
@@ -5357,7 +5670,14 @@ var Story_Story = function Story() {
   return external_react_default.a.createElement(StoryContainer, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
     title: "Our Story",
     subtitle: "Maecenas enim purus, fringilla nec"
-  }), external_react_default.a.createElement("div", null, external_react_default.a.createElement("div", null, "large image"), external_react_default.a.createElement("p", null, firstParagraph), external_react_default.a.createElement("p", null, secondParagraph), external_react_default.a.createElement("h1", null, "The Team behind Wellglo"), external_react_default.a.createElement("p", null, "Our company is led by industry professionals who believe better"), external_react_default.a.createElement("p", null, "healthcare starts with the patient."), external_react_default.a.createElement(ProfileListContainer, null, imageLists)));
+  }), external_react_default.a.createElement("div", {
+    style: {
+      margin: '50px 0',
+      width: '100%',
+      height: '400px',
+      background: 'lightgrey'
+    }
+  }, "image"), external_react_default.a.createElement(P, null, firstParagraph), external_react_default.a.createElement(P, null, secondParagraph), external_react_default.a.createElement("h3", null, "The Team behind Wellglo"), external_react_default.a.createElement(P, null, "Our company is led by industry professionals who believe better"), external_react_default.a.createElement(P, null, "healthcare starts with the patient."), external_react_default.a.createElement(ProfileListContainer, null, imageLists));
 };
 var firstParagraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.";
 var secondParagraph = "Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tincidunt auctor finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas enim purus, fringilla nec sapien quis, fringilla tincidunt libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin porttitor libero id velit mattis, quis luctus mi pellentesque. Etiam vehicula interdum pellentesque. Sed eleifend et nisl in accumsan. Quisque vestibulum ex nibh, at scelerisque turpis venenatis eget. Mauris mollis lorem quis odio ullamcorper scelerisque.";
@@ -5375,7 +5695,7 @@ var secondParagraph = "Interdum et malesuada fames ac ante ipsum primis in fauci
 });
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5396,14 +5716,37 @@ var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(exte
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/Styles.js
 var Styles = __webpack_require__(3);
 
+// EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/constants/BodyText.js
+var BodyText = __webpack_require__(4);
+
 // EXTERNAL MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/componentLibrary/atoms/headings/MainHeadings.js
-var MainHeadings = __webpack_require__(19);
+var MainHeadings = __webpack_require__(17);
 
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/about/contact/Contact.js
 
 
+function _templateObject5() {
+  var data = taggedTemplateLiteral_default()(["\n  padding-top: 40px;\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = taggedTemplateLiteral_default()(["grid-template-columns: repeat(1, 1fr);"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n  padding-top: 50px;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  margin: 0 0 200px 0;\n  font-family: 'AkagiProLight';\n\n  ", "\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -5413,7 +5756,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n    grid-template-columns: repeat(1, 1fr);\n  "]);
+  var data = taggedTemplateLiteral_default()(["\n  margin: 0;\n  padding: 5px 0;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -5423,7 +5766,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto;\n  margin: 0 0 200px 0;\n\n  ", "\n"]);
+  var data = taggedTemplateLiteral_default()(["\n  fontFamily: 'AkagiProBook';\n  margin: 0;\n  padding: 5px 0;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -5431,6 +5774,7 @@ function _templateObject() {
 
   return data;
 }
+
 
 
 
@@ -5447,13 +5791,19 @@ var Contact_data = [{
   address2: '2nd Floor',
   country: 'NY 10012'
 }];
+var City = external_styled_components_default()(BodyText["a" /* LargeParagraph */])(_templateObject());
+var AddressLine = external_styled_components_default()(BodyText["a" /* LargeParagraph */])(_templateObject2());
 
 var Contact_Address = function Address(props) {
-  return external_react_default.a.createElement("div", null, external_react_default.a.createElement("h4", null, props.city || ''), external_react_default.a.createElement("p", null, props.address1 || ''), external_react_default.a.createElement("p", null, props.address2 || ''), external_react_default.a.createElement("p", null, props.country ? "".concat(props.city, ", ").concat(props.country) : ''));
+  return external_react_default.a.createElement("div", null, external_react_default.a.createElement(City, {
+    style: {
+      fontFamily: 'AkagiProBook'
+    }
+  }, props.city || ''), external_react_default.a.createElement(AddressLine, null, props.address1 || ''), external_react_default.a.createElement(AddressLine, null, props.address2 || ''), external_react_default.a.createElement(AddressLine, null, props.country ? "".concat(props.city, ", ").concat(props.country) : ''));
 };
 
-var ContactListContainer = external_styled_components_default.a.div(_templateObject(), Styles["b" /* MEDIA */].phone(_templateObject2()));
-var Container = external_styled_components_default.a.section(_templateObject3());
+var ContactListContainer = external_styled_components_default.a.div(_templateObject3(), Styles["b" /* MEDIA */].phone(_templateObject4()));
+var Container = external_styled_components_default.a.section(_templateObject5());
 var Contact_Contact = function Contact() {
   var contactList = Contact_data.map(function (contact) {
     return external_react_default.a.createElement(Contact_Address, {
@@ -5466,7 +5816,7 @@ var Contact_Contact = function Contact() {
   return external_react_default.a.createElement("div", null, external_react_default.a.createElement(Container, null, external_react_default.a.createElement(MainHeadings["a" /* MainHeadings */], {
     title: "Contact Us",
     subtitle: "Need Help? Visit our Knowledge Base."
-  })), external_react_default.a.createElement(Container, null, external_react_default.a.createElement("h2", null, "Our offices"), external_react_default.a.createElement(ContactListContainer, null, contactList)));
+  })), external_react_default.a.createElement(Container, null, external_react_default.a.createElement("h3", null, "Our offices"), external_react_default.a.createElement(ContactListContainer, null, contactList)));
 };
 // CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/pages/contact.js
 
@@ -5482,7 +5832,7 @@ var Contact_Contact = function Contact() {
 });
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5495,9 +5845,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(13);
+var _reactStatic = __webpack_require__(14);
 
-var _router = __webpack_require__(18);
+var _router = __webpack_require__(20);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -5608,113 +5958,91 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-sidebar");
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/KeyboardArrowRight");
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Switch");
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-star-ratings");
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports) {
 
 module.exports = require("rc-tabs/lib/TabContent");
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports) {
 
 module.exports = require("rc-tabs/lib/ScrollableInkTabBar");
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Collapse");
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/Add");
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/Remove");
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Checkbox");
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/TextField");
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/lab/Breadcrumbs");
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/NavigateNext");
 
 /***/ }),
-/* 72 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(73);
-__webpack_require__(74);
-module.exports = __webpack_require__(80);
-
-
-/***/ }),
 /* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-/* eslint-disable import/no-dynamic-require */
+__webpack_require__(74);
+__webpack_require__(75);
+module.exports = __webpack_require__(81);
 
-var plugins = __webpack_require__(37)["default"];
-
-var _require = __webpack_require__(38),
-    registerPlugins = _require.registerPlugins;
-
-registerPlugins(plugins);
-
-if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts/react-static-browser-plugins.js", function () {
-    registerPlugins(__webpack_require__(37)["default"]);
-  });
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
 
 /***/ }),
 /* 74 */
@@ -5724,10 +6052,32 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(38),
+var plugins = __webpack_require__(38)["default"];
+
+var _require = __webpack_require__(39),
+    registerPlugins = _require.registerPlugins;
+
+registerPlugins(plugins);
+
+if (typeof document !== 'undefined' && module && module.hot) {
+  module.hot.accept("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts/react-static-browser-plugins.js", function () {
+    registerPlugins(__webpack_require__(38)["default"]);
+  });
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(34)(module)))
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+/* eslint-disable import/no-dynamic-require */
+
+var _require = __webpack_require__(39),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(39),
+var _require2 = __webpack_require__(40),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -5735,17 +6085,17 @@ registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/artifacts/react-static-templates.js", function () {
-    var _require3 = __webpack_require__(39),
+    var _require3 = __webpack_require__(40),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
 
     registerTemplates(templates, notFoundTemplate);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(34)(module)))
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5772,7 +6122,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(35);
+var _utils = __webpack_require__(36);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -5956,14 +6306,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 26,
-	"./": 26,
-	"./index": 26,
-	"./index.js": 26
+	".": 27,
+	"./": 27,
+	"./index": 27,
+	"./index.js": 27
 };
 
 
@@ -5984,16 +6334,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 76;
+webpackContext.id = 77;
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(34);
+var _typeof = __webpack_require__(35);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -6021,7 +6371,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(40);
+var _propTypes = __webpack_require__(41);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6096,13 +6446,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6113,11 +6463,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(41);
+var _hoistNonReactStatics = __webpack_require__(42);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(8);
+var _index = __webpack_require__(9);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -6169,28 +6519,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(81);
+var _interopRequireWildcard = __webpack_require__(82);
 
-var _interopRequireDefault = __webpack_require__(82);
+var _interopRequireDefault = __webpack_require__(83);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(6));
+var _extends2 = _interopRequireDefault(__webpack_require__(7));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(83));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(84));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(84);
+var _useStaticInfo = __webpack_require__(85);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -6211,7 +6561,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(85)["default"];
+var App = __webpack_require__(86)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -6224,40 +6574,40 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(36);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(37);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(32);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
 
  // Your top level component
 
@@ -6282,10 +6632,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(86)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(87)(module)))
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -6315,20 +6665,20 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(42)(false);
+exports = module.exports = __webpack_require__(43)(false);
 // Module
-exports.push([module.i, "* {\n  scroll-behavior: smooth;\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n}\n\n/* AkagiPro */\n@font-face {\n  font-family: 'AkagiProExtraLight';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-200.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 200;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProLight';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-300.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProBook';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-500.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Book.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProMedium';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-600.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 600;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProSemiBold';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-700.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 700;\n  font-style: normal;\n}\n\n/* Tisa */\n@font-face {\n  font-family: 'TisaBlackItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Black-Italic.otf') format('otf');\n  font-weight: 900;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaBlack';\n  src: url('/assets/TisaPro/otf/Tisa-Black.otf') format('otf');\n  font-weight: 900;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaExtraBoldItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');\n  font-weight: 800;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaExtraBold';\n  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');\n  font-weight: 800;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaBoldItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Bold-Italic.otf') format('otf');\n  font-weight: 700;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaBold';\n  src: url('/assets/TisaPro/otf/Tisa-Bold.otf') format('otf');\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaMediumItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Medium-Italic.otf') format('otf');\n  font-weight: 500;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaMedium';\n  src: url('/assets/TisaPro/otf/Tisa-Medium.otf') format('otf');\n  font-weight: 500;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaRegular';\n  src: url('/assets/TisaPro/otf/Tisa.otf') format('otf');\n  font-weight: 400;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaRegularItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Italic.otf') format('otf');\n  font-weight: 400;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaLightItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Light-Italic.otf') format('otf');\n  font-weight: 300;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaLight';\n  src: url('/assets/TisaPro/otf/Tisa-Light.otf') format('otf'),\n       url('/assets/TisaPro/woff2/TisaPro-200.woff2') format('woff2');\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaThinItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Thin-Italic.otf') format('otf');\n  font-weight: 100;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaThin';\n  src: url('/assets/TisaPro/otf/Tisa-Thin.otf') format('otf'),\n       url('/assets/TisaPro/woff2/TisaPro-100.woff2') format('woff2');\n  font-weight: 100;\n  font-style: normal;\n}\n\nbody {\n  font-family: 'AkagiProBook', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\nh1 {\n  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 56px;\n  line-height: 66px;\n  letter-spacing: -2px;\n  color: rgb(33, 33, 33)\n}\n\nh2 {\n  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 38px;\n  line-height: 48px;\n  letter-spacing: -1.36px;\n  color: rgb(33, 33, 33)\n}\n\nh3 {\n  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 32px;\n  line-height: 42px;\n  letter-spacing: -1.15px;\n  color: rgb(33, 33, 33)\n}\n\nh4 {\n  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 24px;\n  line-height: 34px;\n  letter-spacing: -0.86px;\n  color: rgb(33, 33, 33)\n}\n\nh5 {\n  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 18px;\n  line-height: 28px;\n  letter-spacing: -0.65px;\n  color: rgb(33, 33, 33)\n}\n\na {\n  text-decoration: none\n}\n\nimg {\n  max-width: 100%;\n}\n\n.content {\n  margin: 0 auto;\n}\n", ""]);
+exports.push([module.i, "* {\n  scroll-behavior: smooth;\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n}\n\n/* AkagiPro */\n@font-face {\n  font-family: 'AkagiProExtraLight';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-200.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 200;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProLight';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-300.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProBook';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-500.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Book.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProMedium';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-600.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 600;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'AkagiProSemiBold';\n  src: url('/assets/AkagiPro/woff2/AkagiPro-700.woff2') format('woff2'), /* Pretty Modern Browsers */\n       url('/assets/AkagiPro/ttf/AkagiPro-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */\n  font-weight: 700;\n  font-style: normal;\n}\n\n/* Tisa */\n@font-face {\n  font-family: 'TisaBlackItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Black-Italic.otf') format('otf');\n  font-weight: 900;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaBlack';\n  src: url('/assets/TisaPro/otf/Tisa-Black.otf') format('otf');\n  font-weight: 900;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaExtraBoldItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');\n  font-weight: 800;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaExtraBold';\n  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');\n  font-weight: 800;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaBoldItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Bold-Italic.otf') format('otf');\n  font-weight: 700;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaBold';\n  src: url('/assets/TisaPro/otf/Tisa-Bold.otf') format('otf');\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaMediumItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Medium-Italic.otf') format('otf');\n  font-weight: 500;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaMedium';\n  src: url('/assets/TisaPro/otf/Tisa-Medium.otf') format('otf');\n  font-weight: 500;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaRegular';\n  src: url('/assets/TisaPro/otf/Tisa.otf') format('otf');\n  font-weight: 400;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaRegularItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Italic.otf') format('otf');\n  font-weight: 400;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaLightItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Light-Italic.otf') format('otf');\n  font-weight: 300;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaLight';\n  src: url('/assets/TisaPro/otf/Tisa-Light.otf') format('otf'),\n       url('/assets/TisaPro/woff2/TisaPro-200.woff2') format('woff2');\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'TisaThinItalic';\n  src: url('/assets/TisaPro/otf/Tisa-Thin-Italic.otf') format('otf');\n  font-weight: 100;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'TisaThin';\n  src: url('/assets/TisaPro/otf/Tisa-Thin.otf') format('otf'),\n       url('/assets/TisaPro/woff2/TisaPro-100.woff2') format('woff2');\n  font-weight: 100;\n  font-style: normal;\n}\n\n/* Headings */\nh1 {\n  font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 56px;\n  line-height: 66px;\n  letter-spacing: -2px;\n  color: rgb(33, 33, 33)\n}\n\nh2 {\n  font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 38px;\n  line-height: 48px;\n  letter-spacing: -1.36px;\n  color: rgb(33, 33, 33)\n}\n\nh3 {\n  font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 32px;\n  line-height: 42px;\n  letter-spacing: -1.15px;\n  color: rgb(33, 33, 33)\n}\n\nh4 {\n  font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 24px;\n  line-height: 34px;\n  letter-spacing: -0.86px;\n  color: rgb(33, 33, 33)\n}\n\nh5 {\n  font-family: 'TisaThin', 'Helvetica Neue Light', sans-serif;\n  font-style: normal;\n  font-size: 18px;\n  line-height: 28px;\n  letter-spacing: -0.65px;\n  color: rgb(33, 33, 33)\n}\n\nbody {\n  font-family: 'AkagiProBook', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  color: rgb(33, 33, 33);\n}\n\na {\n  text-decoration: none\n}\n\nimg {\n  max-width: 100%;\n}\n\n.content {\n  margin: 0 auto;\n}\n", ""]);
 
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(42)(false);
+exports = module.exports = __webpack_require__(43)(false);
 // Module
 exports.push([module.i, ".rc-tabs {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: relative;\n  overflow: hidden;\n}\n.rc-tabs-bar,\n.rc-tabs-nav-container {\n  font-size: 14px;\n  line-height: 1.5;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  overflow: hidden;\n  position: relative;\n  white-space: nowrap;\n  outline: none;\n  zoom: 1;\n  -webkit-transition: padding .45s;\n  -o-transition: padding .45s;\n  transition: padding .45s;\n}\n.rc-tabs-ink-bar {\n  z-index: 1;\n  position: absolute;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin-top: -3px;\n  background-color: #50c9c3;\n  -webkit-transform-origin: 0 0;\n      -ms-transform-origin: 0 0;\n          transform-origin: 0 0;\n  width: 0;\n  height: 0;\n}\n.rc-tabs-ink-bar-animated {\n  -webkit-transition: left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1), top 0.3s cubic-bezier(0.35, 0, 0.25, 1), height 0.3s cubic-bezier(0.35, 0, 0.25, 1), width 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n}\n.rc-tabs-tab-prev,\n.rc-tabs-tab-next {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  z-index: 1;\n  line-height: 36px;\n  cursor: pointer;\n  border: none;\n  background-color: transparent;\n  position: absolute;\n}\n.rc-tabs-tab-prev-icon,\n.rc-tabs-tab-next-icon {\n  position: relative;\n  display: inline-block;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  line-height: inherit;\n  vertical-align: baseline;\n  text-align: center;\n  text-transform: none;\n  font-smoothing: antialiased;\n  text-stroke-width: 0;\n  font-family: sans-serif;\n}\n.rc-tabs-tab-prev-icon:before,\n.rc-tabs-tab-next-icon:before {\n  display: block;\n}\n.rc-tabs-tab-btn-disabled {\n  cursor: default;\n  color: #ccc;\n}\n.rc-tabs-nav-wrap {\n  overflow: hidden;\n}\n.rc-tabs-nav {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding-left: 0;\n  position: relative;\n  margin: 0;\n  float: left;\n  list-style: none;\n  display: inline-block;\n  -webkit-transform-origin: 0 0;\n      -ms-transform-origin: 0 0;\n          transform-origin: 0 0;\n}\n.rc-tabs-nav-animated {\n  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.5s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.5s cubic-bezier(0.35, 0, 0.25, 1);\n}\n.rc-tabs-nav:before,\n.rc-tabs-nav:after {\n  display: table;\n  content: \" \";\n}\n.rc-tabs-nav:after {\n  clear: both;\n}\n.rc-tabs-tab {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  position: relative;\n  display: block;\n  -webkit-transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  padding: 8px 20px;\n  font-weight: 500;\n  cursor: pointer;\n}\n.rc-tabs-tab:hover {\n  color: #212121;\n}\n.rc-tabs-tab-active,\n.rc-tabs-tab-active:hover {\n  color: #212121;\n  cursor: default;\n  -webkit-transform: translateZ(0);\n          transform: translateZ(0);\n}\n.rc-tabs-tab-disabled {\n  cursor: default;\n  color: #ccc;\n}\n.rc-tabs-tab-disabled:hover {\n  color: #ccc;\n}\n.rc-tabs-content {\n  zoom: 1;\n}\n.rc-tabs-content .rc-tabs-tabpane {\n  overflow: auto;\n}\n.rc-tabs-content-animated {\n  -webkit-transition: margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  -o-transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  transition: transform 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-left 0.3s cubic-bezier(0.35, 0, 0.25, 1), margin-top 0.3s cubic-bezier(0.35, 0, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.35, 0, 0.25, 1);\n  display: -ms-flexbox;\n  display: flex;\n  will-change: transform;\n}\n.rc-tabs-content-animated .rc-tabs-tabpane {\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n}\n.no-flexbox .rc-tabs-content {\n  -webkit-transform: none !important;\n      -ms-transform: none !important;\n          transform: none !important;\n  overflow: auto;\n}\n.no-csstransitions .rc-tabs-tabpane-inactive,\n.no-flexbox .rc-tabs-tabpane-inactive,\n.rc-tabs-content-no-animated .rc-tabs-tabpane-inactive {\n  display: none;\n}\n.rc-tabs-left {\n  border-right: 2px solid #f3f3f3;\n}\n.rc-tabs-left .rc-tabs-bar {\n  float: left;\n  height: 100%;\n  margin-right: 10px;\n  border-right: 1px solid #f3f3f3;\n}\n.rc-tabs-left .rc-tabs-nav-container {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-container-scrolling {\n  padding-top: 32px;\n  padding-bottom: 32px;\n}\n.rc-tabs-left .rc-tabs-nav-wrap {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-content-animated {\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n.rc-tabs-left .rc-tabs-content-animated .rc-tabs-tabpane {\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-scroll {\n  height: 99999px;\n}\n.rc-tabs-left .rc-tabs-nav-swipe {\n  position: relative;\n  top: 0;\n}\n.rc-tabs-left .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  height: 100%;\n}\n.rc-tabs-left .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-left .rc-tabs-tab-prev,\n.rc-tabs-left .rc-tabs-tab-next {\n  margin-top: -2px;\n  height: 0;\n  line-height: 32px;\n  width: 0;\n  display: block;\n  text-align: center;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show,\n.rc-tabs-left .rc-tabs-tab-arrow-show,\n.rc-tabs-bottom .rc-tabs-tab-arrow-show,\n.rc-tabs-right .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 100%;\n  height: 32px;\n}\n.rc-tabs-left .rc-tabs-tab-next {\n  bottom: 0;\n}\n.rc-tabs-left .rc-tabs-tab-next-icon {\n  -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n          transform: rotate(90deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n}\n.rc-tabs-left .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-left .rc-tabs-tab-prev {\n  top: 2px;\n}\n.rc-tabs-left .rc-tabs-tab-prev-icon {\n  -webkit-transform: rotate(270deg);\n      -ms-transform: rotate(270deg);\n          transform: rotate(270deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n}\n.rc-tabs-left .rc-tabs-tab-prev-icon:before {\n  content: \">\";\n}\n.rc-tabs-left .rc-tabs-ink-bar {\n  width: 2px;\n  right: 0;\n  top: 0;\n}\n.rc-tabs-left .rc-tabs-tab {\n  padding: 16px 24px;\n}\n.rc-tabs-right {\n  border-left: 2px solid #f3f3f3;\n}\n.rc-tabs-right .rc-tabs-bar {\n  float: right;\n  height: 100%;\n  margin-left: 10px;\n  border-left: 1px solid #f3f3f3;\n}\n.rc-tabs-right .rc-tabs-nav-container {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-container-scrolling {\n  padding-top: 32px;\n  padding-bottom: 32px;\n}\n.rc-tabs-right .rc-tabs-nav-wrap {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-scroll {\n  height: 99999px;\n}\n.rc-tabs-right .rc-tabs-nav-swipe {\n  position: relative;\n}\n.rc-tabs-right .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-right .rc-tabs-tab-prev,\n.rc-tabs-right .rc-tabs-tab-next {\n  margin-top: -2px;\n  height: 0;\n  width: 0;\n  display: block;\n  text-align: center;\n  line-height: 32px;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 100%;\n  height: 32px;\n}\n.rc-tabs-right .rc-tabs-tab-next {\n  bottom: 0;\n}\n.rc-tabs-right .rc-tabs-tab-next-icon {\n  -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n          transform: rotate(90deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n}\n.rc-tabs-right .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-right .rc-tabs-tab-prev {\n  top: 2px;\n}\n.rc-tabs-right .rc-tabs-tab-prev-icon {\n  -webkit-transform: rotate(270deg);\n      -ms-transform: rotate(270deg);\n          transform: rotate(270deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n}\n.rc-tabs-right .rc-tabs-tab-prev-icon:before {\n  content: \">\";\n}\n.rc-tabs-right .rc-tabs-content-animated {\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n.rc-tabs-right .rc-tabs-content-animated .rc-tabs-tabpane {\n  height: 100%;\n}\n.rc-tabs-right .rc-tabs-ink-bar {\n  width: 2px;\n  left: 0;\n  top: 0;\n}\n.rc-tabs-right .rc-tabs-tab {\n  padding: 16px 24px;\n}\n.rc-tabs-bottom {\n  border-top: 2px solid #f3f3f3;\n}\n.rc-tabs-bottom .rc-tabs-content {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-bar {\n  border-top: 1px solid #f3f3f3;\n}\n.rc-tabs-bottom .rc-tabs-nav-container-scrolling {\n  padding-left: 32px;\n  padding-right: 32px;\n}\n.rc-tabs-bottom .rc-tabs-nav-scroll {\n  width: 99999px;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe {\n  position: relative;\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  margin-right: 0;\n  padding: 8px 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-bottom .rc-tabs-nav-wrap {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-content-animated {\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n.rc-tabs-bottom .rc-tabs-content-animated .rc-tabs-tabpane {\n  width: 100%;\n}\n.rc-tabs-bottom .rc-tabs-tab-next {\n  right: 2px;\n}\n.rc-tabs-bottom .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-bottom .rc-tabs-tab-prev {\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-tab-prev-icon:before {\n  content: \"<\";\n}\n.rc-tabs-bottom .rc-tabs-tab-prev,\n.rc-tabs-bottom .rc-tabs-tab-next {\n  margin-right: -2px;\n  width: 32px;\n  height: 100%;\n  top: 0;\n  text-align: center;\n}\n.rc-tabs-bottom .rc-tabs-ink-bar {\n  height: 2px;\n  top: 3px;\n  left: 0;\n}\n.rc-tabs-bottom .rc-tabs-tab {\n  float: left;\n  height: 100%;\n  margin-right: 30px;\n}\n.rc-tabs-bottom .rc-tabs-tabpane-inactive {\n  height: 0;\n  overflow: visible;\n}\n.rc-tabs-top {\n  border-bottom: 2px solid #f3f3f3;\n}\n.rc-tabs-top .rc-tabs-content {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-bar {\n  border-bottom: 1px solid #f3f3f3;\n}\n.rc-tabs-top .rc-tabs-nav-container-scrolling {\n  padding-left: 32px;\n  padding-right: 32px;\n}\n.rc-tabs-top .rc-tabs-nav-scroll {\n  width: 99999px;\n}\n.rc-tabs-top .rc-tabs-nav-swipe {\n  position: relative;\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-nav-swipe .rc-tabs-nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1;\n      flex: 1 1;\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-nav-swipe .rc-tabs-nav .rc-tabs-tab {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-negative: 0;\n      flex-shrink: 0;\n  margin-right: 0;\n  padding: 8px 0;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.rc-tabs-top .rc-tabs-nav-wrap {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-content-animated {\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n.rc-tabs-top .rc-tabs-content-animated .rc-tabs-tabpane {\n  width: 100%;\n}\n.rc-tabs-top .rc-tabs-tab-next {\n  right: 2px;\n}\n.rc-tabs-top .rc-tabs-tab-next-icon:before {\n  content: \">\";\n}\n.rc-tabs-top .rc-tabs-tab-prev {\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-tab-prev-icon:before {\n  content: \"<\";\n}\n.rc-tabs-top .rc-tabs-tab-prev,\n.rc-tabs-top .rc-tabs-tab-next {\n  margin-right: -2px;\n  width: 0;\n  height: 0;\n  top: 0;\n  text-align: center;\n  opacity: 0;\n  -webkit-transition: width .3s, height .3s, opacity .3s;\n  -o-transition: width .3s, height .3s, opacity .3s;\n  transition: width .3s, height .3s, opacity .3s;\n}\n.rc-tabs-top .rc-tabs-tab-arrow-show {\n  opacity: 1;\n  width: 32px;\n  height: 100%;\n}\n.rc-tabs-top .rc-tabs-ink-bar {\n  height: 2px;\n  bottom: 0;\n  left: 0;\n}\n.rc-tabs-top .rc-tabs-tab {\n  float: left;\n  height: 100%;\n  margin-right: 30px;\n}\n.rc-tabs-top .rc-tabs-tabpane-inactive {\n  height: 0;\n  overflow: visible;\n}\n", ""]);
 
