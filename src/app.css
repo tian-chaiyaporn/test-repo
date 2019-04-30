@@ -5,13 +5,200 @@
   -webkit-box-sizing: border-box;
 }
 
+/* AkagiPro */
+@font-face {
+  font-family: 'AkagiProExtraLight';
+  src: url('/assets/AkagiPro/woff2/AkagiPro-200.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkagiProLight';
+  src: url('/assets/AkagiPro/woff2/AkagiPro-300.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('/assets/AkagiPro/ttf/AkagiPro-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkagiProBook';
+  src: url('/assets/AkagiPro/woff2/AkagiPro-500.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('/assets/AkagiPro/ttf/AkagiPro-Book.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkagiProMedium';
+  src: url('/assets/AkagiPro/woff2/AkagiPro-600.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('/assets/AkagiPro/ttf/AkagiPro-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkagiProSemiBold';
+  src: url('/assets/AkagiPro/woff2/AkagiPro-700.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('/assets/AkagiPro/ttf/AkagiPro-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Tisa */
+@font-face {
+  font-family: 'TisaBlackItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Black-Italic.otf') format('otf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaBlack';
+  src: url('/assets/TisaPro/otf/Tisa-Black.otf') format('otf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaExtraBoldItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaExtraBold';
+  src: url('/assets/TisaPro/otf/Tisa-Xbold-Italic.otf') format('otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaBoldItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Bold-Italic.otf') format('otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaBold';
+  src: url('/assets/TisaPro/otf/Tisa-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaMediumItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Medium-Italic.otf') format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaMedium';
+  src: url('/assets/TisaPro/otf/Tisa-Medium.otf') format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaRegular';
+  src: url('/assets/TisaPro/otf/Tisa.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaRegularItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Italic.otf') format('otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaLightItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Light-Italic.otf') format('otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaLight';
+  src: url('/assets/TisaPro/otf/Tisa-Light.otf') format('otf'),
+       url('/assets/TisaPro/woff2/TisaPro-200.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TisaThinItalic';
+  src: url('/assets/TisaPro/otf/Tisa-Thin-Italic.otf') format('otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TisaThin';
+  src: url('/assets/TisaPro/otf/Tisa-Thin.otf') format('otf'),
+       url('/assets/TisaPro/woff2/TisaPro-100.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  font-family: 'AkagiProBook', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -2px;
+  color: rgb(33, 33, 33)
+}
+
+h2 {
+  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -1.36px;
+  color: rgb(33, 33, 33)
+}
+
+h3 {
+  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -1.15px;
+  color: rgb(33, 33, 33)
+}
+
+h4 {
+  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.86px;
+  color: rgb(33, 33, 33)
+}
+
+h5 {
+  font-family: 'TisaLight', 'Helvetica Neue Light', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.65px;
+  color: rgb(33, 33, 33)
 }
 
 a {
@@ -23,8 +210,5 @@ img {
 }
 
 .content {
-  /* padding: 1rem; */
-  /* max-width: 1200px; */
   margin: 0 auto;
-  /* padding: 0 5%; */
 }

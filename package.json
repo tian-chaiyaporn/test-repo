@@ -1,11 +1,10 @@
 {
   "name": "wellglo",
   "private": true,
-  "homepage": "https://tian-chaiyaporn.github.io/test-repo/",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
-    "build": "rm -rf ./docs && react-static build && mv ./dist ./docs",
+    "build": "react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve docs -p 3000"
   },
