@@ -1,7 +1,12 @@
 import React from 'react'
+import { PatientReviewInfo } from '../components/PatientReviewInfo'
 
 export const PatientReviewContainer = () => {
   return (
-    <div>PatientReviewContainer</div>
+    <div>
+      <PatientReviewInfo />
+      <div>Rate this doctor</div>
+      <div>Comment list</div>
+    </div>
   )
 }

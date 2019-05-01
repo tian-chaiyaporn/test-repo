@@ -38,7 +38,7 @@ export const StarWithRating = (props) => {
   return (
     <Fragment>
       <Star rating={rating} onChange={null} />
-      <RatingCount colors={Colors}>{`(${reviewCount})`}</RatingCount>
+      { reviewCount ? <RatingCount colors={Colors}>{`(${reviewCount})`}</RatingCount> : null }
     </Fragment>
   )
 }
