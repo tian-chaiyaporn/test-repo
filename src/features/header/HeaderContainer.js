@@ -77,7 +77,7 @@ const BurgerButton = () => (<LineContainer><Line /><Line /></LineContainer>)
 const FullMenu = () => (
   <MenuStyled>
     <Link to="/">
-      <StyledImage height={30} src="/assets/logo.svg" />
+      <StyledImage height={25} src="/assets/logo.svg" />
     </Link>
     <div>
       <StyledLink to="/providers"><SmallSpan>Find a doctor</SmallSpan></StyledLink>

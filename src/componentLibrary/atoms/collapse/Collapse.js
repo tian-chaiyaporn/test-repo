@@ -39,7 +39,7 @@ export const Collapse = (props) => {
   const icon = isCollapse ? (<Remove />) : (<Add />)
 
   return (
-    <StyledList color={Colors.BLACK} borderColor={borderColor} >
+    <StyledList color={Colors.BLACK} borderColor={borderColor} {...props} >
       <StyledTitle>
         <span>{title}</span>
         <StyledButton onClick={handleClick}>

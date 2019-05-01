@@ -2,10 +2,11 @@
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  font-family: 'AkagiProLight', sans-serif;
 }
 .rc-tabs-bar,
 .rc-tabs-nav-container {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   box-sizing: border-box;
   overflow: hidden;
@@ -93,7 +94,7 @@
   position: relative;
   display: block;
   transition: color 0.3s cubic-bezier(0.35, 0, 0.25, 1);
-  padding: 8px 20px;
+  padding: 20px 0;
   font-weight: 500;
   cursor: pointer;
 }
@@ -102,6 +103,7 @@
 }
 .rc-tabs-tab-active,
 .rc-tabs-tab-active:hover {
+  font-family: 'AkagiProMedium', sans-serif;
   color: #212121;
   cursor: default;
   transform: translateZ(0);
@@ -484,14 +486,14 @@
   height: 100%;
 }
 .rc-tabs-top .rc-tabs-ink-bar {
-  height: 2px;
+  height: 4px;
   bottom: 0;
   left: 0;
 }
 .rc-tabs-top .rc-tabs-tab {
   float: left;
   height: 100%;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .rc-tabs-top .rc-tabs-tabpane-inactive {
   height: 0;
