@@ -15,11 +15,11 @@ const RatingCount = styled.span`
 `
 
 export const Star = (props) => {
-  const { onChange = () => {} } = props
+  const { onChange = () => {}, starSize = '20px' } = props
   return (
     <StarRatings
       changeRating={onChange}
-      starDimension={'20px'}
+      starDimension={starSize}
       starSpacing={'1px'}
       starHoverColor={Colors.AQUA_MARINE}
       starRatedColor={Colors.AQUA_MARINE}
@@ -33,11 +33,12 @@ export const Star = (props) => {
 export const StarWithRating = (props) => {
   const {
     rating = 0,
-    reviewCount = 0
+    reviewCount = 0,
+    starSize = '20px'
   } = props
   return (
     <Fragment>
-      <Star rating={rating} onChange={null} />
+      <Star rating={rating} onChange={null} starSize={starSize} />
       { reviewCount ? <RatingCount colors={Colors}>{`(${reviewCount})`}</RatingCount> : null }
     </Fragment>
   )

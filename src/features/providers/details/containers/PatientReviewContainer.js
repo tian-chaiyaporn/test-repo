@@ -1,6 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
+import { Colors } from '../../../../constants/Styles'
 import { PatientReviewInfo } from '../components/PatientReviewInfo'
 import { CommentList } from '../components/Comment'
+import { Collapse } from '../../../../componentLibrary/atoms/collapse/Collapse'
+
+const CustomCollapse = styled(Collapse)`
+  font-family: 'TisaLight';
+  font-size: 24px;
+  padding: 16px 0;
+  border-top: 1px solid ${Colors.VERY_LIGHT_PINK};
+`
 
 const mockData = {
   comments: [
@@ -40,9 +50,11 @@ const mockData = {
 export const PatientReviewContainer = (props) => {
   const { comments } = props
   return (
-    <div style={{ padding: '20px 0' }}>
+    <div style={{ padding: '20px 0' }} id='reviews'>
       <PatientReviewInfo />
-      <div>Rate this doctor</div>
+      <CustomCollapse title='How was your experience?' borderColor={Colors.VERY_LIGHT_PINK} >
+        <div>test</div>
+      </CustomCollapse>
       <CommentList comments={comments || mockData.comments} />
     </div>
   )

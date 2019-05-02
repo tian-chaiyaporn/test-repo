@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Colors } from '../../../../constants/Styles'
+import { Colors, MEDIA } from '../../../../constants/Styles'
 import { StarWithRating } from '../../../../componentLibrary/atoms/stars/Star'
 import {
   SmallerParagraph,
@@ -23,7 +23,12 @@ const ByLine = styled(SmallerSpan)`
   margin-right: 5px;
   color: ${Colors.BROWN_GREY}
 `
-const Rating = styled.div`margin-right: 40px;`
+const Rating = styled.div`
+  margin-right: 40px;
+  ${MEDIA.phone`
+    margin-right: 20px;
+  `}
+`
 
 export const Comment = (props) => {
   const {
@@ -46,15 +51,15 @@ export const Comment = (props) => {
       <RatingContainer>
         <Rating>
           <SmallerParagraph>Overall</SmallerParagraph>
-          <StarWithRating rating={overall} reviewCount={0} />
+          <StarWithRating rating={overall} reviewCount={0} starSize={'15px'} />
         </Rating>
         <Rating>
           <SmallerParagraph>Wait time</SmallerParagraph>
-          <StarWithRating rating={waitTime} reviewCount={0} />
+          <StarWithRating rating={waitTime} reviewCount={0} starSize={'15px'} />
         </Rating>
         <Rating>
           <SmallerParagraph>Bedside manner</SmallerParagraph>
-          <StarWithRating rating={bedsideManner} reviewCount={0} />
+          <StarWithRating rating={bedsideManner} reviewCount={0} starSize={'15px'} />
         </Rating>
       </RatingContainer>
       <LargeParagraph>{title}</LargeParagraph>
