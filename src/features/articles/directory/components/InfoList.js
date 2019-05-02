@@ -29,7 +29,11 @@ const StyledHeading = styled.h2`
 
 const StyledContainer = styled.div`
   padding: 40px 0;
-  border-bottom: 1px solid ${Colors.VERY_LIGHT_PINK}
+  border-bottom: 1px solid ${Colors.VERY_LIGHT_PINK};
+
+  &:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
 
   ${MEDIA.phone`
     padding: 10px 0;

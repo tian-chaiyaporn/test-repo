@@ -8,6 +8,10 @@ const CustomCollapse = styled(Collapse)`
   font-family: 'TisaLight';
   font-size: 24px;
   padding: 16px 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 const CustomText = styled(SmallParagraph)`
