@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import styled from 'styled-components'
 import StarRatings from 'react-star-ratings';
 import { Colors } from '../../../constants/Styles'
@@ -25,6 +25,30 @@ export const Star = (props) => {
       starRatedColor={Colors.AQUA_MARINE}
       svgIconViewBox={STAR_SVG_VIEWBOX}
       svgIconPath={STAR_SVG}
+      {...props}
+    />
+  )
+}
+
+export const FormikStar = ({
+  field,
+  form: { setFieldValue },
+  ...props
+}) => {
+  const [rating, setRating] = useState(0)
+  return (
+    <StarRatings
+      changeRating={(val) => {
+        setRating(val)
+        setFieldValue(field.name, val, false)
+      }}
+      starDimension={props.starSize || '20px'}
+      starSpacing={'1px'}
+      starHoverColor={Colors.AQUA_MARINE}
+      starRatedColor={Colors.AQUA_MARINE}
+      svgIconViewBox={STAR_SVG_VIEWBOX}
+      svgIconPath={STAR_SVG}
+      rating={rating}
       {...props}
     />
   )

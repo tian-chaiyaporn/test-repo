@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled, { css } from 'styled-components'
 import { Colors } from '../../../constants/Styles'
 
@@ -26,6 +26,28 @@ export const Button = (props) => {
     <ButtonStyled
       type={'button'}
       primaryColor={Colors.AQUA_MARINE}
+      {...props}
+    >
+      {props.text}
+    </ButtonStyled>
+  )
+}
+
+export const FormikButton = ({
+  field,
+  form: { setFieldValue },
+  ...props
+}) => {
+  const [isClicked, setClick] = useState(false)
+  return (
+    <ButtonStyled
+      onClick={() => {
+        setClick(!isClicked)
+        setFieldValue(field.name, !isClicked, false)
+      }}
+      type={'button'}
+      primaryColor={Colors.AQUA_MARINE}
+      filled={isClicked}
       {...props}
     >
       {props.text}

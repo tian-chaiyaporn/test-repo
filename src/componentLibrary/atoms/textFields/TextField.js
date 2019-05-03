@@ -1,9 +1,14 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
+import MuiTextField from '@material-ui/core/TextField';
 import { Colors } from '../../../constants/Styles';
 
 const styles = theme => ({
+  root: {
+    '&:hover': {
+      borderBottom: 'none'
+    },
+  },
   underline: {
     '&:after': {
       borderBottom: `2px solid ${Colors.VERY_LIGHT_PINK_2}`,
@@ -15,16 +20,40 @@ const styles = theme => ({
 })
 
 function CustomizedInputs(props) {
-  const { classes } = props
+  const { classes, label = '' } = props
   return (
     <div className={classes.root}>
-      <TextField
+      <MuiTextField
         InputProps={{ classes: props.classes }}
-        label="Custom CSS"
+        label={label}
         id="custom-css-outlined-input"
+        {...props}
       />
     </div>
   )
 }
 
-export default withStyles(styles)(CustomizedInputs)
+function FormikInputs(props) {
+  const {
+    classes,
+    label = '',
+    field,
+    form: { setFieldValue },
+  } = props
+  const onValueChanged = (e) => setFieldValue(field.name, e.target.value)
+  return (
+    <div className={classes.root}>
+      <MuiTextField
+        InputProps={{ classes: props.classes }}
+        label={label}
+        id="custom-css-outlined-input"
+        onChange={onValueChanged}
+        {...props}
+      />
+    </div>
+  )
+}
+
+export const TextField = withStyles(styles)(CustomizedInputs)
+
+export const FormikTextField = withStyles(styles)(FormikInputs)

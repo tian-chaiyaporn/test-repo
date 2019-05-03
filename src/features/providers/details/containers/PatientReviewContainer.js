@@ -4,6 +4,7 @@ import { Colors } from '../../../../constants/Styles'
 import { PatientReviewInfo } from '../components/PatientReviewInfo'
 import { CommentList } from '../components/Comment'
 import { Collapse } from '../../../../componentLibrary/atoms/collapse/Collapse'
+import { ReviewForm } from '../components/ReviewForm'
 
 const CustomCollapse = styled(Collapse)`
   font-family: 'TisaLight';
@@ -25,7 +26,7 @@ const mockData = {
       bedsideManner: 5
     },
     {
-      title: 'Suspendisse pharetra posuere',
+      title: 'Suspendisse pharetra posuere 2',
       body: 'Aenean ultricies, sem vel facilisis consectetur, metus ligula ultrices sem, ac consectetur dui nisi quis quam. Sed augue tortor, hendrerit eu tortor vitae, hendrerit blandit nulla. Aliquam erat volutpat. Pellentesque ut gravida tortor. In hac habitasse platea dictumst. Suspendisse pharetra posuere erat sit amet facilisis. Nunc facilisis lorem ut odio pellentesque aliquam. Vivamus dui massa, sagittis id congue elementum, porttitor quis quam. Pellentesque scelerisque ligula aliquam quam scelerisque, non elementum ex semper.',
       date: 'January 10, 2019',
       name: 'Jonas A',
@@ -35,7 +36,7 @@ const mockData = {
       bedsideManner: 5
     },
     {
-      title: 'Suspendisse pharetra posuere',
+      title: 'Suspendisse pharetra posuere 3',
       body: 'Aenean ultricies, sem vel facilisis consectetur, metus ligula ultrices sem, ac consectetur dui nisi quis quam. Sed augue tortor, hendrerit eu tortor vitae, hendrerit blandit nulla. Aliquam erat volutpat. Pellentesque ut gravida tortor. In hac habitasse platea dictumst. Suspendisse pharetra posuere erat sit amet facilisis. Nunc facilisis lorem ut odio pellentesque aliquam. Vivamus dui massa, sagittis id congue elementum, porttitor quis quam. Pellentesque scelerisque ligula aliquam quam scelerisque, non elementum ex semper.',
       date: 'January 10, 2019',
       name: 'Jonas A',
@@ -53,7 +54,7 @@ export const PatientReviewContainer = (props) => {
     <div style={{ padding: '20px 0' }} id='reviews'>
       <PatientReviewInfo />
       <CustomCollapse title='How was your experience?' borderColor={Colors.VERY_LIGHT_PINK} >
-        <div>test</div>
+        <div><ReviewForm /></div>
       </CustomCollapse>
       <CommentList comments={comments || mockData.comments} />
     </div>
