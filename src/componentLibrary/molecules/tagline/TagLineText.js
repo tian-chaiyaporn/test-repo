@@ -11,7 +11,7 @@ const StyledContent = styled(SmallParagraph)`
 `
 
 const StyledTitle = styled(SmallParagraph)`
-  font-family: 'AkagiProMedium';
+  font-family: 'AkagiProBook';
   margin: 0 auto;
   letter-spacing: -0.1px;
 `

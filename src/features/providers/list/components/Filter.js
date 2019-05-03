@@ -9,15 +9,6 @@ import { withStyles } from '@material-ui/core/styles';
 import { Colors } from '../../../../constants/Styles'
 import { Switch } from '../../../../componentLibrary/atoms/switch/Switch'
 
-const data = {
-  options: [
-    { value: 'Test' },
-    { value: 'Dermatologist' },
-    { value: 'Dentist' },
-  ],
-  filters: [ 'filter', 'filter2', 'filter3' ]
-}
-
 export const Filter = (props) => {
   const [doctorType, setDoctorType] = useState('Select a Specialist')
 
@@ -113,3 +104,12 @@ const selectStyles = { root: { padding: 0, minWidth: '80px' } }
 const SelectCustom = withStyles(selectStyles)(Select)
 const inputStyles = { input: { padding: 0 } }
 const InputCustom = withStyles(inputStyles)(Input)
+
+const data = {
+  options: [
+    { value: 'Test' },
+    { value: 'Dermatologist' },
+    { value: 'Dentist' },
+  ],
+  filters: [ 'filter', 'filter2', 'filter3' ]
+}

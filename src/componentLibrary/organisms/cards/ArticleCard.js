@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Colors } from '../../../constants/Styles'
+import { SmallParagraph } from '../../../constants/BodyText'
 
 import { TagLine } from '../../molecules/tagline/TagLine'
 
@@ -13,22 +14,23 @@ const StyledImage = styled.img`
   padding: ${props => props.padding || '0'};
 `
 
-const StyledTitle = styled.p`
+const StyledTitle = styled.h3`
   margin: 0 auto;
   font-size: 20px;
   letter-spacing: -0.1px;
 `
 
-const StyledContent = styled.p`
+const StyledContent = styled(SmallParagraph)`
+  font-family: 'AkagiProLight';
+  font-weight: 100;
   margin: 0 auto;
-  letter-spacing: -0.1px;
-  font-size: 16px;
   color: ${props => props.color || 'darkgray'};
 `
 
 const StyledArticle = styled.article`
   width: ${props => props.width || '100%'};
   max-width: ${props => props.width || '335px'};
+  margin: 0 auto;
 `
 
 const MarginVertical = styled.div`
@@ -55,13 +57,14 @@ export const ArticleCardWithByline = (props) => {
     articleContent = '',
     tagTitle = '',
     tagContent = '',
+    tagImg = ''
   } = props
   return (
     <StyledArticle>
       <StyledImage colors={Colors} src={imageSrc} />
       <ArticleText title={articleTitle} content={articleContent}/>
       <MarginVertical>
-        <TagLine style={{ fontSize: '13px' }} title={tagTitle} content={tagContent} />
+        <TagLine style={{ fontSize: '13px' }} title={tagTitle} content={tagContent} source={tagImg} />
       </MarginVertical>
     </StyledArticle>
   )

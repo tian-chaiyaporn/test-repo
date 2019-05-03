@@ -1,4 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import styled from 'styled-components'
+import { MEDIA } from '../../../../constants/Styles'
+import { ArticleCardWithByline } from '../../../../componentLibrary/organisms/cards/ArticleCard'
+import { TopStory } from '../components/TopStory'
 
 export const ArticleListContainer = () => {
   return (
@@ -9,27 +13,156 @@ export const ArticleListContainer = () => {
   )
 }
 
-export const TopStory = () => {
+export const List = (props) => {
+  const { articles = mockData } = props
+  const articleLists = articles.map((article) => (
+    <ArticleCardWithByline
+      key={article.id}
+      imageSrc={article.img}
+      articleTitle={article.title}
+      articleContent={article.subtitle}
+      tagTitle={article.author}
+      tagContent={`${article.publishDate} - ${article.timeToRead} min read`}
+      tagImg={article.thumbnail}
+    />
+  ))
   return (
-    <Fragment>
-      <h2>Top Story</h2>
-      <div>
-        <div>large image</div>
-        <h2>Nullan disnissim</h2>
-        <p>subtitle</p>
-        <div>editor tag</div>
-      </div>
-    </Fragment>
+    <div style={{ padding: '30px 0' }}>
+      <h3>Keep reading</h3>
+      <GridContainer>
+        {articleLists}
+      </GridContainer>
+    </div>
   )
 }
 
-export const List = () => (
-  <Fragment>
-    <h3>Keep reading</h3>
-    <div>
-      <p>article1</p>
-      <p>article2</p>
-      <p>article3</p>
-    </div>
-  </Fragment>
-)
+const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  row-gap: 30px;
+  column-gap: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  ${MEDIA.tablet`
+    grid-template-columns: repeat(2, 1fr);
+  `}
+
+  ${MEDIA.phone`
+    display: block;
+  `}
+`
+
+const mockData = [
+  {
+    id: '1',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '2',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '3',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '4',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '5',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '6',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '7',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '8',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '9',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '10',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+  {
+    id: '11',
+    img: 'http://placekitten.com/g/335/240',
+    title: 'Interdum et malesuada fames',
+    subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
+    thumbnail: '',
+    publishDate: 'Feb 20',
+    timeToRead: '3',
+    author: 'Richard Rhodes'
+  },
+]

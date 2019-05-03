@@ -21,9 +21,7 @@ const CustomButton = ({
   const isYes = props.text === 'Yes'
   return (
     <Button
-      onClick={() => {
-        setFieldValue(field.name, isYes, false)
-      }}
+      onClick={() => setFieldValue(field.name, isYes, false)}
       type={'button'}
       primaryColor={Colors.AQUA_MARINE}
       {...props}
