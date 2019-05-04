@@ -6,27 +6,42 @@ import { Card } from '../../atoms/card/Card'
 import { TagLineText } from '../../molecules/tagline/TagLineText'
 import { ThumbnailCircle } from '../../atoms/image/ThumbnailCircle'
 import { StarWithRating } from '../../atoms/stars/Star'
+import { Link } from '../../../Router'
 
-const StyledTitle = styled.address`
-  font-family: 'AkagiProMedium';
-  font-style: normal;
-  margin: 0 auto;
-  font-size: 16px;
-  letter-spacing: -0.1px;
-`
-
-const StyledContent = styled.address`
-  font-family: 'AkagiProLight';
-  font-style: normal;
-  margin: 0 auto;
-  letter-spacing: -0.1px;
-  font-size: 15px;
-  color: ${props => props.color || 'darkgray'};
-`
-
-const MarginVertical = styled.div`
-  margin:  ${props => props.margin || '10px 0'};
-`
+export const ProfileInfoCard = (props) => {
+  const {
+    imageSrc = "",
+    addressName = '',
+    addressDetail = '',
+    tagTitle = '',
+    tagContent = '',
+    rating,
+    reviewCount,
+    withAd = false,
+    link = ''
+  } = props
+  return (
+    <StyledCard minWidth='248px' height='320px' padding='1.5em 1em'>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <ThumbnailCircle source={imageSrc} />
+        {withAd ? <div><AdBox>Ad</AdBox></div> : null}
+      </div>
+      <MarginVertical>
+        <Link to={link}>
+          <TagLineText
+            style={{ fontSize: '13px' }}
+            title={tagTitle}
+            content={tagContent}
+          />
+        </Link>
+      </MarginVertical>
+      <StarWithRating rating={rating} reviewCount={reviewCount} />
+      <MarginVertical margin={'15px 0'}>
+        <InfoText title={addressName} content={addressDetail}/>
+      </MarginVertical>
+    </StyledCard>
+  )
+}
 
 export const InfoText = (props) => {
   const contentElement = props.content
@@ -60,34 +75,23 @@ const AdBox = styled.p`
   color: ${Colors.AQUA_MARINE};
 `
 
-export const ProfileInfoCard = (props) => {
-  const {
-    imageSrc = "",
-    addressName = '',
-    addressDetail = '',
-    tagTitle = '',
-    tagContent = '',
-    rating,
-    reviewCount,
-    withAd = false
-  } = props
-  return (
-    <StyledCard minWidth='248px' height='320px' padding='1.5em 1em'>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <ThumbnailCircle source={imageSrc} />
-        {withAd ? <div><AdBox>Ad</AdBox></div> : null}
-      </div>
-      <MarginVertical>
-        <TagLineText
-          style={{ fontSize: '13px' }}
-          title={tagTitle}
-          content={tagContent}
-        />
-      </MarginVertical>
-      <StarWithRating rating={rating} reviewCount={reviewCount} />
-      <MarginVertical margin={'15px 0'}>
-        <InfoText title={addressName} content={addressDetail}/>
-      </MarginVertical>
-    </StyledCard>
-  )
-}
+const StyledTitle = styled.address`
+  font-family: 'AkagiProMedium';
+  font-style: normal;
+  margin: 0 auto;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+`
+
+const StyledContent = styled.address`
+  font-family: 'AkagiProLight';
+  font-style: normal;
+  margin: 0 auto;
+  letter-spacing: -0.1px;
+  font-size: 15px;
+  color: ${props => props.color || 'darkgray'};
+`
+
+const MarginVertical = styled.div`
+  margin:  ${props => props.margin || '10px 0'};
+`

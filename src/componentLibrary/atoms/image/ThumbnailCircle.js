@@ -25,7 +25,7 @@ const Image = styled.img`
 `
 
 export const ThumbnailCircle = (props) => {
-  const imageSource = props.source || "http://placekitten.com/g/150/150"
+  const imageSource = props.source || "https://picsum.photos/150/150"
   return (
     <CroppedDiv
       gradientColorTop={Colors.LIGHT_TEAL}

@@ -3,16 +3,6 @@ import styled from 'styled-components'
 import { ProfileInfoCard } from '../../organisms/cards/ProfileInfoCard'
 import { MEDIA } from '../../../constants/Styles'
 
-const ProfileListWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 0 20px 0;
-
-  ${MEDIA.phone`
-    justify-content: center;
-  `}
-`
-
 export const ProfileListContainer = (props) => {
   const {
     data = [],
@@ -29,6 +19,7 @@ export const ProfileListContainer = (props) => {
         tagContent={card.tagContent}
         rating={card.rating}
         reviewCount={card.reviewCount}
+        link={card.link}
         withAd={withAd}
       />
     </div>
@@ -40,3 +31,13 @@ export const ProfileListContainer = (props) => {
     </ProfileListWrapper>
   )
 }
+
+const ProfileListWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 20px 0;
+
+  ${MEDIA.phone`
+    justify-content: center;
+  `}
+`

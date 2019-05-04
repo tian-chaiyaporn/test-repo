@@ -57,7 +57,7 @@ const GridContainer = styled.div`
 const mockData = [
   {
     id: '1',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -67,7 +67,7 @@ const mockData = [
   },
   {
     id: '2',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -77,7 +77,7 @@ const mockData = [
   },
   {
     id: '3',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -87,7 +87,7 @@ const mockData = [
   },
   {
     id: '4',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -97,7 +97,7 @@ const mockData = [
   },
   {
     id: '5',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -107,7 +107,7 @@ const mockData = [
   },
   {
     id: '6',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -117,7 +117,7 @@ const mockData = [
   },
   {
     id: '7',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -127,7 +127,7 @@ const mockData = [
   },
   {
     id: '8',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -137,7 +137,7 @@ const mockData = [
   },
   {
     id: '9',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -147,7 +147,7 @@ const mockData = [
   },
   {
     id: '10',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
@@ -157,7 +157,7 @@ const mockData = [
   },
   {
     id: '11',
-    img: 'http://placekitten.com/g/335/240',
+    img: 'https://picsum.photos/335/240',
     title: 'Interdum et malesuada fames',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',

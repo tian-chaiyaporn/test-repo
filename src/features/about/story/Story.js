@@ -72,7 +72,7 @@ export const Story = () => {
         title='Our Story'
         subtitle='Maecenas enim purus, fringilla nec'
       />
-      <div style={{ margin: '50px 0', width: '100%', height: '400px', background: 'lightgrey' }}>image</div>
+      <img style={{ padding: '20px 0' }} src={'https://picsum.photos/920/540'} alt={'cats'} />
       <P>{firstParagraph}</P>
       <P>{secondParagraph}</P>
       <h3>The Team behind Wellglo</h3>

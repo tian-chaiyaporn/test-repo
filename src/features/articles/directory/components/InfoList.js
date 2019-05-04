@@ -5,6 +5,37 @@ import { Colors, MEDIA, WINDOW_SIZES } from '../../../../constants/Styles'
 import { LargeSpan } from '../../../../constants/BodyText'
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
 import { ButtonInList } from '../../../../componentLibrary/atoms/button/ButtonInList'
+import { urlNormalizer } from '../../../../utils/utils'
+
+export const InfoList = (props) => {
+  const {
+    alphabet = '',
+    titles = []
+  } = props
+  const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.phone}px)`);
+
+  const list = titles.map(title =>
+    matches
+    ? (      
+      <StyledListElem key={title}>
+        <StyledLink to={`/health/${urlNormalizer(title)}`}>
+          <LargeSpan>{title}</LargeSpan>
+        </StyledLink>
+      </StyledListElem>
+    ) : (
+      <ButtonInList key={title} title={title} link={`/health/${urlNormalizer(title)}`} />
+    )
+  )
+
+  return (
+    <StyledContainer>
+      <StyledHeading>{alphabet}</StyledHeading>
+      <StyledListContainer>
+        {list}
+      </StyledListContainer>
+    </StyledContainer>
+  )
+}
 
 const StyledLink = styled(Link)`
   color: ${Colors.BLACK};
@@ -40,33 +71,3 @@ const StyledContainer = styled.div`
     border-bottom: none;
   `}
 `
-
-export const InfoList = (props) => {
-  const {
-    alphabet = '',
-    titles = []
-  } = props
-  const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.phone}px)`);
-
-  const list = titles.map(title =>
-    matches
-    ? (      
-      <StyledListElem key={title}>
-        <StyledLink to={`/health/${title.replace(' ', '-')}`}>
-          <LargeSpan>{title}</LargeSpan>
-        </StyledLink>
-      </StyledListElem>
-    ) : (
-      <ButtonInList key={title} title={title} link={`/health/${title.replace(' ', '-')}`} />
-    )
-  )
-
-  return (
-    <StyledContainer>
-      <StyledHeading>{alphabet}</StyledHeading>
-      <StyledListContainer>
-        {list}
-      </StyledListContainer>
-    </StyledContainer>
-  )
-}
