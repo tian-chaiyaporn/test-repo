@@ -32,7 +32,6 @@ export const ArticleCardWithByline = (props) => {
   return (
     <StyledArticle>
       <StyledImage colors={Colors} src={imageSrc} />
-      {/* Test Url builder here in case of wrong data */}
       <Link to={`/articles/${urlNormalizer(articleTitle)}`}> 
       <ArticleText title={articleTitle} content={articleContent}/>
       <MarginVertical>
@@ -52,15 +51,17 @@ export const ArticleCard = (props) => {
   return (
     <StyledArticle>
       <StyledImage colors={Colors} src={imageSrc} />
-      <ArticleText title={articleTitle} content={articleContent}/>
+      <Link to={`/articles/${urlNormalizer(articleTitle)}`}> 
+        <ArticleText title={articleTitle} content={articleContent}/>
+      </Link>
     </StyledArticle>
   )
 }
 
 const StyledImage = styled.img`
   width: ${props => props.width || '100%'};
-  max-width: ${props => props.width || '335px'};
-  max-height: ${props => props.height || '240px'};
+  max-width: ${props => props.width || '100%'};
+  max-height: ${props => props.height || 'auto'};
   border-radius: 2px;
   background-color: #ffffff;
   padding: ${props => props.padding || '0'};
@@ -81,7 +82,7 @@ const StyledContent = styled(SmallParagraph)`
 
 const StyledArticle = styled.article`
   width: ${props => props.width || '100%'};
-  max-width: ${props => props.width || '335px'};
+  max-width: ${props => props.width || '100%'};
   margin: 0 auto;
 `
 

@@ -50,7 +50,7 @@ const GridContainer = styled.div`
   `}
 
   ${MEDIA.phone`
-    display: block;
+    grid-template-columns: repeat(1, 1fr);
   `}
 `
 
