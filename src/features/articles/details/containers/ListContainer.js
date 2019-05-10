@@ -1,17 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "./customSlider.css"
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery'
 import { MEDIA, WINDOW_SIZES } from '../../../../constants/Styles'
 import { ArticleCard } from '../../../../componentLibrary/organisms/cards/ArticleCard'
+import { CarouselBase } from '../../../../componentLibrary/molecules/carousel/CarouselBase'
 
 export const List = (props) => {
   const { articles = [] } = props
 
   const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.tablet}px)`)
-
 
   const articleList = matches
     ? <GridContainer><KeepReading articles={articles} /></GridContainer>
@@ -42,20 +39,22 @@ const Slide = ({ articles }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3
-  }
+	}
+	const handleOnDragStart = e => e.preventDefault()
   return (
-    <Slider settings={settings}>
-      {
-        articles.map(article => (
-          <ArticleCard
-            key={article.id}
-            imageSrc={article.img}
-            articleTitle={article.title}
-            articleContent={article.subtitle}
-          />
-        ))
-      }
-    </Slider>
+		<CarouselBase>
+			{
+				articles.map(article => (
+					<ArticleCard
+						onDragStart={handleOnDragStart}s
+						key={article.id}
+						imageSrc={article.img}
+						articleTitle={article.title}
+						articleContent={article.subtitle}
+					/>
+				))
+			}
+		</CarouselBase>
   )
 }
 
