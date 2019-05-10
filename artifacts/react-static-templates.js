@@ -17,7 +17,9 @@ export default {
 '../src/pages/test/article.js': require('../src/pages/test/article.js').default,
 '../src/pages/test/clinic-details.js': require('../src/pages/test/clinic-details.js').default,
 '../src/pages/test/provider-details.js': require('../src/pages/test/provider-details.js').default,
-'../src/pages/test/test-component.js': require('../src/pages/test/test-component.js').default
+'../src/pages/test/test-component.js': require('../src/pages/test/test-component.js').default,
+'../src/features/Post': require('../src/features/Post').default,
+'../src/features/articles/details/Article': require('../src/features/articles/details/Article').default
 }
 
 export const notFoundTemplate = '../src/pages/404.js'

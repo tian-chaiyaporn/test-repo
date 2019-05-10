@@ -58,7 +58,7 @@ const mockData = [
   {
     id: '1',
     img: 'https://picsum.photos/335/240',
-    title: 'Interdum et malesuada fames',
+    title: 'What Is a Cardiologist?',
     subtitle: 'Mauris tempor pharetra urna, sed finibus metus dictum duis quis quam uratelam.',
     thumbnail: '',
     publishDate: 'Feb 20',
