@@ -21,6 +21,7 @@ const StyledList = styled.li`
     border-bottom: 1px solid ${props => props.color.BLACK || 'black'};
     color: ${props => props.color || 'black'};
     width: 100%;
+		background-color: transparent;
   `}
 `
 
