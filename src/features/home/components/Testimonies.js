@@ -8,8 +8,13 @@ export const Testimonies = () => {
     <div style={{
 			backgroundColor: 'rgba(240, 250, 248, 0.5)'
 		}}>
-			<div style={{ margin: '0 auto',
-			padding: '100px 5% 50px 5%',maxWidth: '1200px' }}>
+			<div
+				style={{
+					margin: '0 auto',
+					padding: '100px 5% 50px 5%',
+					maxWidth: '1200px'
+				}}
+			>
 				<MainHeadings
 					title="Hi, we're Wellglo"
 					subtitle="Finding the right doctor made easy"
@@ -27,6 +32,7 @@ const Slide = ({ testimonies }) => {
 			{
 				testimonies.map(testimony => (
 					<QuoteCard
+						key={testimony.title}
 						onDragStart={handleOnDragStart}
 						content={testimony.content}
 						tagTitle={testimony.title}

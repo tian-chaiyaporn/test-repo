@@ -8,6 +8,7 @@ import { Link } from '../../../Router'
 export const DoctorReviewContainer = (props) => {
 	const lists = data.map(card => (
 		<ProfileInfoCard
+			key={card.id}
 			imageSrc={card.imageSrc}
 			addressName={card.addressName}
 			addressDetail={card.addressDetail}
@@ -37,16 +38,19 @@ export const DoctorReviewContainer = (props) => {
 					{lists}
 				</GridContainer>
 				</div>
-				<Link
-					style={{ color: Colors.AQUA_MARINE, display: 'block', marginTop: '20px' }}
-					to={'/providers'}
-				>
+				<StyledLink to={'/providers'}>
 					Show more reviews
-				</Link>
+				</StyledLink>
 			</div>
 		</div>
   )
 }
+
+const StyledLink = styled(Link)`
+	color: ${Colors.AQUA_MARINE};
+	display: inline-block;
+	margin-top: 36px;
+`
 
 const GridContainer = styled.div`
   display: grid;
@@ -124,7 +128,7 @@ const data = [
     tagContent: 'Dermatologist',
     rating: 3,
     reviewCount: 12,
-    id: 55,
+    id: 525,
     link: 'providers/55',
 	},
 	{
@@ -146,7 +150,7 @@ const data = [
     tagContent: 'Dermatologist',
     rating: 3,
     reviewCount: 12,
-    id: 55,
+    id: 545,
     link: 'providers/55',
 	},
 	{
@@ -157,7 +161,7 @@ const data = [
     tagContent: 'Dermatologist',
     rating: 3,
     reviewCount: 12,
-    id: 55,
+    id: 355,
     link: 'providers/55',
   }
 ]

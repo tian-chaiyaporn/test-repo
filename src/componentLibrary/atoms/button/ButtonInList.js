@@ -71,6 +71,7 @@ const StyledImage = styled.img`
   padding: ${props => props.padding || '0'};
 
   ${MEDIA.phone`
+		width: 30px;
     max-height: ${props => props.height || '30px'};
     margin-right: 10px;
   `}

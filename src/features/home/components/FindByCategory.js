@@ -18,15 +18,15 @@ export const FindByCategory = () => {
 				subtitle="Find the right care now"
 			/>
 			<ListContainer>
-				<div>
+				<div key={1}>
 					<ListHeader source={'/assets/pin.svg'} title='City' />
 					<List items={data.cities} />
 				</div>
-				<div>
+				<div key={2}>
 					<ListHeader source={'/assets/insurance-hands.svg'} title='Specialty' />
 					<List items={data.specialty} />
 				</div>
-				<div>
+				<div key={3}>
 					<ListHeader source={'/assets/insurance-card.svg'} title='Insurance' />
 					<List items={data.insurance} />
 				</div>
@@ -38,14 +38,14 @@ export const FindByCategory = () => {
 const List = (props) => {
 	const { items = [] } = props
 	return (
-	<StyledUnorderedListContainer>
-		{
-			items.map(item =>
-				<StyledListElem>
-					<SmallerParagraph>{item}</SmallerParagraph>
-				</StyledListElem>)
-		}
-	</StyledUnorderedListContainer>
+		<StyledUnorderedListContainer>
+			{
+				items.map(item =>
+					<StyledListElem key={item}>
+						<SmallerParagraph>{item}</SmallerParagraph>
+					</StyledListElem>)
+			}
+		</StyledUnorderedListContainer>
 	)
 }
 
