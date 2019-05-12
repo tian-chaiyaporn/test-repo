@@ -10,7 +10,7 @@ export const CarouselBase = (props) => {
 	const carouselRef = useRef();
 	const responsiveSettings = {
 		0: { items: 1 },
-		[WINDOW_SIZES.tablet]: { items: 3 }
+		[WINDOW_SIZES.tablet]: { items: props.numberOfDisplayItems || 3 }
 	}
 	return (
 		<div style={{ position: 'relative' }}>

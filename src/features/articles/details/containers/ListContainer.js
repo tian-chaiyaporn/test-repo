@@ -33,20 +33,13 @@ const KeepReading = ({ articles }) => articles
   ))
 
 const Slide = ({ articles }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3
-	}
 	const handleOnDragStart = e => e.preventDefault()
   return (
 		<CarouselBase>
 			{
 				articles.map(article => (
 					<ArticleCard
-						onDragStart={handleOnDragStart}s
+						onDragStart={handleOnDragStart}
 						key={article.id}
 						imageSrc={article.img}
 						articleTitle={article.title}

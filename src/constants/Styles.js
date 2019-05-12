@@ -20,6 +20,7 @@ export const Colors = {
 }
 
 export const WINDOW_SIZES = {
+	largeDesktop: 1028,
   desktop: 992,
   tablet: 768,
   phone: 576,
