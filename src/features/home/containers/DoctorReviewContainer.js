@@ -33,11 +33,9 @@ export const DoctorReviewContainer = (props) => {
 					title="Doctor reviews"
 					subtitle="Sharing your experience"
 				/>
-				<div>
 				<GridContainer>
 					{lists}
 				</GridContainer>
-				</div>
 				<StyledLink to={'/providers'}>
 					Show more reviews
 				</StyledLink>
