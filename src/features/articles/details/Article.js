@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { useRouteData } from 'react-static'
 
+import Header from '../../header/HeaderContainer.js'
+import { Footer } from '../../footer/FooterContainer.js'
 import { ArticleContent } from './components/ArticleContent'
 import { List } from './containers/ListContainer'
 
@@ -17,17 +19,21 @@ export const Article = (props) => {
   } = article
 
   return (
-    <div style={{ padding: '40px', maxWidth: '960px', margin: '0 auto' }}>
-      <ArticleContent
-        title={title}
-        subtitle={subtitle}
-        content={content}  
-        author={author}
-        dateAndTimeToRead={dateAndTimeToRead}
-        thumbnail={thumbnail}
-      />
-      <List articles={articles} />
-    </div>
+		<Fragment>
+			<Header />
+			<div style={{ padding: '40px', maxWidth: '960px', margin: '0 auto' }}>
+				<ArticleContent
+					title={title}
+					subtitle={subtitle}
+					content={content}  
+					author={author}
+					dateAndTimeToRead={dateAndTimeToRead}
+					thumbnail={thumbnail}
+				/>
+				<List articles={articles} />
+			</div>
+			<Footer />
+		</Fragment>
   )
 }
 

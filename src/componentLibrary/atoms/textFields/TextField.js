@@ -39,7 +39,8 @@ function FormikInputs(props) {
     label = '',
     field,
     form: { setFieldValue },
-  } = props
+	} = props
+	console.log(props)
   const onValueChanged = (e) => setFieldValue(field.name, e.target.value)
   return (
     <div className={classes.root}>
@@ -48,6 +49,7 @@ function FormikInputs(props) {
         label={label}
         id="custom-css-outlined-input"
         onChange={onValueChanged}
+				value={field.value}
         {...props}
       />
     </div>

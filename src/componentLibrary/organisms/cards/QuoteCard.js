@@ -27,12 +27,11 @@ const MarginVertical = styled.div`
 `
 
 const StyledCard = styled(Card)`
-  max-width: 248px;
-  height: 296px
+  height: auto;
 
   ${MEDIA.phone`
-    max-width: 327px;
-    height: 229px;
+    ${'' /* max-width: 327px; */}
+    height: auto;
   `}
 `
 

@@ -1,13 +1,17 @@
 import React from 'react'
-import { MainHeadings } from '../../../componentLibrary/atoms/headings/MainHeadings'
-import { QuoteCard } from '../../../componentLibrary/organisms/cards/QuoteCard'
-import { CarouselBase } from '../../../componentLibrary/molecules/carousel/CarouselBase'
+import { MainHeadings } from '../../atoms/headings/MainHeadings'
+import { QuoteCard } from '../../organisms/cards/QuoteCard'
+import { CarouselBase } from '../../molecules/carousel/CarouselBase'
 
-export const Testimonies = () => {
+export const Testimonies = (props) => {
+	const {
+		testimonies = mockTestimonies,
+		title = '',
+		subtitle = ''
+	} = props
+
   return (
-    <div style={{
-			backgroundColor: 'rgba(240, 250, 248, 0.5)'
-		}}>
+    <section style={{ backgroundColor: 'rgba(240, 250, 248, 0.5)'	}}>
 			<div
 				style={{
 					margin: '0 auto',
@@ -15,13 +19,12 @@ export const Testimonies = () => {
 					maxWidth: '1200px'
 				}}
 			>
-				<MainHeadings
-					title="Hi, we're Wellglo"
-					subtitle="Finding the right doctor made easy"
-				/>
-				<Slide testimonies={mockTestimonies} />
+				<div style={{ paddingBottom: '36px' }}>
+					<MainHeadings title={title} subtitle={subtitle} />
+				</div>
+				<Slide testimonies={testimonies} />
 			</div>
-		</div>
+		</section>
   )
 }
 

@@ -1,7 +1,12 @@
-import React from 'react'
-
+import React, { Fragment } from 'react'
+import Header from '../features/header/HeaderContainer.js'
+import { Footer } from '../features/footer/FooterContainer.js'
 import { ProviderLists } from '../features/providers/list/ProviderLists'
 
 export default () => (
-  <ProviderLists />
+	<Fragment>
+		<Header />
+  	<ProviderLists />
+		<Footer />
+	</Fragment>
 )

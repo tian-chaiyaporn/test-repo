@@ -3,37 +3,38 @@ import axios from 'axios'
 import { urlNormalizer } from './src/utils/utils'
 
 export default {
+	siteRoot: 'https://wellglo.com',
   getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    // const { data: posts } = await axios.get(
+    //   'https://jsonplaceholder.typicode.com/posts'
+    // )
 
-    const getArticles = async () => await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    // const getArticles = async () => await axios.get(
+    //   'https://jsonplaceholder.typicode.com/posts'
+    // )
 
-    const getProviders = async () => await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    // const getProviders = async () => await axios.get(
+    //   'https://jsonplaceholder.typicode.com/posts'
+    // )
 
-    const getClinics = async () => await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    // const getClinics = async () => await axios.get(
+    //   'https://jsonplaceholder.typicode.com/posts'
+    // )
 
     const articles = mockArticleData // await getArticles()
     // const providers = await getProviders()
     // const clinics = await getClinics()
     
     return [
-      {
-        path: '/blog',
-        getData: () => ({ posts }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          template: 'src/features/Post',
-          getData: () => ({ post }),
-        })),
-      },
+      // {
+      //   path: '/blog',
+      //   getData: () => ({ posts }),
+      //   children: posts.map(post => ({
+      //     path: `/post/${post.id}`,
+      //     template: 'src/features/Post',
+      //     getData: () => ({ post }),
+      //   })),
+      // },
       {
         path: '/articles',
         getData: () => ({ articles }),

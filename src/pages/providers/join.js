@@ -1,14 +1,12 @@
 import React, { Fragment } from 'react'
 import Header from '../../features/header/HeaderContainer.js'
 import { Footer } from '../../features/footer/FooterContainer.js'
-import { ProviderDetails } from '../../features/providers/details/ProviderDetails'
+import { ProviderJoin } from '../../features/authentication/provider/ProviderSignUp'
 
 export default () => (
 	<Fragment>
 		<Header />
-		<div style={{ maxWidth: "1400px", margin: '0 auto', padding: '0 5%' }}>
-			<ProviderDetails />
-		</div>
+    <ProviderJoin />
 		<Footer />
-	</Fragment>
+  </Fragment>
 )

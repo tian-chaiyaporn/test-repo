@@ -6,15 +6,29 @@ import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMe
 import { Colors, WINDOW_SIZES } from '../../../constants/Styles'
 
 export const CarouselBase = (props) => {
+	const {
+		override = {},
+		numberOfDisplayItems = 3
+	} = props
 	const matches = useMediaQuery(`(min-width:${WINDOW_SIZES.tablet}px)`)
 	const carouselRef = useRef();
-	const responsiveSettings = {
+	const responsiveSettings = override.responsiveSettings || {
 		0: { items: 1 },
-		[WINDOW_SIZES.tablet]: { items: props.numberOfDisplayItems || 3 }
+		[WINDOW_SIZES.tablet]: { items: numberOfDisplayItems }
 	}
+	const windowWidth = window.innerWidth < 1200 ? window.innerWidth : 1200
+	const top = `${(windowWidth / numberOfDisplayItems * 0.6 / 2) - 25}px`
 	return (
 		<div style={{ position: 'relative' }}>
-			{ matches && <NextButton onClick={() => carouselRef.current._slideNext()}>Next</NextButton> }
+			{
+				matches &&
+					<NextButton
+						onClick={() => carouselRef.current._slideNext()}
+						top={override.top || top}
+					>
+						Next
+					</NextButton> 
+			}
 			<AliceCarousel
 				mouseDragEnabled
 				buttonsDisabled
@@ -30,7 +44,7 @@ export const CarouselBase = (props) => {
 
 const NextButton = styled.button`
 	position: absolute;
-	top: 25%;
+	top: ${props => props.top || '25%'};
 	right: -21px;
 	z-index: 1;
 	border-radius: 50%;
