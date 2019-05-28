@@ -9,6 +9,8 @@ import { JoinForm } from './components/JoinForm'
 
 const HeaderContainer = styled.div`
 	background-image: linear-gradient(to bottom, #88e6e3, #50c9c3);
+
+	padding: 50px 0 0 0;
 `
 
 const HeaderGrid = styled.div`
