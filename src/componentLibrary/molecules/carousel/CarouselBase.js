@@ -16,7 +16,15 @@ export const CarouselBase = (props) => {
 		0: { items: 1 },
 		[WINDOW_SIZES.tablet]: { items: numberOfDisplayItems }
 	}
-	const windowWidth = window.innerWidth < 1200 ? window.innerWidth : 1200
+
+	let windowWidth
+
+	if (typeof window !== 'undefined') {
+		windowWidth = window.innerWidth < 1200 ? window.innerWidth : 1200
+	} else {
+		windowWidth = 1200
+	}
+
 	const top = `${(windowWidth / numberOfDisplayItems * 0.6 / 2) - 25}px`
 	return (
 		<div style={{ position: 'relative' }}>
