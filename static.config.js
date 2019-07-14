@@ -2,8 +2,11 @@ import path from 'path'
 import axios from 'axios'
 import { urlNormalizer } from './src/utils/utils'
 
+const isDevelopment = true
+const siteRoot = isDevelopment ? 'https://sharp-hopper-c59ec9.netlify.com/' : 'https://wellglo.com'
+
 export default {
-	siteRoot: 'https://wellglo.com',
+	siteRoot,
   getRoutes: async () => {
     // const { data: posts } = await axios.get(
     //   'https://jsonplaceholder.typicode.com/posts'
