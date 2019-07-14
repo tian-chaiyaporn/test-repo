@@ -41,9 +41,8 @@ const Slide = ({ testimonies }) => {
 		<CarouselBase override={{ responsiveSettings, top }} >
 			{
 				testimonies.map(testimony => (
-					<div style={{ padding: '0 20px 0 0' }}>
+					<div style={{ padding: '0 20px 0 0' }} key={testimony.title}>
 						<QuoteCard
-							key={testimony.title}
 							onDragStart={handleOnDragStart}
 							content={testimony.content}
 							tagTitle={testimony.title}

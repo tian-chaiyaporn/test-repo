@@ -1,0 +1,18 @@
+{
+	"data": {
+		"offices": [
+			{
+				"city": "Bangkok",
+				"addressOne": "Habitia Watcharapol",
+				"addressTwo": "Klong Thanon",
+				"addressThree": "Bangkok, Thailand"
+			},
+			{
+				"city": "New York",
+				"addressOne": "568 Broadway",
+				"addressTwo": "2nd Floor",
+				"addressThree": "New York, NY 10012"
+			}
+		]
+	}
+}

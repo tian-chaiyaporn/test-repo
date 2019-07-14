@@ -1,0 +1,75 @@
+{
+	"data": {
+		"topics": [
+			{
+				"title": "About Wellglo",
+				"thummnail": "www.example.com/icon/about",
+				"link": "www.example.com/link-to-relevant-page"
+			},
+			{
+				"title": "Data & Privacy",
+				"thummnail": "www.example.com/icon/privacy",
+				"link": "www.example.com/link-to-relevant-page"
+			},
+			{
+				"title": "Appointments",
+				"thummnail": "www.example.com/icon/appointments",
+				"link": "www.example.com/link-to-relevant-page"
+			},
+			{
+				"title": "Account",
+				"thummnail": "www.example.com/icon/account",
+				"link": "www.example.com/link-to-relevant-page"
+			},
+			{
+				"title": "Reviews",
+				"thummnail": "www.example.com/icon/reviews",
+				"link": "www.example.com/link-to-relevant-page"
+			}
+		],
+		"faq": [
+			{
+				"title": "About Wellglo",
+				"questions": [
+					{
+						"question": "What is Wellglo?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "Is Wellglo free?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "Does Wellglo have a privacy policy?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "How do I contact customer service?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "Does Wellglo have an app?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					}
+				]
+			},
+			{
+				"title": "Doctors and Providers",
+				"questions": [
+					{
+						"question": "Why doesn't my doctor have a star rating?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "Why isn't my doctor listed on your site?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					},
+					{
+						"question": "Why doesn't my doctor have a star rating?",
+						"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur."
+					}
+				]
+			}
+		]
+	}
+}

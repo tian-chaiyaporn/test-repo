@@ -13,10 +13,12 @@ export const Article = (props) => {
     subtitle = '',
     content = '',
     author = '',
-    dateAndTimeToRead = '',
-    thumbnail = '',
+		thumbnail = '',
+		publishDate = '',
+		timeToReadInMinutes = '',
     articles = mockArticleData || []
-  } = article
+	} = article
+	const dateAndTimeToRead = `${publishDate} - ${timeToReadInMinutes} min read`
 
   return (
 		<Fragment>

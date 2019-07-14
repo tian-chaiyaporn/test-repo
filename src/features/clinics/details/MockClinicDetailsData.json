@@ -1,0 +1,116 @@
+{
+	"data": {
+		"name": "Apex Medical Center (Ploenchit)",
+		"type": "Clinic",
+		"address": {
+			"name": "Apex Medical Center",
+			"addressOne": "Soi Daungpithak",
+			"addressTwo": "Klong Toey Sub-District",
+			"addressThree": "",
+			"city": "Bangkok",
+			"postcode": ""
+		},
+		"ratings": 4,
+		"phone": "0800000000",
+		"website": "www.provider-website.com",
+		"coordinates": {
+			"latitude": "37.423021",
+			"longitude": "-122.083739"
+		},
+		"overview": {
+			"professionalStatement": "Please note, Spring Street Dermatology has a 24 hour cancellation policy. Patients who cancel or reschedule with less than 24 hours notice may need to pay a cancellation fee. New patients are also required to come in 15 minutes prior to their scheduled appointment time to register into our system. Dr. Palep is a clinical instructor at Mount Sinai Department of Dermatology, where she donates her time to teach residents. In her private practice, she offers complete medical, surgical and cosmetic dermatology services.",
+			"spokenLanguage": ["Thai", "English"],
+			"paymentMethods": ["Cash", "Cheque", "Credit Card"],
+			"wellgloAwards": [
+				{
+					"award": "Rapid registration",
+					"thumbnail": "www.example.com/wellglo-award"
+				},
+				{
+					"award": "Best care",
+					"thumbnail": "www.example.com/wellglo-award"
+				},
+				{
+					"award": "Affordable",
+					"thumbnail": "www.example.com/wellglo-award"
+				}
+			]
+		},
+		"specialties": [
+			"Cryo Beatuy",
+			",Baby Face by Fat Stem Cell",
+			"Ozone Therapy",
+			"Veneers",
+			"Zoom Teeth Whitening",
+			"Invisalign Treatment",
+			"LED Light Therapy",
+			"Hair and and scalp laser program",
+			"Natural hair regrowth",
+			"Permanent Laser Hair Removal"
+		],
+		"medicalTeam": [
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			},
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			},
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			},
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			},
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			},
+			{
+				"name": "Dr. Boonchai Thanyalakpark",
+				"type": "Dermatologist",
+				"ratings": {
+					"stars": 4.5,
+					"reviews": 20
+				}
+			}
+		],
+		"branches": [
+			{
+				"name": "Apex Medical Center (Ploenchit)",
+				"address": "Soi Daungpithak, Klong Toey Sub-District, Bangkok"
+			},
+			{
+				"name": "Apex Medical Center (Phuket)",
+				"address": "Soi Daungpithak, Klong Toey Sub-District, Bangkok"
+			},
+			{
+				"name": "Apex Medical Center (Thong-Lor)",
+				"address": "Soi Daungpithak, Klong Toey Sub-District, Bangkok"
+			}
+		]
+	}
+}

@@ -1,0 +1,195 @@
+{
+	"data": {
+		"location": [
+			"Amnat Charoen",
+			"Ang Thong",
+			"Bangkok",
+			"Bangkok & environs",
+			"Bueng Kan",
+			"Buriram",
+			"Central",
+			"Chachoengsao",
+			"Chainat",
+			"Chaiyaphum",
+			"Chanthaburi",
+			"Chiang Mai",
+			"Chiang Rai",
+			"Chonburi",
+			"Chumphon",
+			"Eastern",
+			"Kalasin",
+			"Kamphaeng Phet",
+			"Kanchanaburi",
+			"Khon Kaen",
+			"Krabi",
+			"Lampang",
+			"Lamphun",
+			"Loei",
+			"Lopburi",
+			"Mae Hong Son",
+			"Maha Sarakham",
+			"Mukdahan",
+			"Nakhon Nayok",
+			"Nakhon Pathom",
+			"Nakhon Phanom",
+			"Nakhon Ratchasima",
+			"Nakhon Sawan",
+			"Nakhon Si Thammarat",
+			"Nan",
+			"Narathiwat",
+			"Nong Bua Lamphu",
+			"Nong Khai",
+			"Nonthaburi",
+			"Northeastern",
+			"Northern",
+			"Pathum Thani",
+			"Pattani",
+			"Phang Nga",
+			"Phattalung",
+			"Phayao",
+			"Phetchabun",
+			"Phetchaburi",
+			"Phichit",
+			"Phitsanulok",
+			"Phra Nakhon Si Ayutthaya",
+			"Phrae",
+			"Phuket",
+			"Prachinburi",
+			"Prachuap Khiri Khan",
+			"Ranong",
+			"Ratchaburi",
+			"Rayong",
+			"Roi Et",
+			"Sa Kaeo",
+			"Sakon Nakhon",
+			"Samut Prakan",
+			"Samut Sakhon",
+			"Samut Songkhram",
+			"Saraburi",
+			"Satun",
+			"Sing Buri",
+			"Sisaket",
+			"Songkhla",
+			"Southern",
+			"Sukhothai",
+			"Suphan Buri",
+			"Surat Thani",
+			"Surin",
+			"Tak",
+			"Thailand",
+			"Trang",
+			"Trat",
+			"Ubon Ratchathani",
+			"Udon Thani",
+			"Uthai Thani",
+			"Uttaradit",
+			"Western",
+			"Yala",
+			"Yasothon"
+		],
+		"sponsoredResults": [
+			{
+				"imageSrc": "",
+				"addressDetail": "Soi Daungpithak, Klong Toey Sub-District, Bangkok",
+				"tagTitle": "Apex Medical Center (Thong-Lor)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 122,
+				"link": "clinics/122",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			},
+			{
+				"imageSrc": "",
+				"addressDetail": "Soi Daungpithak, Klong Toey Sub-District, Bangkok",
+				"tagTitle": "Apex Medical Center (Thong-Lor)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 133,
+				"link": "clinics/133",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			}
+		],
+		"results": [
+			{
+				"imageSrc": "",
+				"addressDetail": "60/4 Silom Road, Suriyawong, Bangkok, Thailand",
+				"tagTitle": "Pulse Clinic (Silom)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 11,
+				"link": "providers/11",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			},
+			{
+				"imageSrc": "",
+				"addressDetail": "60/4 Silom Road, Suriyawong, Bangkok, Thailand",
+				"tagTitle": "Pulse Clinic (Silom)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 12,
+				"link": "providers/12",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			},
+			{
+				"imageSrc": "",
+				"addressDetail": "60/4 Silom Road, Suriyawong, Bangkok, Thailand",
+				"tagTitle": "Pulse Clinic (Silom)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 13,
+				"link": "providers/13",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			},
+			{
+				"imageSrc": "",
+				"addressDetail": "60/4 Silom Road, Suriyawong, Bangkok, Thailand",
+				"tagTitle": "Pulse Clinic (Silom)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 14,
+				"link": "providers/14",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			},
+			{
+				"imageSrc": "",
+				"addressDetail": "60/4 Silom Road, Suriyawong, Bangkok, Thailand",
+				"tagTitle": "Pulse Clinic (Silom)",
+				"tagContent": "Beauty clinic",
+				"rating": 3,
+				"reviewCount": 12,
+				"id": 15,
+				"link": "providers/15",
+				"coordinates": {
+					"latitude": "37.423021",
+					"longitude": "-122.083739"
+				}
+			}
+		],
+		"resultNumber": 150
+	}
+}
+	

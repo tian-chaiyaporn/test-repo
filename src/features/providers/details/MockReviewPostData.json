@@ -1,0 +1,12 @@
+{
+	"data": {
+		"recommended": true,
+		"ratings": {
+			"overall": 4,
+			"waitTime": 3,
+			"bedsideManner": 4
+		},
+		"title": "",
+		"review": "Aenean ultricies, sem vel facilisis consectetur, metus ligula ultrices sem, ac consectetur dui nisi quis quam. Sed augue tortor, hendrerit eu tortor vitae, hendrerit blandit nulla. Aliquam erat volutpat. Pellentesque ut gravida tortor. In hac habitasse platea dictumst. Suspendisse pharetra posuere erat sit amet facilisis. Nunc facilisis lorem ut odio pellentesque aliquam. Vivamus dui massa, sagittis id congue elementum, porttitor quis quam. Pellentesque scelerisque ligula aliquam quam scelerisque, non elementum ex semper."
+	}
+}

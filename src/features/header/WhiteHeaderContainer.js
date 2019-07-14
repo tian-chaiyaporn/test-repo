@@ -82,9 +82,9 @@ const WhiteHeaderContainer = () => (
       <StyledImage height={25} src="/assets/logo-white.svg" />
     </Link>
     <div>
-      <StyledLink to="/providers"><SmallSpan style={{ color: 'white' }}>What is Wellglo</SmallSpan></StyledLink>
-      <StyledLink to="/clinics"><SmallSpan style={{ color: 'white' }}>Why join?</SmallSpan></StyledLink>
-      <StyledLink to="/directory"><SmallSpan style={{ color: 'white' }}>How does it work?</SmallSpan></StyledLink>
+      <StyledLink to="/about"><SmallSpan style={{ color: 'white' }}>What is Wellglo</SmallSpan></StyledLink>
+      <StyledLink to="/about"><SmallSpan style={{ color: 'white' }}>Why join?</SmallSpan></StyledLink>
+      <StyledLink to="/about"><SmallSpan style={{ color: 'white' }}>How does it work?</SmallSpan></StyledLink>
       <StyledLink style={{ backgroundColor: 'rgb(0, 0, 0, 0.1)', padding: '10px 25px' }} to="/articles"><SmallSpan style={{ color: 'white' }}>List your practice on Wellglo</SmallSpan></StyledLink>
     </div>
   </MenuStyled>

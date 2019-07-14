@@ -1,0 +1,33 @@
+{
+	"data": {
+		"joinUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus. Curabitur tincidunt tincidunt sem, quis porta est gravida sed. Phasellus auctor, sem ac suscipit ultrices, mi erat lacinia nisi, eu imperdiet metus turpis eget leo. In vestibulum, magna eu mattis tempor, tellus ipsum molestie purus, sed mattis metus mi a justo. Integer tellus turpis, tempor sit amet ex ut, tincidunt pharetra metus. In rhoncus ipsum eu vehicula condimentum.",
+		"mission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros. Curabitur placerat a arcu et efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa egestas orci ornare viverra. Donec malesuada eget lorem at dictum. Duis id sollicitudin enim, et condimentum nisi. In pellentesque elit ac consequat tempus.",
+		"values": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac vulputate neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl lectus, bibendum et elit vitae, hendrerit aliquet eros.  Curabitur placerat a arcu et efficitur.",
+		"perks": [
+			"100% paid health benefits",
+			"Lunch and snacks on us",
+			"Gym discounts",
+			"Vacation and parental leave packages",
+			"Cell phone reimbursement",
+			"Weekly yoga"
+		],
+		"openings": [
+			{
+				"position": "Data Scientist",
+				"location": "Bangkok, Thailand"
+			},
+			{
+				"position": "Senior Business Intelligence Analyst",
+				"location": "Bangkok, Thailand"
+			},
+			{
+				"position": "Senior Software Engineer - Full Stack",
+				"location": "Bangkok, Thailand"
+			},
+			{
+				"position": "Creative Lead",
+				"location": "Stockholm, Sweden"
+			}
+		]
+	}
+}

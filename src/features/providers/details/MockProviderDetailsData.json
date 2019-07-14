@@ -1,0 +1,103 @@
+{
+	"data": {
+		"name": "Dr. Boonchai Thanyalakpark",
+		"type": "Dermatologist",
+		"address": {
+			"name": "Bumrungrad International",
+			"addressOne": "33 Sukhumvit Soi 3",
+			"addressTwo": "Khlong Toei Nuea",
+			"addressThree": "Wattana",
+			"city": "Bangkok",
+			"postcode": "10010"
+		},
+		"ratings": 4,
+		"phone": "0800000000",
+		"website": "www.provider-website.com",
+		"coordinates": {
+			"latitude": "37.423021",
+			"longitude": "-122.083739"
+		},
+		"overview": {
+			"professionalStatement": "Please note, Spring Street Dermatology has a 24 hour cancellation policy. Patients who cancel or reschedule with less than 24 hours notice may need to pay a cancellation fee. New patients are also required to come in 15 minutes prior to their scheduled appointment time to register into our system. Dr. Palep is a clinical instructor at Mount Sinai Department of Dermatology, where she donates her time to teach residents. In her private practice, she offers complete medical, surgical and cosmetic dermatology services.",
+			"spokenLanguage": ["Thai", "English"],
+			"paymentMethods": ["Cash", "Cheque", "Credit Card"],
+			"wellgloAwards": [
+				{
+					"award": "Rapid registration",
+					"thumbnail": "www.example.com/wellglo-award"
+				},
+				{
+					"award": "Best care",
+					"thumbnail": "www.example.com/wellglo-award"
+				},
+				{
+					"award": "Affordable",
+					"thumbnail": "www.example.com/wellglo-award"
+				}
+			]
+		},
+		"specialties": ["x-ray", "dermatology"],
+		"professionalExperience": [
+			{
+				"range": "2012-2018",
+				"title": "dermatologist at XYZ hospital",
+				"description": "description of the experience"
+			},
+			{
+				"range": "2012-2018",
+				"title": "dermatologist at XYZ hospital",
+				"description": "description of the experience"
+			},
+			{
+				"range": "2012-2018",
+				"title": "dermatologist at XYZ hospital",
+				"description": "description of the experience"
+			}
+		],
+		"educationAndCertificate": [
+			{
+				"receivedYear": "2018",
+				"title": "Doctor of Medicine (MD)",
+				"institution": "Thammasat University"
+			},
+			{
+				"receivedYear": "2008",
+				"title": "BSc Molecular Biology",
+				"institution": "Nottingham University"
+			}
+		],
+		"patientReviews": {
+			"totalRatings": {
+				"overall": 4,
+				"waitTime": 4.5,
+				"bedsideManner": 3
+			},
+			"reviews": [
+				{
+					"ratings": {
+						"overall": 4,
+						"waitTime": 4.5,
+						"bedsideManner": 3
+					},
+					"title": "Suspendisse pharetra posuere",
+					"review": "Aenean ultricies, sem vel facilisis consectetur, metus ligula ultrices sem, ac consectetur dui nisi quis quam. Sed augue tortor, hendrerit eu tortor vitae, hendrerit blandit nulla. Aliquam erat volutpat. Pellentesque ut gravida tortor. In hac habitasse platea dictumst. Suspendisse pharetra posuere erat sit amet facilisis. Nunc facilisis lorem ut odio pellentesque aliquam. Vivamus dui massa, sagittis id congue elementum, porttitor quis quam. Pellentesque scelerisque ligula aliquam quam scelerisque, non elementum ex semper.",
+					"postDate": "January 18, 2019",
+					"name": "Erica F",
+					"isVerified": true
+				},
+				{
+					"ratings": {
+						"overall": 4,
+						"waitTime": 4.5,
+						"bedsideManner": 3
+					},
+					"title": "Suspendisse pharetra",
+					"review": "Ac consectetur dui nisi quis quam. Sed augue tortor, hendrerit eu tortor vitae, hendrerit blandit nulla. Aliquam erat volutpat. Pellentesque ut gravida tortor. In hac habitasse platea dictumst. Suspendisse pharetra posuere erat sit amet facilisis. Nunc facilisis lorem ut odio pellentesque aliquam. Vivamus dui massa, sagittis id congue elementum, porttitor quis quam. Pellentesque scelerisque ligula aliquam quam scelerisque, non elementum ex semper.",
+					"postDate": "January 15, 2019",
+					"name": "John F",
+					"isVerified": true
+				}
+			]
+		}
+	}
+}

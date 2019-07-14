@@ -40,7 +40,6 @@ function FormikInputs(props) {
     field,
     form: { setFieldValue },
 	} = props
-	console.log(props)
   const onValueChanged = (e) => setFieldValue(field.name, e.target.value)
   return (
     <div className={classes.root}>

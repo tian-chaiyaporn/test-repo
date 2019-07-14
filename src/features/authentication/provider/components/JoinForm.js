@@ -19,9 +19,10 @@ export const JoinForm = () => (
 		style={{
 			maxWidth: '550px',
 			width: '100%',
-			padding: '30px',
+			padding: '20px 40px 40px 40px',
 			backgroundColor: 'white',
-			borderRadius: '5px'
+			borderRadius: '5px',
+			margin: '20px 0'
 		}}>
 		<Formik
       initialValues={{
@@ -94,7 +95,7 @@ export const JoinForm = () => (
 
 						</FieldContainer>
             <Button
-              style={{ fontSize: '14px' }}
+              style={{ fontSize: '14px', marginTop: '30px' }}
               type="submit"
               disabled={props.isSubmitting}
               text='Get Started'
