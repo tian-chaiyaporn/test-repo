@@ -2019,7 +2019,7 @@ var useMediaQuery_ = __webpack_require__(16);
 var external_react_sidebar_ = __webpack_require__(60);
 var external_react_sidebar_default = /*#__PURE__*/__webpack_require__.n(external_react_sidebar_);
 
-// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/header/HeaderContainer.js
+// CONCATENATED MODULE: /Users/Chaiyaporn/Projects/work/Wellglo/WellgloFrontend/src/features/header/Header.js
 
 
 

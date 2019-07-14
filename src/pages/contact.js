@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Contact } from '../features/about/contact/Contact'
 import { Footer } from '../features/footer/FooterContainer.js'
-import Header from '../features/header/HeaderContainer.js'
+import { Header } from '../features/header/Header.js'
 
 export default () => (
 	<Fragment>

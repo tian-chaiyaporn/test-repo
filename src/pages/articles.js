@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { useRouteData } from 'react-static'
 import { ArticleList } from '../features/articles/list/ArticleList'
-import Header from '../features/header/HeaderContainer.js'
+import { Header } from '../features/header/Header.js'
 import { Footer } from '../features/footer/FooterContainer.js'
 
 export default function Blog() {

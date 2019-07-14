@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Story } from '../features/about/story/Story'
-import Header from '../features/header/HeaderContainer.js'
+import { Header } from '../features/header/Header.js'
 import { Footer } from '../features/footer/FooterContainer.js'
 
 export default () => (

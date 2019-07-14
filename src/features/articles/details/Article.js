@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { useRouteData } from 'react-static'
 
-import Header from '../../header/HeaderContainer.js'
+import { Header } from '../../header/Header.js'
 import { Footer } from '../../footer/FooterContainer.js'
 import { ArticleContent } from './components/ArticleContent'
 import { List } from './containers/ListContainer'
