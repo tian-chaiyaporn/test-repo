@@ -14,7 +14,7 @@
     "@material-ui/lab": "^3.0.0-alpha.30",
     "@reach/router": "1.2.1",
     "@rebass/grid": "6.0.0",
-    "axios": "0.18.0",
+    "axios": "0.21.1",
     "formik": "1.5.2",
     "html-react-parser": "0.7.0",
     "normalizr": "3.3.0",
